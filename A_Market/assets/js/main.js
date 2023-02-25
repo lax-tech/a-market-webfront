@@ -241,7 +241,7 @@
                 slidesToScroll: 7,
                 arrows: true,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 speed: 1000,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -291,7 +291,7 @@
                 slidesToScroll: 6,
                 arrows: true,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 speed: 1000,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -533,7 +533,7 @@
             });
 
             $('.product-small-thumb').slick({
-                infinite: false,
+                infinite: true,
                 slidesToShow: 6,
                 slidesToScroll: 1,
                 arrows: false,
@@ -560,7 +560,7 @@
             });
 
             $('.product-large-thumbnail').slick({
-                infinite: false,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
@@ -609,7 +609,7 @@
             });
 
             $('.product-small-thumb-3').slick({
-                infinite: false,
+                infinite: true,
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 arrows: false,
@@ -631,7 +631,7 @@
             });
 
             $('.product-large-thumbnail-3').slick({
-                infinite: false,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
@@ -691,7 +691,7 @@
                 dots: true,
                 focusOnSelect: false,
                 speed: 1000,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-content-activation-one',
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -712,7 +712,7 @@
                 arrows: false,
                 dots: true,
                 speed: 1500,
-                autoplay: false,
+                autoplay: true,
                 centerMode: true,
                 responsive: [{
                         breakpoint: 575,
@@ -751,7 +751,7 @@
                 focusOnSelect: false,
                 speed: 500,
                 fade: true,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-thumb-activation-one',
             });
 
@@ -770,7 +770,7 @@
 
             $('.slider-activation-two').slick({
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
