@@ -150,7 +150,7 @@
                                     <span class="title">Liens Rapides</span>
                                     <ul>
                                         <li>
-                                            <a href="compte.html">Mon Compte</a>
+                                            <a href="my-account.html">Mon Compte</a>
                                         </li>
                                         <li>
                                             <a href="#">Historique</a>
@@ -162,8 +162,10 @@
                                             <a href="#">Language</a>
                                         </li>
                                     </ul>
-                                    <a href="connexion.html" class="axil-btn btn-bg-primary">Connexion</a>
-                                    <div class="reg-footer text-center">Pas de compte ? <a href="inscription.html" class="btn-link">S'ENREGISTRER</a></div>
+                                    <div class="login-btn">
+                                        <a href="sign-in.html" class="axil-btn btn-bg-primary">Connexion</a>
+                                    </div>
+                                    <div class="reg-footer text-center">Pas de compte ?<a href="sign-up.html" class="btn-link">S'ENREGISTRER</a></div>
                                 </div>
                             </li>
                             <li class="axil-mobile-toggle">
@@ -249,23 +251,23 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>First Name <span>*</span></label>
+                                            <label>Prenom <span>*</span></label>
                                             <input type="text" id="first-name" placeholder="Adam">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>Last Name <span>*</span></label>
+                                            <label>Nom <span>*</span></label>
                                             <input type="text" id="last-name" placeholder="John">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Company Name</label>
+                                    <label>Nom de l'entreprise (Optionnel)</label>
                                     <input type="text" id="company-name">
                                 </div>
                                 <div class="form-group">
-                                    <label>Country/ Region <span>*</span></label>
+                                    <label>Pays/ Region <span>*</span></label>
                                     <select id="Region">
                                         <option value="3">Australia</option>
                                         <option value="4">England</option>
@@ -277,23 +279,23 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Street Address <span>*</span></label>
-                                    <input type="text" id="address1" class="mb--15" placeholder="House number and street name">
-                                    <input type="text" id="address2" placeholder="Apartment, suite, unit, etc. (optonal)">
+                                    <input type="text" id="address1" class="mb--15" placeholder="Numéro de maison et nom de la rue">
+                                    <input type="text" id="address2" placeholder="Appartement, suite, unité, etc. (optionnel)">
                                 </div>
                                 <div class="form-group">
-                                    <label>Town/ City <span>*</span></label>
+                                    <label>Ville <span>*</span></label>
                                     <input type="text" id="town">
                                 </div>
                                 <div class="form-group">
-                                    <label>Country</label>
+                                    <label>Pays</label>
                                     <input type="text" id="country">
                                 </div>
                                 <div class="form-group">
-                                    <label>Phone <span>*</span></label>
+                                    <label>Téléphone <span>*</span></label>
                                     <input type="tel" id="phone">
                                 </div>
                                 <div class="form-group">
-                                    <label>Email Address <span>*</span></label>
+                                    <label>Adresse Mail <span>*</span></label>
                                     <input type="email" id="email">
                                 </div>
                                 <div class="form-group input-group">
@@ -309,7 +311,7 @@
                                     </div>
                                     <div class="toggle-open">
                                         <div class="form-group">
-                                            <label>Country/ Region <span>*</span></label>
+                                            <label>Pays/ Region <span>*</span></label>
                                             <select id="Region">
                                                 <option value="3">Australia</option>
                                                 <option value="4">England</option>
@@ -321,26 +323,26 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Street Address <span>*</span></label>
-                                            <input type="text" id="address1" class="mb--15" placeholder="House number and street name">
-                                            <input type="text" id="address2" placeholder="Apartment, suite, unit, etc. (optonal)">
+                                            <input type="text" id="address1" class="mb--15" placeholder="Numéro de maison et nom de la rue">
+                                            <input type="text" id="address2" placeholder="Appartement, suite, unité, etc. (optionnel)">
                                         </div>
                                         <div class="form-group">
-                                            <label>Town/ City <span>*</span></label>
+                                            <label>Ville <span>*</span></label>
                                             <input type="text" id="town">
                                         </div>
                                         <div class="form-group">
-                                            <label>Country</label>
+                                            <label>Pays</label>
                                             <input type="text" id="country">
                                         </div>
                                         <div class="form-group">
-                                            <label>Phone <span>*</span></label>
+                                            <label>Téléphone <span>*</span></label>
                                             <input type="tel" id="phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Other Notes (optional)</label>
-                                    <textarea id="notes" rows="2" placeholder="Notes about your order, e.g. speacial notes for delivery."></textarea>
+                                    <label>Notes (optional)</label>
+                                    <textarea id="notes" rows="2" placeholder="Remarques concernant votre commande, par ex. notes spéciales pour la livraison."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -399,16 +401,16 @@
                                     <div class="single-payment">
                                         <div class="input-group">
                                             <input type="radio" id="radio4" name="payment">
-                                            <label for="radio4">Direct bank transfer</label>
+                                            <label for="radio4">Virement bancaire direct</label>
                                         </div>
                                         <p>Effectuez votre paiement directement sur notre compte bancaire. Veuillez utiliser votre identifiant Commandes comme référence de paiement. Votre commande ne sera pas expédiée tant que les fonds n'auront pas été crédités sur notre compte.</p>
                                     </div>
                                     <div class="single-payment">
                                         <div class="input-group">
                                             <input type="radio" id="radio5" name="payment">
-                                            <label for="radio5">Cash on delivery</label>
+                                            <label for="radio5">Paiement à la livraison</label>
                                         </div>
-                                        <p>Pay with cash upon delivery.</p>
+                                        <p>Payez en espèces à la livraison.</p>
                                     </div>
                                     <div class="single-payment">
                                         <div class="input-group justify-content-between align-items-center">
@@ -416,7 +418,7 @@
                                             <label for="radio6">Paypal</label>
                                             <img src="assets/images/others/payment.png" alt="Paypal payment">
                                         </div>
-                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                        <p>Payez via PayPal; vous pouvez payer avec votre carte de crédit si vous n'avez pas de compte PayPal.</p>
                                     </div>
                                 </div>
                                 <button type="submit" class="axil-btn btn-bg-primary checkout-btn">Proceder au Paiement</button>

@@ -20,3 +20,6 @@
     margin: 0px !important;
     border-radius: 0px !important;
    }
+.about-content.content-right, .about-content.content-left {
+    text-align: justify;
+}
