@@ -1,0 +1,22 @@
+﻿.product-content .inner {
+    text-align: center;
+}
+.color-variant-wrappernone, .axil-header-topnone {
+    display: none;
+}
+.cardbottom {
+    padding-bottom: 100px;
+}
+.ct .container {
+ padding: 0px !important;
+ max-width: 1450px !important;
+}
+.ct .container .aMarket-newsletter-wrapper {
+    padding: 150px 107px 150px !important;
+    border-radius: 0px !important;
+   }
+.ct .container .poster-countdown-wrap {
+    padding: 65px 120px;
+    margin: 0px !important;
+    border-radius: 0px !important;
+   }
