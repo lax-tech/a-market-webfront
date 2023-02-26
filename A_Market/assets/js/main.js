@@ -241,7 +241,7 @@
                 slidesToScroll: 7,
                 arrows: true,
                 dots: false,
-                autoplay: true,
+                autoplay: false,
                 speed: 1000,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -277,8 +277,8 @@
                     {
                         breakpoint: 400,
                         settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
+                            slidesToShow: 2,
+                            slidesToScroll: 2
                         }
                     },
 

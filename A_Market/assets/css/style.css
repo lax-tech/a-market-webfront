@@ -1,25 +1,99 @@
 ﻿.product-content .inner {
     text-align: center;
 }
-.color-variant-wrappernone, .axil-header-topnone {
+
+.color-variant-wrappernone,
+.axil-header-topnone {
     display: none;
 }
+
 .cardbottom {
     padding-bottom: 100px;
 }
+
 .ct .container {
- padding: 0px !important;
- max-width: 1450px !important;
+    padding: 0px !important;
+    max-width: 1450px !important;
 }
+
+@media only screen and (min-width: 768px) {
+    .ct .container .aMarket-newsletter-wrapper {
+
+        padding: 150px 107px 150px;
+    }
+}
+
 .ct .container .aMarket-newsletter-wrapper {
-    padding: 150px 107px 150px !important;
+
     border-radius: 0px !important;
-   }
+}
+
 .ct .container .poster-countdown-wrap {
     padding: 65px 120px;
     margin: 0px !important;
     border-radius: 0px !important;
-   }
-.about-content.content-right, .about-content.content-left {
+}
+
+.about-content.content-right,
+.about-content.content-left {
     text-align: justify;
+}
+
+/* Responsive mobile */
+@media only screen and (max-width: 767px) {
+    .axil-header-top .container {
+        display: none;
+    }
+
+    .axil-header-top.rem {
+        display: none;
+    }
+
+    .item-rating {
+        display: none !important;
+    }
+
+    .main-slider-content {
+        text-align: center;
+    }
+
+    .main-slider-content .subtitle {
+        display: block !important;
+    }
+
+    .ct .container .poster-countdown-wrap,
+    .aMarket-newsletter-wrapper.bg_image.bg_image--5 {
+        padding: 60px 35px;
+    }
+
+    .axil-breadcrumb-area {
+        padding: 50px 0 55px !important;
+        ;
+    }
+
+    .st,
+    .title-highlighter {
+        display: block !important;
+        text-align: center;
+    }
+
+    .axil-about-area .about-content .text-heading {
+        font-size: 14px !important;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .gmap_canvas iframe {
+        width: 290px;
+        height: 300px;
+    }
+
+    .contact-form, .contact-location, .opening-hour {
+        text-align: center !important;
+    }
+    .axil-contact-page .contact-form p {
+        width: 100% !important;
+    }
 }
