@@ -71,8 +71,7 @@
         ;
     }
 
-    .st,
-    .title-highlighter {
+    .st, .title-highlighter {
         display: block !important;
         text-align: center;
     }
