@@ -416,16 +416,7 @@
                                     </table>
                                 </div>
                                 <div class="order-payment-method">
-                                    <div class="single-payment">
-                                        <div class="input-group">
-                                            <input type="radio" id="radio4" name="payment">
-                                            <label for="radio4">Virement bancaire direct</label>
-                                        </div>
-                                        <p>Effectuez votre paiement directement sur notre compte bancaire. Veuillez
-                                            utiliser votre identifiant Commandes comme référence de paiement. Votre
-                                            commande ne sera pas expédiée tant que les fonds n'auront pas été crédités
-                                            sur notre compte.</p>
-                                    </div>
+
                                     <div class="single-payment">
                                         <div class="input-group">
                                             <input type="radio" id="radio5" name="payment">
@@ -435,12 +426,21 @@
                                     </div>
                                     <div class="single-payment">
                                         <div class="input-group justify-content-between align-items-center">
-                                            <input type="radio" id="radio6" name="payment" checked>
+                                            <input type="radio" id="radio6" name="payment">
                                             <label for="radio6">Paypal</label>
                                             <img src="assets/images/others/payment.png" alt="Paypal payment">
                                         </div>
                                         <p>Payez via PayPal; vous pouvez payer avec votre carte de crédit si vous n'avez
                                             pas de compte PayPal.</p>
+                                    </div>
+                                    <div class="single-payment">
+                                        <div class="input-group justify-content-between align-items-center">
+                                            <input type="radio" id="radio7" name="payment" checked>
+                                            <label for="radio7">Mobile Money</label>
+                                            <img src="assets/images/others/payment2.png" alt="Mobile Money">
+                                        </div>
+                                        <p>Payez via Mpesa, Orange Money, Airtel Money ou tout autres système de
+                                            paiement mobile.</p>
                                     </div>
                                 </div>
                                 <button type="submit" class="axil-btn btn-bg-primary checkout-btn">Proceder au
@@ -812,7 +812,36 @@
         </div>
     </div>
     <!-- Header Rechercher Modal End -->
-
+    <!-- Header Paiement Modal Start -->
+    <div class="header-search-modal" id="paiementpopup">
+        <button class="card-close sidebar-close"><i class="fas fa-times"></i></button>
+        <div class="header-search-wrap pay">
+            <h1 style="margin-bottom: 5px;" class="text-center">Paiement</h1>
+            <center><img style="width: 150px; margin-bottom: 10px;" src="assets/images/others/payment2fat.png" alt="">
+            </center>
+            <p class="text-center">
+                Payez via Mpesa, Orange Money, Airtel Money ou tout autres système de paiement mobile.
+            </p>
+            <form class="singin-form">
+                <div class="form-group">
+                    <label>Votre Nom</label>
+                    <input type="text" class="form-control" name="username" placeholder="Ex. John Doe">
+                </div>
+                <div class="form-group">
+                    <label>Numero</label>
+                    <input type="tel" class="form-control" name="tel" placeholder="Numero de Téléphone">
+                </div>
+                <div class="form-group">
+                    <label>Code Secret</label>
+                    <input type="password" class="form-control" name="password" placeholder="Tapez le code">
+                </div>
+            </form>
+            <button id="btn-payment" class="axil-btn btn-bg-primary">
+                Proceder au Paiement
+            </button>
+        </div>
+    </div>
+    <!-- Header Paiement Modal End -->
 
 
     <div class="cart-dropdown" id="cart-dropdown">

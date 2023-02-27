@@ -1,4 +1,15 @@
-﻿.product-content .inner {
+﻿.header-search-wrap.pay {
+
+    width: 500px !important;
+    height: 575px !important;
+    max-height: 90vh;
+}
+
+.header-search-modal .header-search-wrap.pay {
+    padding: 30px 30px;
+}
+
+.product-content .inner {
     text-align: center;
 }
 
@@ -71,7 +82,8 @@
         ;
     }
 
-    .st, .title-highlighter {
+    .st,
+    .title-highlighter {
         display: block !important;
         text-align: center;
     }
@@ -89,10 +101,17 @@
         height: 300px;
     }
 
-    .contact-form, .contact-location, .opening-hour {
+    .contact-form,
+    .contact-location,
+    .opening-hour {
         text-align: center !important;
     }
+
     .axil-contact-page .contact-form p {
         width: 100% !important;
     }
+}
+
+.just {
+    text-align: justify;
 }
