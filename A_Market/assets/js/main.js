@@ -34,7 +34,7 @@
             axilInit.sideOffcanvasToggle('.department-side-menu', '.department-nav-menu');
             axilInit.sideOffcanvasToggle('.filter-toggle', '.axil-shop-sidebar');
             axilInit.sideOffcanvasToggle('.axil-search', '#header-search-modal');
-            axilInit.sideOffcanvasToggle('.checkout-btn', '#paiementpopup');
+            axilInit.sideOffcanvasToggle('.checkout-btnp', '#paiementpopup');
             axilInit.sideOffcanvasToggle('.popup-close, .closeMask', "#offer-popup-modal");
             axilInit.stickyHeaderMenu();
             axilInit.salActivation();
