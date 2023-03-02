@@ -1,3 +1,13 @@
+$(window).scroll(function () {
+    if ($(this).width() >= 1024) {
+        if ($(this).scrollTop() > 100) {
+            $('.department-nav-menu').fadeOut(200);
+        }
+        else {
+            $('.department-nav-menu').fadeIn(200);
+        }
+    }
+});
 (function (window, document, $, undefined) {
     'use strict';
 
@@ -30,6 +40,7 @@
             axilInit.countdownInit('.poster-countdown', '2022/10/01');
             axilInit.countdownInit('.sale-countdown', '2022/10/31');
             axilInit.sideOffcanvasToggle('.cart-dropdown-btn', '#cart-dropdown');
+            axilInit.stickyHeaderMenu('.axil-mainmenu');
             axilInit.sideOffcanvasToggle('.mobile-nav-toggler', '.header-main-nav');
             axilInit.sideOffcanvasToggle('.department-side-menu', '.department-nav-menu');
             axilInit.sideOffcanvasToggle('.filter-toggle', '.axil-shop-sidebar');
@@ -86,6 +97,8 @@
                 });
             });
         },
+
+
 
         counterUpActivation: function () {
             var _counter = $('.count');
@@ -156,12 +169,12 @@
 
             });
 
-            $('.nav-link.has-megamenu').on('click', function (e) {
-
-                var $this = $(this),
-                    targetElm = $this.siblings('.megamenu-mobile-toggle');
-                targetElm.slideToggle(500);
-            });
+            /* $('.nav-link.has-megamenu').on('click', function (e) {
+ 
+                 var $this = $(this),
+                     targetElm = $this.siblings('.megamenu-mobile-toggle');
+                 targetElm.slideToggle(500);
+             });*/
 
             // Mobile Sidemenu Class Add
             function resizeClassAdd() {
@@ -877,13 +890,13 @@
             });
         },
 
-        stickyHeaderMenu: function () {
+        stickyHeaderMenu: function (menuid) {
 
             $(window).on('scroll', function () {
                 // Sticky Class Add
                 if ($('body').hasClass('sticky-header')) {
                     var stickyPlaceHolder = $('#axil-sticky-placeholder'),
-                        menu = $('.axil-mainmenu'),
+                        menu = $(menuid),
                         menuH = menu.outerHeight(),
                         topHeaderH = $('.axil-header-topnone').outerHeight() || 0,
                         headerCampaign = $('.header-top-campaign').outerHeight() || 0,
@@ -932,6 +945,8 @@
                 });
             }
         },
+
+
 
         colorVariantActive: function () {
             $('.color-variant > li').on('click', function (e) {

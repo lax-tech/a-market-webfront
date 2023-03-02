@@ -92,7 +92,7 @@ ul li {
 
 }
 
-.fab {
+.fabl {
   display: block;
   width: 56px;
   height: 56px;
@@ -110,7 +110,7 @@ ul li {
   background: var(--color-primary);
 }
 
-.fab>i {
+.fabl>i {
   font-size: 2em;
   line-height: 55px;
   -webkit-transition: all .2s ease-out;
@@ -118,7 +118,7 @@ ul li {
   transition: all .2s ease-in-out;
 }
 
-.fab:not(:last-child) {
+.fabl:not(:last-child) {
   width: 0;
   height: 0;
   margin: 20px auto 0;
@@ -127,12 +127,12 @@ ul li {
   line-height: 40px;
 }
 
-.fab:not(:last-child)>i {
+.fabl:not(:last-child)>i {
   font-size: 1.4em;
   line-height: 40px;
 }
 
-.fab:not(:last-child).is-visible {
+.fabl:not(:last-child).is-visible {
   width: 40px;
   height: 40px;
   margin: 15px auto 10;
@@ -140,27 +140,27 @@ ul li {
   visibility: visible;
 }
 
-.fab:nth-last-child(1) {
+.fabl:nth-last-child(1) {
   -webkit-transition-delay: 25ms;
   transition-delay: 25ms;
 }
 
-.fab:not(:last-child):nth-last-child(2) {
+.fabl:not(:last-child):nth-last-child(2) {
   -webkit-transition-delay: 20ms;
   transition-delay: 20ms;
 }
 
-.fab:not(:last-child):nth-last-child(3) {
+.fabl:not(:last-child):nth-last-child(3) {
   -webkit-transition-delay: 40ms;
   transition-delay: 40ms;
 }
 
-.fab:not(:last-child):nth-last-child(4) {
+.fabl:not(:last-child):nth-last-child(4) {
   -webkit-transition-delay: 60ms;
   transition-delay: 60ms;
 }
 
-.fab:not(:last-child):nth-last-child(5) {
+.fabl:not(:last-child):nth-last-child(5) {
   -webkit-transition-delay: 80ms;
   transition-delay: 80ms;
 }
@@ -432,27 +432,26 @@ a {
   background: rgba(0, 0, 0, 0);
 }
 
-.fab_field .fab {
+.fab_field .fabl {
   width: 35px;
   height: 35px;
   box-shadow: none;
   margin: 5px;
 }
 
-.fab_field .fab>i {
+.fab_field .fabl>i {
   font-size: 1.6em;
   line-height: 35px;
   color: #bbb;
 }
 
-.fab_field .fab>i:hover {
+.fab_field .fabl>i:hover {
   color: #42a5f5;
 }
 
 .chat_converse {
   position: relative;
   background: #fff;
-  margin: 6px 0 0px 0;
   height: 300px;
   min-height: 0;
   font-size: 12px;
@@ -460,12 +459,13 @@ a {
   overflow-y: auto;
   width: 100%;
   float: right;
-  padding-bottom: 100px;
+
 }
 
 .chat_converse2 {
   height: 100%;
-  max-height: 800px
+  max-height: 800px;
+  padding-bottom: 100px;
 }
 
 .chat_list {
@@ -646,6 +646,7 @@ input {
   cursor: pointer;
 }
 
+
 strong.chat_time {
   padding: 0 1px 1px 0;
   font-weight: 500;
@@ -668,6 +669,31 @@ strong.chat_time {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.2);
 }
+
+.messic img {
+  position: absolute !important;
+  width: 30px;
+  margin-left: -15px;
+  margin-top: 12px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+
+}
+
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /*Element state*/
 
@@ -802,7 +828,7 @@ strong.chat_time {
   }
 }
 
-.blue .fab {
+.blue .fabl {
   background: #42a5f5;
   color: #fff;
 }

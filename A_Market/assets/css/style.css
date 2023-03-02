@@ -5,6 +5,12 @@
     max-height: 90vh;
 }
 
+.axil-header-topnone {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
 .header-search-modal .header-search-wrap.pay {
     padding: 30px 30px;
 }
@@ -13,8 +19,7 @@
     text-align: center;
 }
 
-.color-variant-wrappernone,
-.axil-header-topnone {
+.color-variant-wrappernone {
     display: none;
 }
 
@@ -53,6 +58,10 @@
 /* Responsive mobile */
 @media only screen and (max-width: 767px) {
     .axil-header-top .container {
+        display: none;
+    }
+
+    .axil-header-topnone {
         display: none;
     }
 

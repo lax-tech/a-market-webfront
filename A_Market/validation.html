@@ -2,10 +2,12 @@
 <html class="no-js" lang="en">
 
 
+<!-- checkout.08 -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>aMarket || Liste de Souhaits</title>
+    <title>aMarket || Paiement</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,6 +19,7 @@
 
 
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
     <link rel="stylesheet" href="assets/css/vendor/flaticon/flaticon.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
@@ -70,6 +73,7 @@
                         <div class="header-top-link">
                             <ul class="quick-link">
                                 <li><a href="#">Aide</a></li>
+
                                 <li><a href="connexion.html">Connexion</a></li>
                             </ul>
                         </div>
@@ -137,7 +141,7 @@
                                     <i class="flaticon-heart"></i>
                                 </a>
                             </li>
-                            <li class="shopping-cart">
+                            <li class="shopping-cart d-none">
                                 <a href="#" class="cart-dropdown-btn">
                                     <span class="cart-count">3</span>
                                     <i class="flaticon-shopping-cart"></i>
@@ -186,8 +190,7 @@
 
     <main class="main-wrapper">
 
-        <!-- Start Liste de Souhaits Area  -->
-
+        <!-- Start Checkout Area  -->
         <div class="axil-breadcrumb-area">
             <div class="container">
                 <div class="row align-items-center">
@@ -196,9 +199,9 @@
                             <ul class="axil-breadcrumb">
                                 <li class="axil-breadcrumb-item"><a href="index.html">Accueil</a></li>
                                 <li class="separator"></li>
-                                <li class="axil-breadcrumb-item active" aria-current="page">Souhaits</li>
+                                <li class="axil-breadcrumb-item active" aria-current="page">Paiement</li>
                             </ul>
-                            <h1 class="title">Liste De Souhaits</h1>
+                            <h1 class="title">Paiement</h1>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-4">
@@ -210,77 +213,40 @@
                 </div>
             </div>
         </div>
-        <div class="axil-wishlist-area axil-section-gap">
-            <div class="container">
-                <div class="product-table-heading">
-                    <h4 class="title">Ma liste de souhaits sur aMarket</h4>
-                </div>
-                <div class="table-responsive">
-                    <table class="table axil-product-table axil-wishlist-table">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="product-remove"></th>
-                                <th scope="col" class="product-thumbnail">Produit</th>
-                                <th scope="col" class="product-title"></th>
-                                <th scope="col" class="product-price">Prix Unitaire</th>
-                                <th scope="col" class="product-stock-status">Status</th>
-                                <th scope="col" class="product-add-cart"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="product-remove"><a href="#" class="remove-wishlist"><i
-                                            class="fal fa-times"></i></a></td>
-                                <td class="product-thumbnail"><a href="produit.html"><img
-                                            src="assets/images/product/electric/product-01.png"
-                                            alt="Digital Produit"></a></td>
-                                <td class="product-title"><a href="produit.html">Wireless PS Handler</a></td>
-                                <td class="product-price" data-title="Prix"><span class="currency-symbol">$</span>124.00
-                                </td>
-                                <td class="product-stock-status" data-title="Status">En Stock</td>
-                                <td class="product-add-cart"><a href="panier.html"
-                                        class="axil-btn btn-outline">Acheter</a></td>
-                            </tr>
-                            <tr>
-                                <td class="product-remove"><a href="#" class="remove-wishlist"><i
-                                            class="fal fa-times"></i></a></td>
-                                <td class="product-thumbnail"><a href="single-product-2.html"><img
-                                            src="assets/images/product/electric/product-02.png"
-                                            alt="Digital Produit"></a></td>
-                                <td class="product-title"><a href="single-product-2.html">Gradient Light Keyboard</a>
-                                </td>
-                                <td class="product-price" data-title="Prix"><span class="currency-symbol">$</span>124.00
-                                </td>
-                                <td class="product-stock-status" data-title="Status">En Stock</td>
-                                <td class="product-add-cart"><a href="panier.html"
-                                        class="axil-btn btn-outline">Acheter</a></td>
-                            </tr>
-                            <tr>
-                                <td class="product-remove"><a href="#" class="remove-wishlist"><i
-                                            class="fal fa-times"></i></a></td>
-                                <td class="product-thumbnail"><a href="produit.html"><img
-                                            src="assets/images/product/electric/product-03.png"
-                                            alt="Digital Produit"></a></td>
-                                <td class="product-title"><a href="produit.html">HD CC Camera</a></td>
-                                <td class="product-price" data-title="Prix"><span class="currency-symbol">$</span>124.00
-                                </td>
-                                <td class="product-stock-status" data-title="Status">En Stock</td>
-                                <td class="product-add-cart"><a href="panier.html"
-                                        class="axil-btn btn-outline">Acheter</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+        <div style="display: flex;" class="axil-section-gap paiementcourtvd">
+            <div style="width: 32%;" class=""></div>
+            <div style="width: 34%;" class="">
+                <h1 style="margin-bottom: 5px;" class="text-center">Mobile Money</h1>
+                <center><img style="width: 150px; margin-bottom: 10px;" src="assets/images/others/payment2fat.png"
+                        alt="">
+                </center>
+                <p class="text-center">
+                    Payez via Mpesa, Orange Money, Airtel Money ou tout autres système de paiement mobile.
+                </p>
+                <form class="singin-form">
+                    <div class="form-group">
+                        <label>Votre Nom</label>
+                        <input type="text" class="form-control" name="username" placeholder="Ex. John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Numero</label>
+                        <input type="tel" class="form-control" name="tel" placeholder="Numero de Téléphone">
+                    </div>
+                    <div class="form-group">
+                        <label>Code Secret</label>
+                        <input type="password" class="form-control" name="password" placeholder="Tapez le code">
+                    </div>
+                </form>
+                <button id="btn-payment" class="axil-btn btn-bg-primary">
+                    Proceder au Paiement
+                </button>
             </div>
+            <div style="width: 32%;" class=""></div>
         </div>
-        <!-- End Liste de Souhaits Area  -->
-    </main>
 
+    </main>
     <!-- Start Footer Area  -->
 
-    <!-- End Footer Area  -->
-
-    <!-- Produit Quick View Modal Start -->
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
         <div class="footer-top">
@@ -345,10 +311,11 @@
                             <h5 class="widget-title">Téléchargement App</h5>
                             <div class="inner"> <span>Télécharger dès maintenant l'application mobile</span>
                                 <div class="download-btn-group">
-                                    <div class="qr-code"> <img src="assets/images/others/qr.png" alt="Axilthemes"></div>
+                                    <div class="qr-code"> <img src="assets/images/others/qr.png" alt="Axilthemes">
+                                    </div>
                                     <div class="app-link"> <a href="#"> <img src="assets/images/others/app-store.png"
-                                                alt="App Store"></a> <a href="#"> <img
-                                                src="assets/images/others/play-store.png" alt="Play Store"></a></div>
+                                                alt="App Store"> </a> <a href="#"> <img
+                                                src="assets/images/others/play-store.png" alt="Play Store"> </a> </div>
                                 </div>
                             </div>
                         </div>
@@ -366,7 +333,7 @@
                         <div class="social-share"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
                                     class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a
                                 href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i
-                                    class="fab fa-discord"></i></a></div>
+                                    class="fab fa-discord"></i></a> </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-left d-flex flex-wrap justify-content-center">
@@ -392,6 +359,9 @@
         </div>
         <!-- End Copyright Area  -->
     </footer>
+    <!-- End Footer Area  -->
+
+    <!-- Produit Quick View Modal Start -->
     <div class="modal fade quick-view-product" id="quick-view-modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -633,7 +603,36 @@
         </div>
     </div>
     <!-- Header Rechercher Modal End -->
-
+    <!-- Header Paiement Modal Start -->
+    <div class="header-search-modal" id="paiementpopup">
+        <button class="card-close sidebar-close"><i class="fas fa-times"></i></button>
+        <div class="header-search-wrap pay">
+            <h1 style="margin-bottom: 5px;" class="text-center">Paiement</h1>
+            <center><img style="width: 150px; margin-bottom: 10px;" src="assets/images/others/payment2fat.png" alt="">
+            </center>
+            <p class="text-center">
+                Payez via Mpesa, Orange Money, Airtel Money ou tout autres système de paiement mobile.
+            </p>
+            <form class="singin-form">
+                <div class="form-group">
+                    <label>Votre Nom</label>
+                    <input type="text" class="form-control" name="username" placeholder="Ex. John Doe">
+                </div>
+                <div class="form-group">
+                    <label>Numero</label>
+                    <input type="tel" class="form-control" name="tel" placeholder="Numero de Téléphone">
+                </div>
+                <div class="form-group">
+                    <label>Code Secret</label>
+                    <input type="password" class="form-control" name="password" placeholder="Tapez le code">
+                </div>
+            </form>
+            <button id="btn-payment" class="axil-btn btn-bg-primary">
+                Proceder au Paiement
+            </button>
+        </div>
+    </div>
+    <!-- Header Paiement Modal End -->
 
 
     <div class="cart-dropdown" id="cart-dropdown">
@@ -725,7 +724,7 @@
                 </h3>
                 <div class="group-btn">
                     <a href="panier.html" class="axil-btn btn-bg-primary viewcart-btn">Voir Le Panier</a>
-                    <a href="commande.html" class="axil-btn btn-bg-secondary checkout-btn">Commander</a>
+                    <a href="Paiement.html" class="axil-btn btn-bg-secondary checkout-btn">Commander</a>
                 </div>
             </div>
         </div>
@@ -757,5 +756,7 @@
 
 </body>
 
+
+<!-- checkout.09 -->
 
 </html>

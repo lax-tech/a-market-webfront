@@ -2,13 +2,24 @@ hideChat(0);
 
 $('#prime').click(function () {
       toggleFab();
+      if ($("#imgsrc").attr("src") == "chat/bubble-chat.png") {
+            $("#imgsrc").attr("src", "chat/test.png");
+
+
+      } else if ($("#imgsrc").attr("src") == "chat/test.png") {
+            $("#imgsrc").attr("src", "chat/bubble-chat.png")
+      }
+
+      else {
+            $("#imgsrc").attr("src", "chat/bubble-chat.png")
+      };
+
 });
 
-
-//Toggle chat and links
 function toggleFab() {
-      $('.prime').toggleClass('zmdi-comment-outline');
-      $('.prime').toggleClass('zmdi-close');
+
+      $('.prime').toggleClass('');
+      $('.prime').toggleClass('');
       $('.prime').toggleClass('is-active');
       $('.prime').toggleClass('is-visible');
       $('#prime').toggleClass('is-float');
@@ -20,7 +31,6 @@ function toggleFab() {
 $('#chat_first_screen').click(function (e) {
       hideChat(1);
 });
-
 $('#chat_fullscreen_loader').click(function (e) {
       $('.fullscreen').toggleClass('zmdi-window-maximize');
       $('.fullscreen').toggleClass('zmdi-window-restore');
@@ -37,6 +47,8 @@ $('#chat_fullscreen_loader').click(function (e) {
       // $('.chat_login').css('display', 'none');
       // $('#chat_fullscreen').css('display', 'block');
 });
+
+
 
 function hideChat(hide) {
       switch (hide) {
