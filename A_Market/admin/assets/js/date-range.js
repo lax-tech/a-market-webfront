@@ -1,6 +1,6 @@
 /* ====== Index ======
 
-1. RECNT ORDERS
+1. RECENT ORDERS
 2. USER ACTIVITY
 3. ANALYTICS COUNTRY
 4. PAGE VIEWS
@@ -31,10 +31,10 @@ $(function() {
             moment().subtract(1, "days"),
             moment().subtract(1, "days")
           ],
-          "Last 7 Days": [moment().subtract(6, "days"), moment()],
-          "Last 30 Days": [moment().subtract(29, "days"), moment()],
-          "This Month": [moment().startOf("month"), moment().endOf("month")],
-          "Last Month": [
+          "Cette Semaine": [moment().subtract(6, "days"), moment()],
+          "Les 30 Jours Derniers": [moment().subtract(29, "days"), moment()],
+          "Ce Mois": [moment().startOf("month"), moment().endOf("month")],
+          "Le Mois Dernier": [
             moment()
               .subtract(1, "month")
               .startOf("month"),
@@ -70,10 +70,10 @@ $(function() {
             moment().subtract(1, "days"),
             moment().subtract(1, "days")
           ],
-          "Last 7 Days": [moment().subtract(6, "days"), moment()],
-          "Last 30 Days": [moment().subtract(29, "days"), moment()],
-          "This Month": [moment().startOf("month"), moment().endOf("month")],
-          "Last Month": [
+          "Cette Semaine": [moment().subtract(6, "days"), moment()],
+          "Les Deriers 30 Jours": [moment().subtract(29, "days"), moment()],
+          "Ce Mois": [moment().startOf("month"), moment().endOf("month")],
+          "Mois Dernier": [
             moment()
               .subtract(1, "month")
               .startOf("month"),
