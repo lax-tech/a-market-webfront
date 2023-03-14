@@ -28,7 +28,7 @@ function toggleFab() {
 
 }
 
-$('#chat_first_screen').click(function (e) {
+$('#leftar').click(function (e) {
       hideChat(1);
 });
 $('#chat_fullscreen_loader').click(function (e) {

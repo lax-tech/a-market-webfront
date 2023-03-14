@@ -1,5 +1,4 @@
 @import"https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&amp;family=Poppins:wght@400;500;600;700&amp;display=swap";
-@import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
 
 :root {
   --color-primary: #3577f0;
@@ -72,11 +71,57 @@
   --h5: 20px;
   --h6: 18px
 }
+.titrepara {
+  font-size: 13px;
+}
+#leftar {
+  width: 90%;
+  margin-left: 2.5px;
 
+}
+#maximizator {
+  max-width: 20px;
+}
+.arrow-rightg {
+  background-color: var(--color-primary);
+  margin: 10px auto 0px auto;
+  border-radius: 100%;
+  max-width: 15%;
+  padding: 10px;
+
+}
+.arrow-rightg:hover {
+  cursor: pointer;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
+}
+@media only screen and (max-width: 425px) {
+  .fabs {
+    right: 0 !important;
+  }
+  .chat {
+    right: 20px !important;
+    bottom: 80px !important; 
+  }
+  .chat_field {
+    width: 65% !important;
+  }
+  input[type=text], input[type=password], input[type=email], input[type=number], input[type=tel], textarea {
+    padding: 0px 10px !important;
+    margin-top: 10px !important;
+  }
+  .sendmessage {
+    margin-top: 10px !important;
+  }
+  .arrow-rightg {
+    max-width: 17% !important;
+  }
+  #maximizator {
+    display: none;
+  }
 }
 
 ul li {
@@ -87,7 +132,7 @@ ul li {
   bottom: 0;
   position: fixed;
   margin: 1em;
-  right: 0;
+  right: 17px;
   z-index: 998;
 
 }
@@ -168,7 +213,7 @@ ul li {
 
 .chat {
   position: fixed;
-  right: 85px;
+  right: 100px;
   bottom: 20px;
   width: 400px;
   font-size: 12px;
@@ -182,6 +227,7 @@ ul li {
   -webkit-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  z-index: 999;
 }
 
 .chat_fullscreen {
@@ -197,7 +243,7 @@ ul li {
   font-family: 'Roboto';
   font-weight: 500;
   color: #f3f3f3;
-  height: 55px;
+  height: 60px;
   background: var(--color-primary);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -220,9 +266,9 @@ ul li {
   cursor: pointer;
   /* margin: 10px; */
   font-size: 20px;
-  opacity: 0.5;
+  opacity: 0.8;
   /* padding: 20px; */
-  margin: -10px 10px;
+  margin: -13px 20px;
 }
 
 .chat.is-visible {
@@ -249,7 +295,7 @@ ul li {
 }
 
 
-.chat_option img {
+.chat_option #rondtop {
   border-radius: 50%;
   width: 55px;
   float: left;
@@ -258,8 +304,8 @@ ul li {
 }
 
 .change_img img {
-  width: 35px;
-  margin: 0px 20px 0px 20px;
+margin-top: 0px !important;
+width: 40px !important;
 }
 
 .chat_option .agent {
@@ -299,7 +345,6 @@ ul li {
 
 .chat_login p,
 .chat_body li,
-p,
 a {
   -webkit-animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
   animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
@@ -336,9 +381,13 @@ a {
   outline: none;
   display: inline-block;
 }
+.sendmessage {
+max-width: 17px;
+opacity: 0.5;
+margin-top: 22px;
 
+}
 .chat_field.chat_message {
-  height: 40px;
   resize: none;
   font-size: 13px;
   font-weight: 400;
@@ -384,7 +433,7 @@ a {
   margin: 20px;
   bottom: 0px;
   display: block;
-  width: 120%
+  width: 120%;
 }
 
 .tags li {
@@ -459,6 +508,7 @@ a {
   overflow-y: auto;
   width: 100%;
   float: right;
+  padding-top: 10px;
 
 }
 
@@ -788,7 +838,7 @@ strong.chat_time {
 
 @media only screen and (min-width: 300px) {
   .chat {
-    width: 250px;
+    width: 275px;
   }
 }
 
