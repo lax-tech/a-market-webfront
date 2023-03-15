@@ -641,7 +641,6 @@ h6.b3 {
 
 p {
     font-size: var(--font-size-b1);
-    line-height: 25px;
     font-weight: var(--p-regular);
     color: var(--color-body);
     margin: 0 0 30px
@@ -1834,25 +1833,23 @@ ol li a {
 input:-moz-placeholder,
 textarea:-moz-placeholder {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+    
 }
 
 [data-overlay],
@@ -2188,12 +2185,6 @@ textarea:active {
     border-color: var(--color-primary)
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-    -webkit-appearance: button
-}
 
 input {
     height: 40px;
@@ -9017,11 +9008,6 @@ button.axil-btn.wishlist-btn:hover:before {
     -webkit-appearance: none;
     margin: 0
 }
-
-.cart-dropdown .cart-item .item-quantity input[type=number] {
-    -moz-appearance: textfield
-}
-
 .cart-dropdown .cart-footer {
     border-top: 2px solid #f6f7fb
 }
@@ -10965,10 +10951,6 @@ body.open .closeMask {
 .pro-qty input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0
-}
-
-.pro-qty input[type=number] {
-    -moz-appearance: textfield
 }
 
 .product-quick-view a {

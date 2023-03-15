@@ -5083,8 +5083,8 @@ textarea.form-control-lg {
 .list-group-item.active {
   z-index: 2;
   color: #ffffff;
-  background-color: #88aaf3;
-  border-color: #88aaf3;
+  background-color: var(--bs-blue);
+  border-color: var(--bs-body-bg);
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6706,8 +6706,8 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.05) !important;
 }
 
 .shadow-sm {
@@ -18578,7 +18578,7 @@ p, li, span {
 
 /*===== ALERT =====*/
 .bg-primary {
-  background-color: #88aaf3 !important;
+  background-color: var(--bs-blue) !important;
 }
 
 .bg-success {
@@ -19118,9 +19118,8 @@ code {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-
-.form-group, .input-group {
-  margin-bottom: 1.25rem;
+.small.text-muted {
+margin-left: 17px;
 }
 .form-group label, .input-group label {
   color: #56606e;

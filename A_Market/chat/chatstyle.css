@@ -218,7 +218,7 @@ ul li {
   width: 400px;
   font-size: 12px;
   line-height: 22px;
-  font-family: 'Roboto';
+  font-family: var(--font-primary);
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   opacity: 0;
