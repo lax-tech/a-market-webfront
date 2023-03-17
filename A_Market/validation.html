@@ -18,7 +18,7 @@
     ============================================ -->
 
 
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css"><link rel="stylesheet" href="chat/chatstyle.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
     <link rel="stylesheet" href="assets/css/vendor/flaticon/flaticon.css">
@@ -732,7 +732,85 @@
 
     <!-- JS
 ============================================ -->
-    <!-- Modernizer JS -->
+    <div class="fabs">
+    <div class="chat d-none">
+      <div class="chat_header">
+        <div class="chat_option">
+          <div class="header_img">
+            <a href="/index.html"><img id="rondtop" src="chat/Final Logo Rond.png" /></a>
+          </div>
+          <span id="chat_head">aMarket</span> <br> <span class="agent">Agent</span><span class="online">(En
+            Ligne)</span>
+          <span id="chat_fullscreen_loader" class="chat_fullscreen_loader">
+            <img id="maximizator" src="chat/maximize.png" alt="">
+            <!-- <i class="fullscreen zmdi zmdi-window-maximize"></i> -->
+          </span>
+
+        </div>
+
+      </div>
+      <div class="chat_body chat_login">
+        <!-- <a id="chat_first_screen" class="fabl"> -->
+        <div class="arrow-rightg">
+          <img id="leftar" src="chat/arrow-angle.png" alt="arrow-rifht">
+        </div>
+        <!-- </a> -->
+        <p class="titrepara">Discuter avec notre staf pour tous types d'assistances, questions, préocupations, rémarques
+          et autres besoins, nous vous répondrons dans les brefs délais. </p>
+      </div>
+
+      <div id="chat_fullscreen" class="chat_conversion chat_converse">
+        <span class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="chat/Final Logo Rond.png" />
+          </div><span>Avez-vous une question?</span>
+        </span>
+        <span class="chat_msg_item chat_msg_item_user">
+          Bonjour!</span>
+        <div class="status">Il y'a 20m</div>
+        <span class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="chat/Final Logo Rond.png" />
+          </div><span>Hey! Souhaitez-vous parler à notre équipe.</span>
+        </span>
+        <span class="chat_msg_item chat_msg_item_user">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+        <span class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="chat/Final Logo Rond.png" />
+          </div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen book.
+        </span>
+        <span class="chat_msg_item chat_msg_item_user">
+          D'accord merci beaucoup</span>
+        <span class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="chat/Final Logo Rond.png" />
+          </div>De rien, portez-vous bien.
+        </span>
+        <span class="chat_msg_item chat_msg_item_user">
+          J'aimerais en outre savoir si x ou y produits est déjà disponible?</span>
+        <div class="status2">Juste maintenant, non vue</div>
+        <span class="chat_msg_item ">
+          <ul class="tags">
+            <li>Képis</li>
+            <li>T-Shirts</li>
+            <li>Pods</li>
+            <li>Airpods</li>
+          </ul>
+        </span>
+      </div>
+      <div class="fab_field">
+        <img class="sendmessage" src="chat/camera.png" alt="">
+        <textarea id="chatSend" name="chat_message" placeholder="Envoyer un message"
+          class="chat_field chat_message"></textarea>
+        <img class="sendmessage" src="chat/paper-plane.png" alt="">
+        <br>
+      </div>
+    </div>
+    <a id="prime" class="fabl"><i class="prime messic"><img id="imgsrc" src="chat/bubble-chat.png" alt=""></i></a>
+  </div>
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery.js"></script>
@@ -744,7 +822,7 @@
     <!-- <script src="assets/js/vendor/jquery.style.switcher.js"></script> -->
     <script src="assets/js/vendor/jquery-ui.min.js"></script>
     <script src="assets/js/vendor/jquery.countdown.min.js"></script>
-    <script src="assets/js/vendor/sal.js"></script>
+    <script src="chat/script.js"></script><script src="assets/js/vendor/sal.js"></script>
     <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/vendor/isotope.pkgd.min.js"></script>

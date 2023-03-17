@@ -504,7 +504,7 @@ margin-top: 22px;
   height: 300px;
   min-height: 0;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 16px;
   overflow-y: auto;
   width: 100%;
   float: right;
@@ -617,7 +617,6 @@ input {
   font-family: 'Roboto';
   font-size: 12px;
   line-height: 20px;
-  font-weight: 500;
   color: #4b4b4b;
   -webkit-font-smoothing: antialiased;
   outline: none;

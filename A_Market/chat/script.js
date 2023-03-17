@@ -24,6 +24,7 @@ function toggleFab() {
       $('.prime').toggleClass('is-visible');
       $('#prime').toggleClass('is-float');
       $('.chat').toggleClass('is-visible');
+      $('.chat').toggleClass('d-none');
       $('.fab').toggleClass('is-visible');
 
 }
