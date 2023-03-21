@@ -287,7 +287,7 @@ $(window).scroll(function () {
                 slidesToScroll: 6,
                 arrows: true,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 speed: 1000,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -337,7 +337,7 @@ $(window).scroll(function () {
                 slidesToScroll: 7,
                 arrows: true,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 speed: 1000,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
@@ -494,7 +494,7 @@ $(window).scroll(function () {
                 slidesToScroll: 1,
                 arrows: true,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>'
             });
@@ -688,7 +688,7 @@ $(window).scroll(function () {
                 fade: true,
                 focusOnSelect: false,
                 speed: 1000,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-content-activation-one',
                 responsive: [{
                     breakpoint: 991,
@@ -707,7 +707,7 @@ $(window).scroll(function () {
                 arrows: false,
                 dots: true,
                 speed: 1500,
-                autoplay: false,
+                autoplay: true,
                 centerMode: true,
                 responsive: [{
                     breakpoint: 575,
@@ -726,7 +726,7 @@ $(window).scroll(function () {
                 dots: false,
                 focusOnSelect: false,
                 speed: 1500,
-                autoplay: false,
+                autoplay: true,
                 responsive: [{
                     breakpoint: 1199,
                     settings: {
@@ -746,13 +746,13 @@ $(window).scroll(function () {
                 focusOnSelect: false,
                 speed: 500,
                 fade: true,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-thumb-activation-one',
             });
 
             $('.slider-activation-one').slick({
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
@@ -765,7 +765,7 @@ $(window).scroll(function () {
 
             $('.slider-activation-two').slick({
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
