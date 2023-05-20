@@ -825,16 +825,16 @@ ol ul {
 .copyright-default .quick-link,
 .comment-list ul.children,
 .comment-list,
-.axil-dashboard-address ul,
+.lax-dashboard-address ul,
 .single-product-content .inner .product-variation .variable-items-wrapper,
 .single-product-content .inner .product-meta,
-.axil-shop-sidebar .toggle-list ul,
+.lax-shop-sidebar .toggle-list ul,
 .color-variant,
-.axil-product .cart-action,
+.lax-product .cart-action,
 .cart-dropdown .cart-item-list,
 .mainmenu,
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul,
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-menu-list,
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul,
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-menu-list,
 .header-action>ul>li,
 .header-top-link .quick-link,
 .social-share,
@@ -855,7 +855,7 @@ ol ul {
 .widget_rss ul li a,
 .tagcloud a,
 .comment-list .comment .reply-edit a.comment-reply-link,
-.axil-post-meta .post-meta-content .author-title a,
+.lax-post-meta .post-meta-content .author-title a,
 .content-blog.format-quote .inner .content blockquote .title a,
 .content-blog .content .title a,
 .cart-dropdown .cart-header .cart-close,
@@ -2603,108 +2603,108 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-about-area .about-thumbnail {
+    .lax-about-area .about-thumbnail {
         margin-bottom: 50px;
         text-align: center
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-about-area .about-thumbnail {
+    .lax-about-area .about-thumbnail {
         margin-bottom: 40px
     }
 }
 
-.axil-about-area .about-thumbnail img {
+.lax-about-area .about-thumbnail img {
     border-radius: 0px;
     width: 100%
 }
 
-.axil-about-area .about-content .title {
+.lax-about-area .about-content .title {
     margin-bottom: 24px;
     line-height: 1.2
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-about-area .about-content .title {
+    .lax-about-area .about-content .title {
         font-size: 36px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-about-area .about-content .title {
+    .lax-about-area .about-content .title {
         font-size: 20px
     }
 }
 
-.axil-about-area .about-content .text-heading {
+.lax-about-area .about-content .text-heading {
     font-size: 17px;
     margin-bottom: 22px;
     display: block
 }
 
-.axil-about-area .about-content p {
+.lax-about-area .about-content p {
     font-size: var(--font-size-b2);
     margin-bottom: 34px
 }
 
-.axil-about-area .about-content.content-right {
+.lax-about-area .about-content.content-right {
     padding-left: 50px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-about-area .about-content.content-right {
+    .lax-about-area .about-content.content-right {
         padding-left: 0
     }
 }
 
-.axil-about-area .about-content.content-left {
+.lax-about-area .about-content.content-left {
     padding-right: 60px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-about-area .about-content.content-left {
+    .lax-about-area .about-content.content-left {
         padding-right: 0
     }
 }
 
-.axil-about-area.about-style-2 {
+.lax-about-area.about-style-2 {
     padding-top: 80px
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-about-area.about-style-2 {
+    .lax-about-area.about-style-2 {
         padding-top: 60px
     }
 }
 
-.axil-about-area.about-style-2 .about-content .subtitle {
+.lax-about-area.about-style-2 .about-content .subtitle {
     font-size: 14px;
     margin-bottom: 5px;
     display: block
 }
 
-.axil-about-area.about-style-2 .about-content .title {
+.lax-about-area.about-style-2 .about-content .title {
     font-size: 40px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-about-area.about-style-2 .about-content .title {
+    .lax-about-area.about-style-2 .about-content .title {
         font-size: 34px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-about-area.about-style-2 .about-content .title {
+    .lax-about-area.about-style-2 .about-content .title {
         font-size: 30px
     }
 }
 
-.axil-about-area.about-style-2 .about-content .axil-btn {
+.lax-about-area.about-style-2 .about-content .lax-btn {
     border-color: #efefef
 }
 
-.axil-about-area.about-style-2 .about-content .axil-btn:hover {
+.lax-about-area.about-style-2 .about-content .lax-btn:hover {
     border-color: var(--color-primary)
 }
 
@@ -2875,48 +2875,48 @@ input[type=submit]:hover {
     }
 }
 
-.axil-breadcrumb-area {
+.lax-breadcrumb-area {
     position: relative;
     background-color: #f8f8f8;
     padding: 100px 0 105px
 }
 
-.axil-breadcrumb-area .inner .title {
+.lax-breadcrumb-area .inner .title {
     font-size: 40px;
     margin-bottom: 0
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-breadcrumb-area .inner .title {
+    .lax-breadcrumb-area .inner .title {
         font-size: 34px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-breadcrumb-area .inner .title {
+    .lax-breadcrumb-area .inner .title {
         font-size: 28px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-breadcrumb-area .inner .title {
+    .lax-breadcrumb-area .inner .title {
         font-size: 24px
     }
 }
 
-.axil-breadcrumb-area .inner .bradcrumb-thumb {
+.lax-breadcrumb-area .inner .bradcrumb-thumb {
     text-align: right;
     position: relative;
     z-index: 1
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-breadcrumb-area .inner .bradcrumb-thumb {
+    .lax-breadcrumb-area .inner .bradcrumb-thumb {
         display: none
     }
 }
 
-.axil-breadcrumb-area .inner .bradcrumb-thumb::after {
+.lax-breadcrumb-area .inner .bradcrumb-thumb::after {
     content: "";
     height: 110px;
     width: 110px;
@@ -2928,7 +2928,7 @@ input[type=submit]:hover {
     z-index: -1
 }
 
-.axil-breadcrumb {
+.lax-breadcrumb {
     display: flex;
     padding: 0;
     margin: 0 0 15px;
@@ -2936,7 +2936,7 @@ input[type=submit]:hover {
     align-items: center
 }
 
-.axil-breadcrumb li {
+.lax-breadcrumb li {
     margin-top: 0;
     margin-bottom: 0;
     font-size: var(--font-size-b1);
@@ -2944,24 +2944,24 @@ input[type=submit]:hover {
     font-weight: 500
 }
 
-.axil-breadcrumb li a {
+.lax-breadcrumb li a {
     color: #999;
     display: block
 }
 
-.axil-breadcrumb li.axil-breadcrumb-item.active {
+.lax-breadcrumb li.lax-breadcrumb-item.active {
     color: var(--color-primary)
 }
 
-.axil-breadcrumb li.separator {
+.lax-breadcrumb li.separator {
     height: 11px;
     width: 2px;
     background-color: #e5e5e5;
     margin: 0 8px
 }
 
-a.axil-btn,
-button.axil-btn {
+a.lax-btn,
+button.lax-btn {
     border-radius: 6px;
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b1);
@@ -2973,8 +2973,8 @@ button.axil-btn {
     z-index: 1
 }
 
-a.axil-btn:before,
-button.axil-btn:before {
+a.lax-btn:before,
+button.lax-btn:before {
     content: "";
     height: 100%;
     width: 100%;
@@ -2990,28 +2990,28 @@ button.axil-btn:before {
 
 @media only screen and (max-width: 767px) {
 
-    a.axil-btn,
-    button.axil-btn {
+    a.lax-btn,
+    button.lax-btn {
         padding: 12px 25px;
         font-size: 14px
     }
 }
 
-a.axil-btn i,
-button.axil-btn i {
+a.lax-btn i,
+button.lax-btn i {
     font-weight: 400;
     margin-right: 10px;
     color: var(--color-heading);
     transition: .3s
 }
 
-a.axil-btn:hover:before,
-button.axil-btn:hover:before {
+a.lax-btn:hover:before,
+button.lax-btn:hover:before {
     transform: scale(1.1)
 }
 
-a.axil-btn.right-icon i,
-button.axil-btn.right-icon i {
+a.lax-btn.right-icon i,
+button.lax-btn.right-icon i {
     margin-left: 5px;
     margin-right: 0;
     color: var(--color-heading);
@@ -3019,94 +3019,94 @@ button.axil-btn.right-icon i {
     top: 2px
 }
 
-a.axil-btn.btn-bg-white,
-button.axil-btn.btn-bg-white {
+a.lax-btn.btn-bg-white,
+button.lax-btn.btn-bg-white {
     background-color: var(--color-white);
     color: var(--color-heading);
     box-shadow: 0 16px 32px 0 rgba(103, 103, 103, .06)
 }
 
-a.axil-btn.btn-bg-white:before,
-button.axil-btn.btn-bg-white:before {
+a.lax-btn.btn-bg-white:before,
+button.lax-btn.btn-bg-white:before {
     background-color: var(--color-white)
 }
 
-a.axil-btn.btn-bg-lighter,
-button.axil-btn.btn-bg-lighter {
+a.lax-btn.btn-bg-lighter,
+button.lax-btn.btn-bg-lighter {
     background-color: var(--color-lighter);
     color: var(--color-body)
 }
 
-a.axil-btn.btn-bg-lighter:before,
-button.axil-btn.btn-bg-lighter:before {
+a.lax-btn.btn-bg-lighter:before,
+button.lax-btn.btn-bg-lighter:before {
     background-color: var(--color-lighter)
 }
 
-a.axil-btn.btn-bg-primary,
-button.axil-btn.btn-bg-primary {
+a.lax-btn.btn-bg-primary,
+button.lax-btn.btn-bg-primary {
     background-color: var(--color-primary);
     color: var(--color-white)
 }
 
-a.axil-btn.btn-bg-primary:before,
-button.axil-btn.btn-bg-primary:before {
+a.lax-btn.btn-bg-primary:before,
+button.lax-btn.btn-bg-primary:before {
     background-color: var(--color-primary)
 }
 
-a.axil-btn.btn-bg-primary i,
-button.axil-btn.btn-bg-primary i {
+a.lax-btn.btn-bg-primary i,
+button.lax-btn.btn-bg-primary i {
     color: var(--color-white)
 }
 
-a.axil-btn.btn-bg-primary:hover:after,
-button.axil-btn.btn-bg-primary:hover:after {
+a.lax-btn.btn-bg-primary:hover:after,
+button.lax-btn.btn-bg-primary:hover:after {
     transform: scale(1.1)
 }
 
-a.axil-btn.btn-bg-secondary,
-button.axil-btn.btn-bg-secondary {
+a.lax-btn.btn-bg-secondary,
+button.lax-btn.btn-bg-secondary {
     background-color: var(--color-secondary);
     color: var(--color-white)
 }
 
-a.axil-btn.btn-bg-secondary i,
-button.axil-btn.btn-bg-secondary i {
+a.lax-btn.btn-bg-secondary i,
+button.lax-btn.btn-bg-secondary i {
     color: var(--color-white)
 }
 
-a.axil-btn.btn-bg-secondary:before,
-button.axil-btn.btn-bg-secondary:before {
+a.lax-btn.btn-bg-secondary:before,
+button.lax-btn.btn-bg-secondary:before {
     background-color: var(--color-secondary)
 }
 
-a.axil-btn.btn-outline,
-button.axil-btn.btn-outline {
+a.lax-btn.btn-outline,
+button.lax-btn.btn-outline {
     border: 2px solid var(--color-heading)
 }
 
-a.axil-btn.btn-outline:hover,
-button.axil-btn.btn-outline:hover {
+a.lax-btn.btn-outline:hover,
+button.lax-btn.btn-outline:hover {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-white)
 }
 
-a.axil-btn.wishlist-btn,
-button.axil-btn.wishlist-btn {
+a.lax-btn.wishlist-btn,
+button.lax-btn.wishlist-btn {
     border: 2px solid var(--color-light);
     padding: 15px 16px 10px
 }
 
 @media only screen and (max-width: 767px) {
 
-    a.axil-btn.wishlist-btn,
-    button.axil-btn.wishlist-btn {
+    a.lax-btn.wishlist-btn,
+    button.lax-btn.wishlist-btn {
         padding: 11px 18px 9px
     }
 }
 
-a.axil-btn.wishlist-btn i,
-button.axil-btn.wishlist-btn i {
+a.lax-btn.wishlist-btn i,
+button.lax-btn.wishlist-btn i {
     font-size: 20px;
     color: var(--color-body);
     margin: 0
@@ -3114,14 +3114,14 @@ button.axil-btn.wishlist-btn i {
 
 @media only screen and (max-width: 767px) {
 
-    a.axil-btn.wishlist-btn i,
-    button.axil-btn.wishlist-btn i {
+    a.lax-btn.wishlist-btn i,
+    button.lax-btn.wishlist-btn i {
         font-size: 16px
     }
 }
 
-a.axil-btn.wishlist-btn:before,
-button.axil-btn.wishlist-btn:before {
+a.lax-btn.wishlist-btn:before,
+button.lax-btn.wishlist-btn:before {
     background-color: var(--color-primary);
     opacity: 0;
     visibility: hidden;
@@ -3129,18 +3129,18 @@ button.axil-btn.wishlist-btn:before {
     transition: .3s
 }
 
-a.axil-btn.wishlist-btn:hover,
-button.axil-btn.wishlist-btn:hover {
+a.lax-btn.wishlist-btn:hover,
+button.lax-btn.wishlist-btn:hover {
     border-color: var(--color-primary)
 }
 
-a.axil-btn.wishlist-btn:hover i,
-button.axil-btn.wishlist-btn:hover i {
+a.lax-btn.wishlist-btn:hover i,
+button.lax-btn.wishlist-btn:hover i {
     color: var(--color-white)
 }
 
-a.axil-btn.wishlist-btn:hover:before,
-button.axil-btn.wishlist-btn:hover:before {
+a.lax-btn.wishlist-btn:hover:before,
+button.lax-btn.wishlist-btn:hover:before {
     visibility: visible;
     opacity: 1;
     transform: scale(1.2)
@@ -3301,21 +3301,21 @@ button.axil-btn.wishlist-btn:hover:before {
     display: none !important
 }
 
-.axil-categorie-area .section-title-wrapper {
+.lax-categorie-area .section-title-wrapper {
     margin-bottom: 10px
 }
 
-.axil-categorie-area .section-title-wrapper .title {
+.lax-categorie-area .section-title-wrapper .title {
     margin-bottom: 0
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-categorie-area .section-title-wrapper {
+    .lax-categorie-area .section-title-wrapper {
         margin-bottom: 0
     }
 }
 
-.axil-categorie-area .arrow-top-slide .slide-arrow {
+.lax-categorie-area .arrow-top-slide .slide-arrow {
     top: -60px
 }
 
@@ -3325,40 +3325,40 @@ button.axil-btn.wishlist-btn:hover:before {
     border: none
 }
 
-.axil-contact-page .title {
+.lax-contact-page .title {
     font-weight: var(--s-medium);
     color: var(--color-black)
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-contact-page .contact-form {
+    .lax-contact-page .contact-form {
         margin-bottom: 50px
     }
 }
 
-.axil-contact-page .contact-form p {
+.lax-contact-page .contact-form p {
     width: 80%;
     margin-bottom: 45px
 }
 
-.axil-contact-page .form-group label span {
+.lax-contact-page .form-group label span {
     color: var(--color-chart03)
 }
 
-.axil-contact-page .form-group input {
+.lax-contact-page .form-group input {
     height: 60px
 }
 
-.axil-contact-page .form-group .axil-btn {
+.lax-contact-page .form-group .lax-btn {
     width: auto
 }
 
-.axil-contact-page .contact-location span {
+.lax-contact-page .contact-location span {
     display: block
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-contact-page .contact-location span {
+    .lax-contact-page .contact-location span {
         font-size: var(--font-size-b2)
     }
 }
@@ -4069,7 +4069,7 @@ button.axil-btn.wishlist-btn:hover:before {
     padding-right: 15px
 }
 
-.axil-privacy-policy .policy-published {
+.lax-privacy-policy .policy-published {
     font-size: 22px;
     font-weight: var(--s-medium);
     color: var(--color-dark);
@@ -4079,7 +4079,7 @@ button.axil-btn.wishlist-btn:hover:before {
     display: inline-block
 }
 
-.axil-privacy-policy .policy-published:after {
+.lax-privacy-policy .policy-published:after {
     content: "";
     height: 3px;
     width: 100%;
@@ -4090,26 +4090,26 @@ button.axil-btn.wishlist-btn:hover:before {
     right: 0
 }
 
-.axil-privacy-policy .title {
+.lax-privacy-policy .title {
     margin-bottom: 20px;
     color: var(--color-dark);
     font-weight: var(--s-medium)
 }
 
-.axil-privacy-policy a {
+.lax-privacy-policy a {
     color: var(--color-primary)
 }
 
-.axil-privacy-policy ul {
+.lax-privacy-policy ul {
     list-style: disc;
     margin-bottom: 45px
 }
 
-.axil-privacy-policy ul li {
+.lax-privacy-policy ul li {
     margin: 0 0 12px 0
 }
 
-.axil-privacy-policy ul li::marker {
+.lax-privacy-policy ul li::marker {
     color: var(--color-light)
 }
 
@@ -4325,34 +4325,34 @@ button.axil-btn.wishlist-btn:hover:before {
     font-size: 16px
 }
 
-.axil-gallery-activation {
+.lax-gallery-activation {
     position: relative
 }
 
-.axil-gallery-activation.axil-slick-arrow .slide-arrow {
+.lax-gallery-activation.lax-slick-arrow .slide-arrow {
     background: #fff;
     border: 1px solid #fff
 }
 
-.axil-gallery-activation.arrow-between-side .slide-arrow {
+.lax-gallery-activation.arrow-between-side .slide-arrow {
     left: 10px
 }
 
-.axil-gallery-activation.arrow-between-side .slide-arrow.next-arrow {
+.lax-gallery-activation.arrow-between-side .slide-arrow.next-arrow {
     left: auto;
     right: 10px
 }
 
-.axil-gallery-activation.arrow-between-side:hover .slide-arrow {
+.lax-gallery-activation.arrow-between-side:hover .slide-arrow {
     left: 30px
 }
 
-.axil-gallery-activation.arrow-between-side:hover .slide-arrow.next-arrow {
+.lax-gallery-activation.arrow-between-side:hover .slide-arrow.next-arrow {
     left: auto;
     right: 30px
 }
 
-.axil-slick-arrow .slide-arrow {
+.lax-slick-arrow .slide-arrow {
     outline: none;
     width: 50px;
     height: 50px;
@@ -4363,7 +4363,7 @@ button.axil-btn.wishlist-btn:hover:before {
     z-index: 2
 }
 
-.axil-slick-arrow .slide-arrow:before {
+.lax-slick-arrow .slide-arrow:before {
     content: "";
     height: 100%;
     width: 100%;
@@ -4378,53 +4378,53 @@ button.axil-btn.wishlist-btn:hover:before {
     transition: transform .5s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 
-.axil-slick-arrow .slide-arrow:hover:before {
+.lax-slick-arrow .slide-arrow:hover:before {
     transform: scale(1.1)
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-slick-arrow .slide-arrow {
+    .lax-slick-arrow .slide-arrow {
         width: 40px;
         height: 40px;
         font-size: var(--font-size-b2)
     }
 }
 
-.axil-slick-arrow .slide-arrow.prev-arrow:hover i {
+.lax-slick-arrow .slide-arrow.prev-arrow:hover i {
     animation: prevNavSlide 400ms
 }
 
-.axil-slick-arrow .slide-arrow.next-arrow:hover i {
+.lax-slick-arrow .slide-arrow.next-arrow:hover i {
     animation: nextNavSlide 400ms
 }
 
-.axil-slick-arrow.testimonial-style-two-wrapper .slide-arrow {
+.lax-slick-arrow.testimonial-style-two-wrapper .slide-arrow {
     background-color: var(--color-white)
 }
 
-.axil-slick-arrow.testimonial-style-two-wrapper .slide-arrow:hover {
+.lax-slick-arrow.testimonial-style-two-wrapper .slide-arrow:hover {
     background-color: var(--color-primary)
 }
 
-.axil-slick-arrow.header-campaign-arrow .slide-arrow {
+.lax-slick-arrow.header-campaign-arrow .slide-arrow {
     background: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, .8)
 }
 
-.axil-slick-arrow.header-campaign-arrow .slide-arrow:before {
+.lax-slick-arrow.header-campaign-arrow .slide-arrow:before {
     display: none
 }
 
-.axil-slick-arrow.header-campaign-arrow .slide-arrow:hover {
+.lax-slick-arrow.header-campaign-arrow .slide-arrow:hover {
     color: var(--color-white)
 }
 
-.axil-slick-arrow.header-campaign-arrow .campaign-content {
+.lax-slick-arrow.header-campaign-arrow .campaign-content {
     margin: 0 50px
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-slick-arrow.header-campaign-arrow .campaign-content {
+    .lax-slick-arrow.header-campaign-arrow .campaign-content {
         margin: 0 30px
     }
 }
@@ -4619,7 +4619,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.post-list-view .post-gallery-activation.axil-slick-arrow .slide-arrow {
+.post-list-view .post-gallery-activation.lax-slick-arrow .slide-arrow {
     background: #fff;
     border: 1px solid #fff;
     width: 30px;
@@ -4649,17 +4649,17 @@ button.axil-btn.wishlist-btn:hover:before {
     left: 0
 }
 
-.axil-slick-dots .slick-dots {
+.lax-slick-dots .slick-dots {
     bottom: -50px
 }
 
-.axil-slick-dots .slick-dots li {
+.lax-slick-dots .slick-dots li {
     margin: 0 5px;
     height: 4px;
     width: 24px
 }
 
-.axil-slick-dots .slick-dots li button {
+.lax-slick-dots .slick-dots li button {
     height: 4px;
     width: 24px;
     border-radius: 6px;
@@ -4667,46 +4667,46 @@ button.axil-btn.wishlist-btn:hover:before {
     padding: 0
 }
 
-.axil-slick-dots .slick-dots li button:before {
+.lax-slick-dots .slick-dots li button:before {
     display: none
 }
 
-.axil-slick-dots .slick-dots li.slick-active {
+.lax-slick-dots .slick-dots li.slick-active {
     width: 34px
 }
 
-.axil-slick-dots .slick-dots li.slick-active button {
+.lax-slick-dots .slick-dots li.slick-active button {
     background-color: var(--color-heading);
     width: 34px
 }
 
-.axil-slick-dots.testimonial-style-two-wrapper .slick-dots {
+.lax-slick-dots.testimonial-style-two-wrapper .slick-dots {
     text-align: left;
     bottom: -50px
 }
 
-.axil-slick-dots.testimonial-style-two-wrapper .slick-dots li.slick-active button {
+.lax-slick-dots.testimonial-style-two-wrapper .slick-dots li.slick-active button {
     background-color: var(--color-primary)
 }
 
-.axil-slick-dots.slick-dots-bottom .slick-dots {
+.lax-slick-dots.slick-dots-bottom .slick-dots {
     bottom: 20px
 }
 
-.axil-slick-dots.slick-dots-bottom .slick-dots li button {
+.lax-slick-dots.slick-dots-bottom .slick-dots li button {
     border-color: var(--color-white)
 }
 
-.axil-slick-dots.slick-dots-bottom .slick-dots li button:before {
+.lax-slick-dots.slick-dots-bottom .slick-dots li button:before {
     color: var(--color-white);
     opacity: 1
 }
 
-.axil-slick-dots.slick-dots-bottom .slick-dots li.slick-active button {
+.lax-slick-dots.slick-dots-bottom .slick-dots li.slick-active button {
     border-color: var(--color-primary)
 }
 
-.axil-slick-dots.slick-dots-bottom .slick-dots li.slick-active button:before {
+.lax-slick-dots.slick-dots-bottom .slick-dots li.slick-active button:before {
     color: var(--color-primary)
 }
 
@@ -4928,24 +4928,24 @@ button.axil-btn.wishlist-btn:hover:before {
     width: 160px
 }
 
-.main-slider-large-thumb .axil-slick-dots .slick-dots {
+.main-slider-large-thumb .lax-slick-dots .slick-dots {
     text-align: left;
     bottom: -70px
 }
 
 @media only screen and (max-width: 575px) {
-    .main-slider-large-thumb .axil-slick-dots .slick-dots {
+    .main-slider-large-thumb .lax-slick-dots .slick-dots {
         text-align: center;
         bottom: -55px
     }
 }
 
-.main-slider-large-thumb .axil-slick-dots .slick-dots li button {
+.main-slider-large-thumb .lax-slick-dots .slick-dots li button {
     background-color: var(--color-white);
     opacity: .5
 }
 
-.main-slider-large-thumb .axil-slick-dots .slick-dots li.slick-active button {
+.main-slider-large-thumb .lax-slick-dots .slick-dots li.slick-active button {
     background-color: var(--color-secondary);
     opacity: 1
 }
@@ -5127,22 +5127,22 @@ button.axil-btn.wishlist-btn:hover:before {
     align-items: center
 }
 
-.main-slider-style-2 .slider-box-wrap .axil-slick-dots .slick-dots {
+.main-slider-style-2 .slider-box-wrap .lax-slick-dots .slick-dots {
     bottom: -25px
 }
 
 @media only screen and (max-width: 479px) {
-    .main-slider-style-2 .slider-box-wrap .axil-slick-dots .slick-dots {
+    .main-slider-style-2 .slider-box-wrap .lax-slick-dots .slick-dots {
         bottom: -30px
     }
 }
 
-.main-slider-style-2 .slider-box-wrap .axil-slick-dots .slick-dots li button {
+.main-slider-style-2 .slider-box-wrap .lax-slick-dots .slick-dots li button {
     background-color: var(--color-white);
     opacity: 1
 }
 
-.main-slider-style-2 .slider-box-wrap .axil-slick-dots .slick-dots li.slick-active button {
+.main-slider-style-2 .slider-box-wrap .lax-slick-dots .slick-dots li.slick-active button {
     background-color: var(--color-secondary);
     opacity: 1
 }
@@ -5184,17 +5184,17 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn {
+.main-slider-style-2 .main-slider-content .lax-btn {
     padding: 0;
     position: relative
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn i {
+.main-slider-style-2 .main-slider-content .lax-btn i {
     margin: 0 0 0 16px;
     color: var(--color-heading)
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn:after {
+.main-slider-style-2 .main-slider-content .lax-btn:after {
     content: "";
     height: 1px;
     width: 100%;
@@ -5204,16 +5204,16 @@ button.axil-btn.wishlist-btn:hover:before {
     left: 0
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn:hover {
+.main-slider-style-2 .main-slider-content .lax-btn:hover {
     color: var(--color-primary)
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn:hover i {
+.main-slider-style-2 .main-slider-content .lax-btn:hover i {
     color: var(--color-primary);
     margin: 0 0 0 10px
 }
 
-.main-slider-style-2 .main-slider-content .axil-btn:hover:after {
+.main-slider-style-2 .main-slider-content .lax-btn:hover:after {
     background-color: var(--color-primary)
 }
 
@@ -5396,7 +5396,7 @@ button.axil-btn.wishlist-btn:hover:before {
     text-align: center
 }
 
-.main-slider-style-3 .main-slider-large-thumb .single-slide .axil-product {
+.main-slider-style-3 .main-slider-large-thumb .single-slide .lax-product {
     transform: scale(0.8);
     transition: .3s;
     margin: 45px -26px;
@@ -5404,13 +5404,13 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1199px) {
-    .main-slider-style-3 .main-slider-large-thumb .single-slide .axil-product {
+    .main-slider-style-3 .main-slider-large-thumb .single-slide .lax-product {
         margin: 45px -19px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .main-slider-style-3 .main-slider-large-thumb .single-slide .axil-product {
+    .main-slider-style-3 .main-slider-large-thumb .single-slide .lax-product {
         margin: 20px 0
     }
 }
@@ -5419,18 +5419,18 @@ button.axil-btn.wishlist-btn:hover:before {
     z-index: 1
 }
 
-.main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .axil-product {
+.main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .lax-product {
     transform: scale(1.1);
     box-shadow: 0px 10px 80px -87px rgba(0, 0, 0, .5)
 }
 
 @media only screen and (max-width: 575px) {
-    .main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .axil-product {
+    .main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .lax-product {
         transform: scale(1)
     }
 }
 
-.main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .axil-product:before {
+.main-slider-style-3 .main-slider-large-thumb .single-slide.slick-active.slick-center .lax-product:before {
     content: "";
     width: 100%;
     height: 50px;
@@ -5446,18 +5446,18 @@ button.axil-btn.wishlist-btn:hover:before {
     width: 100%
 }
 
-.main-slider-style-3 .main-slider-large-thumb .axil-slick-dots .slick-dots {
+.main-slider-style-3 .main-slider-large-thumb .lax-slick-dots .slick-dots {
     text-align: center;
     bottom: -30px
 }
 
-.main-slider-style-3 .main-slider-large-thumb .axil-slick-dots .slick-dots li {
+.main-slider-style-3 .main-slider-large-thumb .lax-slick-dots .slick-dots li {
     height: 10px;
     width: 10px;
     margin: 0 8px
 }
 
-.main-slider-style-3 .main-slider-large-thumb .axil-slick-dots .slick-dots li button {
+.main-slider-style-3 .main-slider-large-thumb .lax-slick-dots .slick-dots li button {
     height: 6px;
     width: 6px;
     border-radius: 50%;
@@ -5465,7 +5465,7 @@ button.axil-btn.wishlist-btn:hover:before {
     box-shadow: inset 0 0 0 5px rgba(0, 0, 0, .5)
 }
 
-.main-slider-style-3 .main-slider-large-thumb .axil-slick-dots .slick-dots li.slick-active button {
+.main-slider-style-3 .main-slider-large-thumb .lax-slick-dots .slick-dots li.slick-active button {
     transform: scale(2);
     box-shadow: inset 0 0 0 1px var(--color-primary)
 }
@@ -5618,7 +5618,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.main-slider-style-5 .slider-box-wrap .axil-slick-dots .slick-dots {
+.main-slider-style-5 .slider-box-wrap .lax-slick-dots .slick-dots {
     bottom: -15px
 }
 
@@ -6028,7 +6028,7 @@ button.axil-btn.wishlist-btn:hover:before {
     transform: scale(1)
 }
 
-.axil-team-area {
+.lax-team-area {
     padding: 50px 0 55px
 }
 
@@ -6054,33 +6054,33 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-team-member {
+    .lax-team-member {
         text-align: center
     }
 }
 
-.axil-team-member .thumbnail {
+.lax-team-member .thumbnail {
     margin-bottom: 12px;
     overflow: hidden;
     display: inline-block;
     border-radius: 6px
 }
 
-.axil-team-member .thumbnail img {
+.lax-team-member .thumbnail img {
     border-radius: 6px;
     transition: var(--transition)
 }
 
-.axil-team-member .title {
+.lax-team-member .title {
     color: #292930;
     margin-bottom: 0
 }
 
-.axil-team-member .subtitle {
+.lax-team-member .subtitle {
     font-size: var(--font-size-b2)
 }
 
-.axil-team-member:hover .thumbnail img {
+.lax-team-member:hover .thumbnail img {
     transform: scale(1.1)
 }
 
@@ -6762,7 +6762,7 @@ button.axil-btn.wishlist-btn:hover:before {
     display: block
 }
 
-.pv-support .inner .content .axil-btn {
+.pv-support .inner .content .lax-btn {
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b1);
     color: var(--color-white);
@@ -6772,14 +6772,14 @@ button.axil-btn.wishlist-btn:hover:before {
     transition: .3s
 }
 
-.pv-support .inner .content .axil-btn i {
+.pv-support .inner .content .lax-btn i {
     margin-left: 10px;
     position: relative;
     top: 1px;
     transition: .3s
 }
 
-.pv-support .inner .content .axil-btn:hover i {
+.pv-support .inner .content .lax-btn:hover i {
     margin-left: 15px
 }
 
@@ -6949,7 +6949,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-header-top {
+.lax-header-top {
     padding: 8px 0
 }
 
@@ -7086,11 +7086,11 @@ button.axil-btn.wishlist-btn:hover:before {
     color: var(--color-white)
 }
 
-.header-style-2 .axil-header-top {
+.header-style-2 .lax-header-top {
     padding: 25px 0
 }
 
-.header-style-2 .axil-header-top .axil-search {
+.header-style-2 .lax-header-top .lax-search {
     flex: 1;
     position: relative;
     margin-left: 70px;
@@ -7098,18 +7098,18 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 991px) {
-    .header-style-2 .axil-header-top .axil-search {
+    .header-style-2 .lax-header-top .lax-search {
         margin-left: 0
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .header-style-2 .axil-header-top .axil-search {
+    .header-style-2 .lax-header-top .lax-search {
         display: none
     }
 }
 
-.header-style-2 .axil-header-top .axil-search .icon {
+.header-style-2 .lax-header-top .lax-search .icon {
     width: auto;
     position: absolute;
     top: 10px;
@@ -7120,11 +7120,11 @@ button.axil-btn.wishlist-btn:hover:before {
     z-index: 1
 }
 
-.header-style-2 .axil-header-top .axil-search .icon:hover {
+.header-style-2 .lax-header-top .lax-search .icon:hover {
     color: var(--color-primary)
 }
 
-.header-style-2 .axil-header-top .axil-search input {
+.header-style-2 .lax-header-top .lax-search input {
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #d4d4d4;
@@ -7135,7 +7135,7 @@ button.axil-btn.wishlist-btn:hover:before {
     font-weight: 500
 }
 
-.header-style-2 .axil-header-top .axil-search input:focus {
+.header-style-2 .lax-header-top .lax-search input:focus {
     border-color: var(--color-primary)
 }
 
@@ -7145,34 +7145,34 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.header-style-4 .axil-header-top {
+.header-style-4 .lax-header-top {
     border-bottom: 1px solid #f1f1f1;
     padding: 25px 0
 }
 
 @media only screen and (max-width: 991px) {
-    .header-style-4 .axil-header-top {
+    .header-style-4 .lax-header-top {
         padding: 15px 0;
         border-bottom: none
     }
 }
 
-.header-style-4 .axil-header-top .header-brand {
+.header-style-4 .lax-header-top .header-brand {
     text-align: center
 }
 
 @media only screen and (max-width: 767px) {
-    .header-style-4 .axil-header-top .header-brand {
+    .header-style-4 .lax-header-top .header-brand {
         text-align: left
     }
 }
 
-.header-style-4 .axil-header-top .header-action>ul {
+.header-style-4 .lax-header-top .header-action>ul {
     justify-content: flex-end
 }
 
 @media only screen and (max-width: 767px) {
-    .header-style-4 .axil-header-top .header-top-dropdown {
+    .header-style-4 .lax-header-top .header-top-dropdown {
         justify-content: center;
         border-bottom: 1px solid #f1f1f1;
         padding-bottom: 15px;
@@ -7180,7 +7180,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.header-style-5 .axil-header-top {
+.header-style-5 .lax-header-top {
     background-color: #f9f3f0;
     padding: 6px 0
 }
@@ -7242,24 +7242,24 @@ button.axil-btn.wishlist-btn:hover:before {
     display: none !important
 }
 
-.axil-mainmenu .header-navbar {
+.lax-mainmenu .header-navbar {
     display: flex;
     align-items: center;
     width: 100%
 }
 
-.axil-mainmenu .header-navbar .header-main-nav {
+.lax-mainmenu .header-navbar .header-main-nav {
     flex: 1;
     margin: 0 50px
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-mainmenu .header-navbar .header-main-nav {
+    .lax-mainmenu .header-navbar .header-main-nav {
         margin: 0
     }
 }
 
-.axil-mainmenu.axil-sticky {
+.lax-mainmenu.lax-sticky {
     position: fixed;
     top: 0;
     right: 0;
@@ -7269,12 +7269,12 @@ button.axil-btn.wishlist-btn:hover:before {
     transition: var(--transition)
 }
 
-.axil-mainmenu.axil-sticky .mainmenu>li>a {
+.lax-mainmenu.lax-sticky .mainmenu>li>a {
     height: 80px;
     line-height: 80px
 }
 
-.axil-mainmenu.axil-sticky .mainmenu>li>a:before {
+.lax-mainmenu.lax-sticky .mainmenu>li>a:before {
     bottom: 20px
 }
 
@@ -7313,13 +7313,13 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.header-style-1 .axil-mainmenu.axil-sticky {
+.header-style-1 .lax-mainmenu.lax-sticky {
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding-top: 10px
 }
 
-.header-style-1 .axil-mainmenu.axil-sticky .header-navbar {
+.header-style-1 .lax-mainmenu.lax-sticky .header-navbar {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1)
 }
 
@@ -7339,7 +7339,7 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 991px) {
-    .header-style-5 .axil-mainmenu {
+    .header-style-5 .lax-mainmenu {
         padding: 15px 0
     }
 }
@@ -7366,7 +7366,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.header-style-5 .header-action .axil-search input {
+.header-style-5 .header-action .lax-search input {
     border: 1px solid #f0f0f0;
     height: 40px
 }
@@ -7375,20 +7375,20 @@ button.axil-btn.wishlist-btn:hover:before {
     background-color: #f9f3f0
 }
 
-.header-style-3 .axil-mainmenu {
+.header-style-3 .lax-mainmenu {
     padding: 20px 0;
     position: relative;
     z-index: 2
 }
 
-.header-style-3 .axil-mainmenu.axil-sticky {
+.header-style-3 .lax-mainmenu.lax-sticky {
     position: fixed;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     z-index: 4
 }
 
-.header-style-3 .axil-mainmenu.axil-sticky .header-navbar {
+.header-style-3 .lax-mainmenu.lax-sticky .header-navbar {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1)
 }
 
@@ -7415,14 +7415,14 @@ button.axil-btn.wishlist-btn:hover:before {
     align-items: center
 }
 
-.header-style-3 .header-action .header-btn .axil-btn {
+.header-style-3 .header-action .header-btn .lax-btn {
     padding: 12px 30px;
     font-size: 15px;
     font-weight: 500
 }
 
 @media only screen and (max-width: 479px) {
-    .header-style-3 .header-action .header-btn .axil-btn {
+    .header-style-3 .header-action .header-btn .lax-btn {
         padding: 12px 20px
     }
 }
@@ -7592,7 +7592,7 @@ button.axil-btn.wishlist-btn:hover:before {
     margin-bottom: 25px
 }
 
-.header-action .my-account .my-account-dropdown .axil-btn {
+.header-action .my-account .my-account-dropdown .lax-btn {
     padding: 10px 35px;
     width: 100%
 }
@@ -7624,11 +7624,11 @@ button.axil-btn.wishlist-btn:hover:before {
     transform: translateY(0)
 }
 
-.header-action .axil-search {
+.header-action .lax-search {
     position: relative
 }
 
-.header-action .axil-search .icon {
+.header-action .lax-search .icon {
     position: absolute;
     left: 15px;
     width: auto;
@@ -7641,12 +7641,12 @@ button.axil-btn.wishlist-btn:hover:before {
     color: var(--color-heading)
 }
 
-.header-action .axil-search .icon i {
+.header-action .lax-search .icon i {
     display: inline-block;
     line-height: 0
 }
 
-.header-action .axil-search input {
+.header-action .lax-search input {
     background: var(--color-white);
     color: var(--color-heading);
     border-radius: 6px;
@@ -7768,7 +7768,7 @@ button.axil-btn.wishlist-btn:hover:before {
     color: var(--color-heading)
 }
 
-.header-search-modal .card-header .axil-btn {
+.header-search-modal .card-header .lax-btn {
     width: auto;
     padding: 5px 20px;
     font-size: 15px;
@@ -7784,16 +7784,16 @@ button.axil-btn.wishlist-btn:hover:before {
     pointer-events: none
 }
 
-.header-search-modal .card-header .axil-btn:before {
+.header-search-modal .card-header .lax-btn:before {
     display: none
 }
 
-.header-search-modal .card-header .axil-btn i {
+.header-search-modal .card-header .lax-btn i {
     margin-right: 0;
     color: var(--color-lightest)
 }
 
-.header-search-modal .card-header .axil-btn:hover i {
+.header-search-modal .card-header .lax-btn:hover i {
     color: var(--color-heading)
 }
 
@@ -7846,64 +7846,64 @@ button.axil-btn.wishlist-btn:hover:before {
     left: 0
 }
 
-.header-search-modal .psearch-results .axil-product-list {
+.header-search-modal .psearch-results .lax-product-list {
     padding: 20px;
     margin-bottom: 20px
 }
 
 @media only screen and (max-width: 575px) {
-    .header-search-modal .psearch-results .axil-product-list {
+    .header-search-modal .psearch-results .lax-product-list {
         display: flex;
         text-align: left;
         align-items: flex-start
     }
 
-    .header-search-modal .psearch-results .axil-product-list .thumbnail {
+    .header-search-modal .psearch-results .lax-product-list .thumbnail {
         margin-bottom: 0;
         margin-right: 15px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-rating {
+    .header-search-modal .psearch-results .lax-product-list .product-rating {
         justify-content: flex-start
     }
 }
 
 @media only screen and (max-width: 479px) {
-    .header-search-modal .psearch-results .axil-product-list {
+    .header-search-modal .psearch-results .lax-product-list {
         padding: 15px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .thumbnail {
+    .header-search-modal .psearch-results .lax-product-list .thumbnail {
         width: 60px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .product-title {
+    .header-search-modal .psearch-results .lax-product-list .product-content .product-title {
         margin-bottom: 4px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .product-price-variant {
+    .header-search-modal .psearch-results .lax-product-list .product-content .product-price-variant {
         font-size: 16px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .rating-icon {
+    .header-search-modal .psearch-results .lax-product-list .product-content .rating-icon {
         margin-right: 10px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .product-rating {
+    .header-search-modal .psearch-results .lax-product-list .product-content .product-rating {
         display: block;
         margin-bottom: 5px
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .product-rating .rating-number {
+    .header-search-modal .psearch-results .lax-product-list .product-content .product-rating .rating-number {
         margin-left: 0
     }
 
-    .header-search-modal .psearch-results .axil-product-list .product-content .product-cart {
+    .header-search-modal .psearch-results .lax-product-list .product-content .product-cart {
         margin-top: 10px
     }
 }
 
-.header-search-modal .psearch-results .axil-product-list:last-child {
+.header-search-modal .psearch-results .lax-product-list:last-child {
     margin-bottom: 0
 }
 
@@ -7919,42 +7919,42 @@ button.axil-btn.wishlist-btn:hover:before {
     transition: all .3s cubic-bezier(0.29, 1.39, 0.86, 1.15)
 }
 
-.axil-mainmenu.aside-category-menu {
+.lax-mainmenu.aside-category-menu {
     background-color: #f7f7f7
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-mainmenu.aside-category-menu {
+    .lax-mainmenu.aside-category-menu {
         padding: 10px 0
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-main-nav {
+.lax-mainmenu.aside-category-menu .header-main-nav {
     margin-right: 0;
     margin-left: 40px
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-mainmenu.aside-category-menu .header-main-nav {
+    .lax-mainmenu.aside-category-menu .header-main-nav {
         margin-left: 0
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-nav-department {
+.lax-mainmenu.aside-category-menu .header-nav-department {
     width: 250px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-nav-department {
+    .lax-mainmenu.aside-category-menu .header-nav-department {
         width: auto
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department {
+.lax-mainmenu.aside-category-menu .header-department {
     position: relative
 }
 
-.axil-mainmenu.aside-category-menu .header-department .header-department-text {
+.lax-mainmenu.aside-category-menu .header-department .header-department-text {
     font-size: 16px;
     background: var(--color-primary);
     margin-bottom: 0;
@@ -7964,37 +7964,37 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-mainmenu.aside-category-menu .header-department .header-department-text {
+    .lax-mainmenu.aside-category-menu .header-department .header-department-text {
         padding: 10px 20px;
         border-radius: 6px
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .header-department-text .icon {
+.lax-mainmenu.aside-category-menu .header-department .header-department-text .icon {
     margin-right: 20px;
     color: var(--color-white);
     font-size: 18px
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-mainmenu.aside-category-menu .header-department .header-department-text .icon {
+    .lax-mainmenu.aside-category-menu .header-department .header-department-text .icon {
         margin-right: 15px
     }
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-mainmenu.aside-category-menu .header-department .header-department-text .icon {
+    .lax-mainmenu.aside-category-menu .header-department .header-department-text .icon {
         display: none
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .header-department-text .text {
+.lax-mainmenu.aside-category-menu .header-department .header-department-text .text {
     color: var(--color-white);
     margin: 0;
     cursor: pointer
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -8007,7 +8007,7 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-nav-menu {
+    .lax-mainmenu.aside-category-menu .header-department .department-nav-menu {
         position: fixed;
         top: 0;
         left: -260px;
@@ -8020,7 +8020,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close {
     font-size: 14px;
     color: var(--color-black);
     position: absolute;
@@ -8034,52 +8034,52 @@ button.axil-btn.wishlist-btn:hover:before {
     display: none
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close:hover {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close:hover {
     background-color: var(--color-primary);
     color: var(--color-white)
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close {
+    .lax-mainmenu.aside-category-menu .header-department .department-nav-menu .sidebar-close {
         display: block
     }
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-menu-list {
+    .lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-menu-list {
         height: 100%;
         overflow: auto
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li {
     padding: 0 30px;
     margin: 0;
     position: relative
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu {
     pointer-events: auto;
     visibility: visible;
     opacity: 1;
     transform: translateX(0)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu .department-submenu {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu .department-submenu {
     opacity: 1;
     transform: translateX(0)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu .featured-product {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:hover .department-megamenu .featured-product {
     opacity: 1;
     transform: translateY(0)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:last-child .nav-link {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu>ul>li:last-child .nav-link {
     border-bottom: none
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -8091,24 +8091,24 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link {
+    .lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link {
         font-size: 16px;
         padding: 12px 0
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link .menu-icon {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link .menu-icon {
     margin-right: 14px;
     position: relative;
     top: -2px
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link .menu-icon img {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link .menu-icon img {
     width: 25px;
     height: auto
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link.has-megamenu:after {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link.has-megamenu:after {
     content: "";
     font-family: var(--font-awesome);
     font-weight: 400;
@@ -8121,20 +8121,20 @@ button.axil-btn.wishlist-btn:hover:before {
     transition: var(--transition)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link:hover {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link:hover {
     color: var(--color-heading)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link:hover:after {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu .nav-link:hover:after {
     color: var(--color-primary);
     transform: translateY(-50%) rotate(-90deg)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-nav-menu.open {
+.lax-mainmenu.aside-category-menu .header-department .department-nav-menu.open {
     left: 0
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu {
     position: absolute;
     top: 0;
     left: 100%;
@@ -8149,13 +8149,13 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1320px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu {
         width: 870px
     }
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu {
         position: initial;
         visibility: visible;
         opacity: 1;
@@ -8167,7 +8167,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
     background-color: var(--color-white);
     border-radius: 0 0 24px 0;
     box-shadow: 40px 40px 48px 0px rgba(36, 41, 47, .1);
@@ -8176,13 +8176,13 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1320px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
         padding: 15px
     }
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-megamenu-wrap {
         display: block;
         padding: 0;
         box-shadow: none;
@@ -8190,7 +8190,7 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu-wrap {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu-wrap {
     flex: auto;
     padding: 30px;
     display: grid;
@@ -8200,66 +8200,66 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu-wrap {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu-wrap {
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
         border: none
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu {
     opacity: 0;
     transform: translateX(10px);
     transition: all .3s ease-in-out
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu {
         opacity: 1;
         transform: translateX(0)
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(1n) {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(1n) {
     transition-delay: .1s
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(2n) {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(2n) {
     transition-delay: .2s
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(3n) {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu:nth-child(3n) {
     transition-delay: .3s
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu .submenu-heading {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu .submenu-heading {
     font-size: 16px;
     color: var(--color-black);
     margin-bottom: 12px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu .submenu-heading {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu .submenu-heading {
         font-size: 16px
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul {
     margin-bottom: 30px
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul li a {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul li a {
     font-size: 14px;
     font-weight: 500;
     color: var(--color-body);
     padding: 10px 0
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul li a:hover {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .department-submenu ul li a:hover {
     color: var(--color-primary)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product {
     padding: 40px 30px 40px 55px;
     max-width: 40%;
     opacity: 0;
@@ -8269,7 +8269,7 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product {
+    .lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product {
         max-width: 100%;
         opacity: 1;
         transform: translateY(0);
@@ -8277,63 +8277,63 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .featured-heading {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .featured-heading {
     font-size: 16px;
     color: var(--color-black);
     margin-bottom: 12px
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product:nth-child(-n+2) {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product:nth-child(-n+2) {
     grid-column: span 2
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a {
     overflow: hidden;
     display: block;
     border-radius: 8px
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a img {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a img {
     border-radius: 8px;
     transition: .4s ease-in-out
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a:hover img {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .product-list .item-product a:hover img {
     transform: scale(1.1)
 }
 
-.axil-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .axil-btn {
+.lax-mainmenu.aside-category-menu .header-department .department-megamenu .featured-product .lax-btn {
     margin-top: 15px;
     display: block;
     text-align: center
 }
 
-.axil-mainmenu.aside-category-menu .mainmenu {
+.lax-mainmenu.aside-category-menu .mainmenu {
     justify-content: flex-start
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-mainmenu.aside-category-menu .mainmenu>li {
+    .lax-mainmenu.aside-category-menu .mainmenu>li {
         margin: 0 20px
     }
 }
 
-.axil-mainmenu.aside-category-menu .mainmenu>li:last-child {
+.lax-mainmenu.aside-category-menu .mainmenu>li:last-child {
     margin-right: 0
 }
 
-.axil-mainmenu.aside-category-menu .mainmenu>li>a {
+.lax-mainmenu.aside-category-menu .mainmenu>li>a {
     line-height: 60px;
     height: 60px
 }
 
-.axil-mainmenu.aside-category-menu .mainmenu>li>a:before {
+.lax-mainmenu.aside-category-menu .mainmenu>li>a:before {
     bottom: 18px
 }
 
@@ -8389,7 +8389,7 @@ button.axil-btn.wishlist-btn:hover:before {
         color: var(--color-body)
     }
 
-    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .axil-submenu {
+    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .lax-submenu {
         display: none;
         position: static;
         transform: scaleY(1);
@@ -8401,15 +8401,15 @@ button.axil-btn.wishlist-btn:hover:before {
         transition: initial
     }
 
-    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .axil-submenu li a {
+    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .lax-submenu li a {
         padding: 5px 10px
     }
 
-    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .axil-submenu li a:after {
+    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .lax-submenu li a:after {
         display: none
     }
 
-    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .axil-submenu li a:hover {
+    .header-main-nav .mainmenu-nav .mainmenu>li.menu-item-has-children .lax-submenu li a:hover {
         color: var(--color-primary);
         background-color: rgba(0, 0, 0, 0)
     }
@@ -8496,23 +8496,23 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.axil-mobile-toggle {
+.lax-mobile-toggle {
     margin-left: 30px
 }
 
 @media only screen and (min-width: 992px) {
-    .axil-mobile-toggle {
+    .lax-mobile-toggle {
         display: none
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-mobile-toggle {
+    .lax-mobile-toggle {
         margin-left: 18px
     }
 }
 
-.axil-mobile-toggle .menu-btn {
+.lax-mobile-toggle .menu-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8525,17 +8525,17 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-mobile-toggle .menu-btn {
+    .lax-mobile-toggle .menu-btn {
         font-size: 22px
     }
 }
 
-.axil-mobile-toggle .menu-btn i {
+.lax-mobile-toggle .menu-btn i {
     display: inline-block;
     line-height: 0
 }
 
-.axil-mobile-toggle .menu-btn:after {
+.lax-mobile-toggle .menu-btn:after {
     content: "";
     height: 40px;
     width: 40px;
@@ -8548,17 +8548,17 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-mobile-toggle .menu-btn:after {
+    .lax-mobile-toggle .menu-btn:after {
         height: 35px;
         width: 35px
     }
 }
 
-.axil-mobile-toggle .menu-btn:hover {
+.lax-mobile-toggle .menu-btn:hover {
     color: var(--color-white)
 }
 
-.axil-mobile-toggle .menu-btn:hover:after {
+.lax-mobile-toggle .menu-btn:hover:after {
     transform: scaleX(1)
 }
 
@@ -8663,7 +8663,7 @@ button.axil-btn.wishlist-btn:hover:before {
     opacity: 1
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu {
+.mainmenu>.menu-item-has-children .lax-submenu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -8680,11 +8680,11 @@ button.axil-btn.wishlist-btn:hover:before {
     pointer-events: none
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu li {
+.mainmenu>.menu-item-has-children .lax-submenu li {
     margin: 0
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu li a {
+.mainmenu>.menu-item-has-children .lax-submenu li a {
     position: relative;
     font-size: 15px;
     text-transform: capitalize;
@@ -8698,19 +8698,19 @@ button.axil-btn.wishlist-btn:hover:before {
     overflow: hidden
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu li a:hover {
+.mainmenu>.menu-item-has-children .lax-submenu li a:hover {
     color: var(--color-secondary)
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu li a.active {
+.mainmenu>.menu-item-has-children .lax-submenu li a.active {
     color: var(--color-secondary)
 }
 
-.mainmenu>.menu-item-has-children .axil-submenu li a.active:hover {
+.mainmenu>.menu-item-has-children .lax-submenu li a.active:hover {
     color: var(--color-secondary)
 }
 
-.mainmenu>.menu-item-has-children:hover .axil-submenu {
+.mainmenu>.menu-item-has-children:hover .lax-submenu {
     top: 90%;
     opacity: 1;
     visibility: visible;
@@ -9037,16 +9037,16 @@ button.axil-btn.wishlist-btn:hover:before {
     }
 }
 
-.cart-dropdown .cart-footer .group-btn .axil-btn {
+.cart-dropdown .cart-footer .group-btn .lax-btn {
     text-align: center
 }
 
-.cart-dropdown .cart-footer .group-btn .axil-btn:hover:before {
+.cart-dropdown .cart-footer .group-btn .lax-btn:hover:before {
     transform: scale(1.05)
 }
 
 @media only screen and (max-width: 575px) {
-    .cart-dropdown .cart-footer .group-btn .axil-btn {
+    .cart-dropdown .cart-footer .group-btn .lax-btn {
         display: block;
         margin-bottom: 10px
     }
@@ -9094,22 +9094,22 @@ body.open .closeMask {
     }
 }
 
-.axil-product {
+.lax-product {
     position: relative
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product {
+    .lax-product {
         text-align: center
     }
 }
 
-.axil-product>.thumbnail {
+.lax-product>.thumbnail {
     position: relative;
     display: block
 }
 
-.axil-product>.thumbnail>a {
+.lax-product>.thumbnail>a {
     display: block;
     background-color: #f7f7f7;
     border-radius: 6px;
@@ -9117,13 +9117,13 @@ body.open .closeMask {
     position: relative
 }
 
-.axil-product>.thumbnail>a img {
+.lax-product>.thumbnail>a img {
     border-radius: 6px;
     width: 100%;
     transition: .3s
 }
 
-.axil-product>.thumbnail>a .hover-img {
+.lax-product>.thumbnail>a .hover-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -9134,14 +9134,14 @@ body.open .closeMask {
     transition: .3s
 }
 
-.axil-product>.thumbnail .label-block {
+.lax-product>.thumbnail .label-block {
     position: absolute;
     top: 24px;
     left: 24px;
     z-index: 2
 }
 
-.axil-product>.thumbnail .label-block .product-badget {
+.lax-product>.thumbnail .label-block .product-badget {
     background-color: var(--color-secondary);
     line-height: 1;
     padding: 6px 10px 5px;
@@ -9151,45 +9151,45 @@ body.open .closeMask {
     border-radius: 4px;
 }
 
-.axil-product>.thumbnail .label-block.label-right {
+.lax-product>.thumbnail .label-block.label-right {
     left: auto;
     right: -10px
 }
 
-.axil-product .sub-title {
+.lax-product .sub-title {
     margin-bottom: 10px
 }
 
-.axil-product .product-content {
+.lax-product .product-content {
     margin-top: 25px;
     position: relative;
     margin-bottom: 30px
 }
 
-.axil-product .product-content .product-rating {
+.lax-product .product-content .product-rating {
     margin-bottom: 10px;
     font-size: 13px;
     transition: var(--transition)
 }
 
-.axil-product .product-content .product-rating i {
+.lax-product .product-content .product-rating i {
     color: #ffdc60
 }
 
-.axil-product .product-content .product-rating .rating-number {
+.lax-product .product-content .product-rating .rating-number {
     margin-left: 5px;
     font-weight: 500
 }
 
-.axil-product .product-content .inner {
+.lax-product .product-content .inner {
     transition: .3s
 }
 
-.axil-product .product-content .sub-title {
+.lax-product .product-content .sub-title {
     transition: var(--transition)
 }
 
-.axil-product .product-content .title {
+.lax-product .product-content .title {
     color: var(--color-body);
     font-size: 16px;
     font-weight: 500;
@@ -9197,23 +9197,23 @@ body.open .closeMask {
     transition: var(--transition)
 }
 
-.axil-product .product-content .title a {
+.lax-product .product-content .title a {
     transition: .3s
 }
 
-.axil-product .product-content .product-price-variant {
+.lax-product .product-content .product-price-variant {
     margin: -4px;
     transition: var(--transition);
     transition-delay: .1s
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product .product-content .product-price-variant {
+    .lax-product .product-content .product-price-variant {
         justify-content: center
     }
 }
 
-.axil-product .product-content .product-price-variant span.price {
+.lax-product .product-content .product-price-variant span.price {
     margin: 4px;
     color: var(--color-heading);
     font-weight: 700;
@@ -9221,13 +9221,13 @@ body.open .closeMask {
     font-family: var(--font-secondary)
 }
 
-.axil-product .product-content .product-price-variant span.price.old-price {
+.lax-product .product-content .product-price-variant span.price.old-price {
     color: #d6d6d6;
     text-decoration: line-through;
     margin-left: 0
 }
 
-.axil-product .product-hover-action {
+.lax-product .product-hover-action {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -9237,19 +9237,19 @@ body.open .closeMask {
     transition: .5s
 }
 
-.axil-product .cart-action {
+.lax-product .cart-action {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: -5px
 }
 
-.axil-product .cart-action li {
+.lax-product .cart-action li {
     margin: 5px
 }
 
-.axil-product .cart-action li.wishlist a,
-.axil-product .cart-action li.quickview a {
+.lax-product .cart-action li.wishlist a,
+.lax-product .cart-action li.quickview a {
     width: 40px;
     height: 40px;
     line-height: 42px;
@@ -9266,8 +9266,8 @@ body.open .closeMask {
     z-index: 1
 }
 
-.axil-product .cart-action li.wishlist a:before,
-.axil-product .cart-action li.quickview a:before {
+.lax-product .cart-action li.wishlist a:before,
+.lax-product .cart-action li.quickview a:before {
     content: "";
     height: 100%;
     width: 100%;
@@ -9282,22 +9282,22 @@ body.open .closeMask {
     transition: transform .5s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 
-.axil-product .cart-action li.wishlist a i,
-.axil-product .cart-action li.quickview a i {
+.lax-product .cart-action li.wishlist a i,
+.lax-product .cart-action li.quickview a i {
     transition: all .3s ease-in-out
 }
 
-.axil-product .cart-action li.wishlist a:hover:before,
-.axil-product .cart-action li.quickview a:hover:before {
+.lax-product .cart-action li.wishlist a:hover:before,
+.lax-product .cart-action li.quickview a:hover:before {
     transform: scale(1.2)
 }
 
-.axil-product .cart-action li.wishlist a:hover i,
-.axil-product .cart-action li.quickview a:hover i {
+.lax-product .cart-action li.wishlist a:hover i,
+.lax-product .cart-action li.quickview a:hover i {
     animation: btnIconSlide 400ms
 }
 
-.axil-product .cart-action li.select-option a {
+.lax-product .cart-action li.select-option a {
     position: relative;
     height: 40px;
     line-height: 39px;
@@ -9314,7 +9314,7 @@ body.open .closeMask {
     z-index: 1
 }
 
-.axil-product .cart-action li.select-option a:before {
+.lax-product .cart-action li.select-option a:before {
     content: "";
     height: 100%;
     width: 100%;
@@ -9329,50 +9329,50 @@ body.open .closeMask {
     transition: transform .5s cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 
-.axil-product .cart-action li.select-option a:hover {
+.lax-product .cart-action li.select-option a:hover {
     background-color: var(--color-secondary);
     color: var(--color-white)
 }
 
-.axil-product .cart-action li.select-option a:hover:before {
+.lax-product .cart-action li.select-option a:hover:before {
     transform: scale(1.1)
 }
 
-.axil-product:hover .thumbnail a img {
+.lax-product:hover .thumbnail a img {
     transform: scale(1.1)
 }
 
-.axil-product:hover .thumbnail a .hover-img {
+.lax-product:hover .thumbnail a .hover-img {
     visibility: visible;
     opacity: 1
 }
 
-.axil-product:hover .product-hover-action {
+.lax-product:hover .product-hover-action {
     bottom: 30px;
     opacity: 1;
     visibility: visible;
     transition-delay: .2s
 }
 
-.axil-product.product-style-two {
+.lax-product.product-style-two {
     text-align: center
 }
 
-.axil-product.product-style-two .product-content .color-variant,
-.axil-product.product-style-two .product-content .product-price-variant {
+.lax-product.product-style-two .product-content .color-variant,
+.lax-product.product-style-two .product-content .product-price-variant {
     justify-content: center;
     margin-top: 0
 }
 
-.axil-product.product-style-two .product-content .color-variant {
+.lax-product.product-style-two .product-content .color-variant {
     margin-bottom: 10px
 }
 
-.axil-product.product-style-two .product-content .product-price-variant {
+.lax-product.product-style-two .product-content .product-price-variant {
     margin-bottom: 15px
 }
 
-.axil-product.product-style-two .thumbnail a {
+.lax-product.product-style-two .thumbnail a {
     width: 276px;
     height: 276px;
     overflow: hidden;
@@ -9381,61 +9381,61 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product.product-style-two .thumbnail a {
+    .lax-product.product-style-two .thumbnail a {
         width: 200px;
         height: 200px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product.product-style-two .thumbnail a {
+    .lax-product.product-style-two .thumbnail a {
         width: 250px;
         height: 250px
     }
 }
 
-.axil-product.product-style-two .product-hover-action {
+.lax-product.product-style-two .product-hover-action {
     position: initial;
     visibility: visible;
     opacity: 1
 }
 
-.axil-product.product-style-four {
+.lax-product.product-style-four {
     text-align: center
 }
 
-.axil-product.product-style-four .product-content .product-price-variant {
+.lax-product.product-style-four .product-content .product-price-variant {
     justify-content: center
 }
 
-.axil-product.product-style-four .product-content .color-variant {
+.lax-product.product-style-four .product-content .color-variant {
     justify-content: center
 }
 
-.axil-product.product-style-five {
+.lax-product.product-style-five {
     border-radius: 6px;
     text-align: center
 }
 
-.axil-product.product-style-five .thumbnail a {
+.lax-product.product-style-five .thumbnail a {
     border-radius: 6px 6px 0 0
 }
 
-.axil-product.product-style-five .thumbnail a img {
+.lax-product.product-style-five .thumbnail a img {
     border-radius: 6px 6px 0 0
 }
 
-.axil-product.product-style-five .product-content {
+.lax-product.product-style-five .product-content {
     padding: 25px 30px 30px;
     margin: 0;
     background-color: var(--color-white)
 }
 
-.axil-product.product-style-five .product-content .cart-action {
+.lax-product.product-style-five .product-content .cart-action {
     padding-top: 10px
 }
 
-.axil-product.product-style-six {
+.lax-product.product-style-six {
     border: 1px solid #f1f1f1;
     border-radius: 6px;
     margin-bottom: 30px;
@@ -9443,27 +9443,27 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product.product-style-six {
+    .lax-product.product-style-six {
         text-align: left
     }
 }
 
-.axil-product.product-style-six .thumbnail a {
+.lax-product.product-style-six .thumbnail a {
     border-radius: 6px 6px 0 0
 }
 
-.axil-product.product-style-six .thumbnail a img {
+.lax-product.product-style-six .thumbnail a img {
     border-radius: 6px 6px 0 0;
     transition: transform 3s cubic-bezier(0.2, 0.96, 0.34, 1)
 }
 
-.axil-product.product-style-six .product-content {
+.lax-product.product-style-six .product-content {
     margin: 0;
     padding: 35px 30px 30px;
     z-index: 1
 }
 
-.axil-product.product-style-six .product-content .product-price-variant {
+.lax-product.product-style-six .product-content .product-price-variant {
     position: absolute;
     top: -57px;
     right: 25px;
@@ -9476,52 +9476,52 @@ body.open .closeMask {
     border-radius: 6px
 }
 
-.axil-product.product-style-six .product-content .product-price-variant span.price {
+.lax-product.product-style-six .product-content .product-price-variant span.price {
     font-size: 18px;
     color: var(--color-white)
 }
 
-.axil-product.product-style-six .product-content .title {
+.lax-product.product-style-six .product-content .title {
     margin-bottom: 15px
 }
 
-.axil-product.product-style-six .product-content .product-hover-action {
+.lax-product.product-style-six .product-content .product-hover-action {
     position: initial;
     opacity: 1;
     visibility: visible
 }
 
-.axil-product.product-style-six .product-content .product-hover-action .cart-action {
+.lax-product.product-style-six .product-content .product-hover-action .cart-action {
     justify-content: flex-start
 }
 
-.axil-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a {
+.lax-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #efefef;
     color: var(--color-heading);
     box-shadow: none
 }
 
-.axil-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a:before {
+.lax-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a:before {
     display: none
 }
 
-.axil-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a:hover {
+.lax-product.product-style-six .product-content .product-hover-action .cart-action li.select-option a:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
     border-color: var(--color-primary)
 }
 
-.axil-product.product-style-six:hover {
+.lax-product.product-style-six:hover {
     box-shadow: var(--shadow-dark);
     border-color: var(--color-white)
 }
 
-.axil-product.product-style-six:hover .thumbnail img {
+.lax-product.product-style-six:hover .thumbnail img {
     transform: scale(1.3)
 }
 
-.axil-product.product-style-seven:before {
+.lax-product.product-style-seven:before {
     content: "";
     height: 70%;
     width: 100%;
@@ -9534,19 +9534,19 @@ body.open .closeMask {
     transition: .3s
 }
 
-.axil-product.product-style-seven .product-content {
+.lax-product.product-style-seven .product-content {
     margin: 0;
     padding: 40px 30px 0;
     position: relative
 }
 
-.axil-product.product-style-seven .product-content .cart-btn {
+.lax-product.product-style-seven .product-content .cart-btn {
     position: absolute;
     top: -20px;
     right: 20px
 }
 
-.axil-product.product-style-seven .product-content .cart-btn a {
+.lax-product.product-style-seven .product-content .cart-btn a {
     display: inline-block;
     text-align: center;
     height: 45px;
@@ -9561,33 +9561,33 @@ body.open .closeMask {
     box-shadow: 0 16px 32px 0 rgba(103, 103, 103, .06)
 }
 
-.axil-product.product-style-seven .product-content .cart-btn a:hover {
+.lax-product.product-style-seven .product-content .cart-btn a:hover {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-white);
     box-shadow: 0 8px 16px 0 rgba(53, 119, 240, .3)
 }
 
-.axil-product.product-style-seven .product-content .product-rating {
+.lax-product.product-style-seven .product-content .product-rating {
     margin-bottom: 0;
     margin-top: 10px
 }
 
-.axil-product.product-style-seven .product-content .title {
+.lax-product.product-style-seven .product-content .title {
     font-size: 20px;
     color: var(--color-heading)
 }
 
-.axil-product.product-style-seven .product-content .product-price-variant .price {
+.lax-product.product-style-seven .product-content .product-price-variant .price {
     font-size: 16px
 }
 
-.axil-product.product-style-seven .thumbnail a {
+.lax-product.product-style-seven .thumbnail a {
     background-color: rgba(0, 0, 0, 0);
     overflow: visible
 }
 
-.axil-product.product-style-seven:hover .thumbnail img {
+.lax-product.product-style-seven:hover .thumbnail img {
     transform: scale(0.9)
 }
 
@@ -9757,7 +9757,7 @@ body.open .closeMask {
     border-color: #656973
 }
 
-.axil-product-list {
+.lax-product-list {
     border: 1px solid #f1f1f1;
     display: flex;
     align-items: center;
@@ -9768,30 +9768,30 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-list {
+    .lax-product-list {
         padding: 30px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list {
+    .lax-product-list {
         display: block;
         text-align: center
     }
 }
 
-.axil-product-list .thumbnail {
+.lax-product-list .thumbnail {
     margin-right: 30px
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list .thumbnail {
+    .lax-product-list .thumbnail {
         margin-right: 0;
         margin-bottom: 20px
     }
 }
 
-.axil-product-list .thumbnail a {
+.lax-product-list .thumbnail a {
     background-color: #f7f7f7;
     border-radius: 6px;
     display: block;
@@ -9799,35 +9799,35 @@ body.open .closeMask {
     overflow: hidden
 }
 
-.axil-product-list .thumbnail img {
+.lax-product-list .thumbnail img {
     border-radius: 6px;
     transition: var(--transition)
 }
 
-.axil-product-list .product-content {
+.lax-product-list .product-content {
     flex: 1;
     position: relative;
     padding-right: 60px
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list .product-content {
+    .lax-product-list .product-content {
         margin: 0;
         padding: 0
     }
 }
 
-.axil-product-list .product-content .product-title {
+.lax-product-list .product-content .product-title {
     margin-bottom: 10px;
     font-size: 16px;
     color: var(--color-body)
 }
 
-.axil-product-list .product-content .product-title a {
+.lax-product-list .product-content .product-title a {
     transition: var(--transition)
 }
 
-.axil-product-list .product-content .product-rating {
+.lax-product-list .product-content .product-rating {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
@@ -9835,39 +9835,39 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list .product-content .product-rating {
+    .lax-product-list .product-content .product-rating {
         justify-content: center
     }
 }
 
-.axil-product-list .product-content .product-rating .rating-number {
+.lax-product-list .product-content .product-rating .rating-number {
     font-weight: 500;
     margin-left: 10px;
     display: inline-block
 }
 
-.axil-product-list .product-content .product-rating .rating-number span {
+.lax-product-list .product-content .product-rating .rating-number span {
     font-weight: 700;
     color: var(--color-heading)
 }
 
-.axil-product-list .product-content .product-rating .rating-icon {
+.lax-product-list .product-content .product-rating .rating-icon {
     color: #ffa800
 }
 
-.axil-product-list .product-content .product-price-variant {
+.lax-product-list .product-content .product-price-variant {
     font-size: 20px;
     font-weight: 700;
     color: var(--color-heading)
 }
 
-.axil-product-list .product-content .product-price-variant .price.old-price {
+.lax-product-list .product-content .product-price-variant .price.old-price {
     color: #d6d6d6;
     text-decoration: line-through;
     margin-left: 10px
 }
 
-.axil-product-list .product-content .product-cart {
+.lax-product-list .product-content .product-cart {
     position: absolute;
     top: 50%;
     right: 0;
@@ -9875,14 +9875,14 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list .product-content .product-cart {
+    .lax-product-list .product-content .product-cart {
         position: inherit;
         transform: translateY(0);
         margin-top: 20px
     }
 }
 
-.axil-product-list .product-content .product-cart .cart-btn {
+.lax-product-list .product-content .product-cart .cart-btn {
     text-align: center;
     display: block;
     height: 40px;
@@ -9898,38 +9898,38 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list .product-content .product-cart .cart-btn {
+    .lax-product-list .product-content .product-cart .cart-btn {
         margin: 0 5px;
         display: inline-block
     }
 }
 
-.axil-product-list .product-content .product-cart .cart-btn:hover {
+.lax-product-list .product-content .product-cart .cart-btn:hover {
     background: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-white)
 }
 
-.axil-product-list:hover {
+.lax-product-list:hover {
     border-color: var(--color-white);
     box-shadow: var(--shadow-dark)
 }
 
-.axil-product-list:hover .thumbnail img {
+.lax-product-list:hover .thumbnail img {
     transform: scale(1.1)
 }
 
-.axil-product-list.product-list-style-2 {
+.lax-product-list.product-list-style-2 {
     padding: 20px
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list.product-list-style-2 {
+    .lax-product-list.product-list-style-2 {
         padding: 30px
     }
 }
 
-.axil-product-list.product-list-style-2 .thumbnail {
+.lax-product-list.product-list-style-2 .thumbnail {
     margin-right: 20px;
     max-width: 120px;
     overflow: hidden;
@@ -9937,26 +9937,26 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-list.product-list-style-2 .thumbnail {
+    .lax-product-list.product-list-style-2 .thumbnail {
         margin: 0 auto 20px
     }
 }
 
-.axil-product-list.product-list-style-2 .thumbnail img {
+.lax-product-list.product-list-style-2 .thumbnail img {
     transition: .5s
 }
 
-.axil-product-list.product-list-style-2 .product-content {
+.lax-product-list.product-list-style-2 .product-content {
     padding: 0
 }
 
-.axil-product-list.product-list-style-2 .product-cart {
+.lax-product-list.product-list-style-2 .product-cart {
     position: initial;
     transform: translateY(0);
     margin-top: 10px
 }
 
-.axil-product-list.product-list-style-2 .product-cart .cart-btn {
+.lax-product-list.product-list-style-2 .product-cart .cart-btn {
     height: auto;
     width: auto;
     line-height: 1;
@@ -9964,7 +9964,7 @@ body.open .closeMask {
     padding: 10px 15px
 }
 
-.axil-product-list.product-list-style-2:hover img {
+.lax-product-list.product-list-style-2:hover img {
     transform: scale(1.15)
 }
 
@@ -10122,13 +10122,13 @@ body.open .closeMask {
     color: var(--color-primary)
 }
 
-.axil-shop-sidebar {
+.lax-shop-sidebar {
     padding-right: 20px;
     position: relative
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-shop-sidebar {
+    .lax-shop-sidebar {
         padding-right: 0;
         position: fixed;
         top: 0;
@@ -10143,20 +10143,20 @@ body.open .closeMask {
     }
 }
 
-.axil-shop-sidebar .toggle-list {
+.lax-shop-sidebar .toggle-list {
     position: relative;
     padding-bottom: 40px
 }
 
-.axil-shop-sidebar .toggle-list.active .title::before {
+.lax-shop-sidebar .toggle-list.active .title::before {
     content: ""
 }
 
-.axil-shop-sidebar .toggle-list.active .title::after {
+.lax-shop-sidebar .toggle-list.active .title::after {
     width: 100%
 }
 
-.axil-shop-sidebar .title {
+.lax-shop-sidebar .title {
     font-size: 18px;
     font-weight: 500;
     color: var(--color-dark);
@@ -10167,7 +10167,7 @@ body.open .closeMask {
     position: relative
 }
 
-.axil-shop-sidebar .title::before {
+.lax-shop-sidebar .title::before {
     content: "";
     font-family: "Font Awesome 5 Pro";
     position: absolute;
@@ -10177,7 +10177,7 @@ body.open .closeMask {
     pointer-events: none
 }
 
-.axil-shop-sidebar .title::after {
+.lax-shop-sidebar .title::after {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -10188,24 +10188,24 @@ body.open .closeMask {
     transition: .3s
 }
 
-.axil-shop-sidebar .product-categories ul {
+.lax-shop-sidebar .product-categories ul {
     margin: -5px 0
 }
 
-.axil-shop-sidebar .product-categories ul li {
+.lax-shop-sidebar .product-categories ul li {
     margin: 0;
     font-size: var(--font-size-b2);
     font-weight: var(--s-medium);
     padding: 6px 0
 }
 
-.axil-shop-sidebar .product-categories ul li a {
+.lax-shop-sidebar .product-categories ul li a {
     position: relative;
     padding-left: 28px;
     color: var(--color-body)
 }
 
-.axil-shop-sidebar .product-categories ul li a::before {
+.lax-shop-sidebar .product-categories ul li a::before {
     content: "";
     height: 16px;
     width: 16px;
@@ -10219,8 +10219,8 @@ body.open .closeMask {
     transition: var(--transition)
 }
 
-.axil-shop-sidebar .product-categories ul li.current-cat a::before,
-.axil-shop-sidebar .product-categories ul li.chosen a::before {
+.lax-shop-sidebar .product-categories ul li.current-cat a::before,
+.lax-shop-sidebar .product-categories ul li.chosen a::before {
     content: "";
     font-family: var(--font-awesome);
     font-size: 8px;
@@ -10230,13 +10230,13 @@ body.open .closeMask {
     border-color: var(--color-primary)
 }
 
-.axil-shop-sidebar .product-color ul {
+.lax-shop-sidebar .product-color ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap
 }
 
-.axil-shop-sidebar .product-color li {
+.lax-shop-sidebar .product-color li {
     margin: 0 8px 8px 0;
     height: 30px;
     width: 30px;
@@ -10245,67 +10245,67 @@ body.open .closeMask {
     text-align: center
 }
 
-.axil-shop-sidebar .product-color li.chosen {
+.lax-shop-sidebar .product-color li.chosen {
     border: 2px solid #906145
 }
 
-.axil-shop-sidebar .product-color li a {
+.lax-shop-sidebar .product-color li a {
     display: inline-block;
     height: 16px;
     width: 16px;
     border-radius: 50%
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-01 {
+.lax-shop-sidebar .product-color li a.color-extra-01 {
     background: #906145
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-02 {
+.lax-shop-sidebar .product-color li a.color-extra-02 {
     background: #fab8c4
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-03 {
+.lax-shop-sidebar .product-color li a.color-extra-03 {
     background: #ffdc60
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-04 {
+.lax-shop-sidebar .product-color li a.color-extra-04 {
     background: #896ba7
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-05 {
+.lax-shop-sidebar .product-color li a.color-extra-05 {
     background: #dbdeff
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-06 {
+.lax-shop-sidebar .product-color li a.color-extra-06 {
     background: #badeff
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-07 {
+.lax-shop-sidebar .product-color li a.color-extra-07 {
     background: #dfbf9b
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-08 {
+.lax-shop-sidebar .product-color li a.color-extra-08 {
     background: #badeff
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-09 {
+.lax-shop-sidebar .product-color li a.color-extra-09 {
     background: #dbdeff
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-10 {
+.lax-shop-sidebar .product-color li a.color-extra-10 {
     background: #dbf8ff
 }
 
-.axil-shop-sidebar .product-color li a.color-extra-11 {
+.lax-shop-sidebar .product-color li a.color-extra-11 {
     background: #ffeddc
 }
 
-.axil-shop-sidebar .product-size li {
+.lax-shop-sidebar .product-size li {
     display: inline-block;
     margin: 0 5px 10px 0
 }
 
-.axil-shop-sidebar .product-size li a {
+.lax-shop-sidebar .product-size li a {
     border: 2px solid #f6f7fb;
     background: #fff;
     padding: 5px 13px;
@@ -10321,18 +10321,18 @@ body.open .closeMask {
     color: var(--color-body)
 }
 
-.axil-shop-sidebar .product-size li.chosen a {
+.lax-shop-sidebar .product-size li.chosen a {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: var(--color-white)
 }
 
-.axil-shop-sidebar .product-price-range li {
+.lax-shop-sidebar .product-price-range li {
     display: inline-block;
     margin: 0 15px 0 0
 }
 
-.axil-shop-sidebar .product-price-range li a {
+.lax-shop-sidebar .product-price-range li a {
     border: 2px solid #f6f7fb;
     background: #fff;
     padding: 5px 13px;
@@ -10347,22 +10347,22 @@ body.open .closeMask {
     color: var(--color-body)
 }
 
-.axil-shop-sidebar .product-price-range li.chosen a {
+.lax-shop-sidebar .product-price-range li.chosen a {
     border-color: var(--color-body)
 }
 
-.axil-shop-sidebar .product-price-range .input-range,
-.axil-shop-sidebar .product-price-range .amount-range {
+.lax-shop-sidebar .product-price-range .input-range,
+.lax-shop-sidebar .product-price-range .amount-range {
     color: var(--color-heading);
     font-size: var(--font-size-b2)
 }
 
-.axil-shop-sidebar .axil-btn.btn-outline {
+.lax-shop-sidebar .lax-btn.btn-outline {
     width: auto;
     color: var(--color-body)
 }
 
-.axil-shop-sidebar .filter-close-btn {
+.lax-shop-sidebar .filter-close-btn {
     position: absolute;
     top: 15px;
     left: 20px;
@@ -10374,7 +10374,7 @@ body.open .closeMask {
     font-size: 14px
 }
 
-.axil-shop-sidebar.open {
+.lax-shop-sidebar.open {
     left: 0
 }
 
@@ -10394,45 +10394,45 @@ body.open .closeMask {
     }
 }
 
-.axil-new-arrivals-product-area.fullwidth-container {
+.lax-new-arrivals-product-area.fullwidth-container {
     margin-left: calc((100% - 1320px)/2);
     overflow: hidden
 }
 
 @media only screen and (max-width: 1349px) {
-    .axil-new-arrivals-product-area.fullwidth-container {
+    .lax-new-arrivals-product-area.fullwidth-container {
         margin-left: auto
     }
 }
 
-.axil-new-arrivals-product-area.fullwidth-container .slick-list {
+.lax-new-arrivals-product-area.fullwidth-container .slick-list {
     overflow: visible
 }
 
 @media only screen and (max-width: 1349px) {
-    .axil-new-arrivals-product-area.fullwidth-container .slick-list {
+    .lax-new-arrivals-product-area.fullwidth-container .slick-list {
         overflow: hidden
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-new-arrivals-product-area.flash-sale-area .arrow-top-slide .slide-arrow {
+    .lax-new-arrivals-product-area.flash-sale-area .arrow-top-slide .slide-arrow {
         top: -180px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .product-slide-mobile .axil-product {
+    .product-slide-mobile .lax-product {
         text-align: left;
         display: inline-block;
         width: 270px
     }
 
-    .product-slide-mobile .axil-product .product-content .product-price-variant {
+    .product-slide-mobile .lax-product .product-content .product-price-variant {
         justify-content: flex-start
     }
 
-    .product-slide-mobile .axil-product .product-content .color-variant {
+    .product-slide-mobile .lax-product .product-content .color-variant {
         justify-content: flex-start
     }
 }
@@ -10864,13 +10864,13 @@ body.open .closeMask {
     flex: 1
 }
 
-.product-action-wrapper .product-action .add-to-cart .axil-btn {
+.product-action-wrapper .product-action .add-to-cart .lax-btn {
     width: 100%;
     text-align: center;
     display: block
 }
 
-.product-action-wrapper .product-action .add-to-cart .axil-btn:hover:before {
+.product-action-wrapper .product-action .add-to-cart .lax-btn:hover:before {
     transform: scale(1.05)
 }
 
@@ -10901,7 +10901,7 @@ body.open .closeMask {
 }
 
 @media only screen and (min-width: 992px)and (max-width: 1199px) {
-    .product-action li .axil-btn {
+    .product-action li .lax-btn {
         padding: 16px 20px
     }
 }
@@ -11568,41 +11568,41 @@ body.open .closeMask {
     color: var(--color-black)
 }
 
-.axil-product-table {
+.lax-product-table {
     font-family: var(--font-secondary);
     margin: 0
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table {
+    .lax-product-table {
         margin-top: 20px
     }
 }
 
-.axil-product-table th:last-child,
-.axil-product-table td:last-child {
+.lax-product-table th:last-child,
+.lax-product-table td:last-child {
     text-align: right
 }
 
 @media only screen and (max-width: 767px) {
 
-    .axil-product-table th:last-child,
-    .axil-product-table td:last-child {
+    .lax-product-table th:last-child,
+    .lax-product-table td:last-child {
         border-bottom: none
     }
 }
 
-.axil-product-table thead {
+.lax-product-table thead {
     background-color: var(--color-lighter)
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table thead {
+    .lax-product-table thead {
         display: none
     }
 }
 
-.axil-product-table thead th {
+.lax-product-table thead th {
     font-size: 20px;
     text-transform: capitalize;
     border: none;
@@ -11611,26 +11611,26 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-product-table thead th {
+    .lax-product-table thead th {
         font-size: 18px;
         padding: 18px 10px
     }
 }
 
-.axil-product-table thead th:first-child {
+.lax-product-table thead th:first-child {
     border-radius: 6px 0 0 6px
 }
 
-.axil-product-table thead th:last-child {
+.lax-product-table thead th:last-child {
     border-radius: 0 6px 6px 0
 }
 
-.axil-product-table tbody {
+.lax-product-table tbody {
     border-top: none !important
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody tr {
+    .lax-product-table tbody tr {
         padding-left: 120px;
         position: relative;
         display: block;
@@ -11638,18 +11638,18 @@ body.open .closeMask {
         margin-bottom: 30px
     }
 
-    .axil-product-table tbody tr:last-child {
+    .lax-product-table tbody tr:last-child {
         margin-bottom: 0
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-table tbody tr {
+    .lax-product-table tbody tr {
         padding-left: 90px
     }
 }
 
-.axil-product-table tbody td {
+.lax-product-table tbody td {
     border-top: none;
     border-bottom: 2px solid var(--color-lighter);
     vertical-align: middle;
@@ -11661,14 +11661,14 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-product-table tbody td {
+    .lax-product-table tbody td {
         font-size: 18px;
         padding: 10px 10px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody td {
+    .lax-product-table tbody td {
         font-size: 16px;
         display: block;
         text-align: right;
@@ -11676,7 +11676,7 @@ body.open .closeMask {
         position: relative
     }
 
-    .axil-product-table tbody td:before {
+    .lax-product-table tbody td:before {
         content: attr(data-title) " :";
         position: absolute;
         left: 0;
@@ -11685,12 +11685,12 @@ body.open .closeMask {
     }
 }
 
-.axil-product-table tbody td.product-remove {
+.lax-product-table tbody td.product-remove {
     min-width: auto
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody td.product-remove {
+    .lax-product-table tbody td.product-remove {
         position: absolute;
         top: 0;
         right: 0;
@@ -11699,7 +11699,7 @@ body.open .closeMask {
     }
 }
 
-.axil-product-table tbody td.product-remove .remove-wishlist {
+.lax-product-table tbody td.product-remove .remove-wishlist {
     display: block;
     text-align: center;
     height: 32px;
@@ -11714,7 +11714,7 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody td.product-remove .remove-wishlist {
+    .lax-product-table tbody td.product-remove .remove-wishlist {
         height: 25px;
         width: 25px;
         line-height: 22px;
@@ -11722,21 +11722,21 @@ body.open .closeMask {
     }
 }
 
-.axil-product-table tbody td.product-remove .remove-wishlist:hover {
+.lax-product-table tbody td.product-remove .remove-wishlist:hover {
     border-color: var(--color-primary)
 }
 
-.axil-product-table tbody td.product-remove:before {
+.lax-product-table tbody td.product-remove:before {
     display: none
 }
 
-.axil-product-table tbody td.product-thumbnail {
+.lax-product-table tbody td.product-thumbnail {
     min-width: 130px;
     width: 130px
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody td.product-thumbnail {
+    .lax-product-table tbody td.product-thumbnail {
         min-width: 80px;
         position: absolute;
         left: 0;
@@ -11747,148 +11747,148 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-product-table tbody td.product-thumbnail {
+    .lax-product-table tbody td.product-thumbnail {
         width: 80px
     }
 }
 
-.axil-product-table tbody td.product-thumbnail a {
+.lax-product-table tbody td.product-thumbnail a {
     border-radius: 10px;
     display: block
 }
 
-.axil-product-table tbody td.product-thumbnail a img {
+.lax-product-table tbody td.product-thumbnail a img {
     border-radius: 10px;
     height: 80px;
     width: 80px;
     object-fit: cover
 }
 
-.axil-product-table tbody td.product-thumbnail:before {
+.lax-product-table tbody td.product-thumbnail:before {
     display: none
 }
 
-.axil-product-table tbody td.product-title {
+.lax-product-table tbody td.product-title {
     width: 30%;
     color: var(--color-black)
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table tbody td.product-title {
+    .lax-product-table tbody td.product-title {
         width: 100%;
         text-align: left;
         padding-right: 40px
     }
 }
 
-.axil-product-table tbody td.product-title a {
+.lax-product-table tbody td.product-title a {
     transition: var(--transition)
 }
 
-.axil-product-table tbody td.product-title:before {
+.lax-product-table tbody td.product-title:before {
     display: none
 }
 
-.axil-product-table tbody td.product-add-cart .btn-outline {
+.lax-product-table tbody td.product-add-cart .btn-outline {
     border-color: #efefef;
     padding: 10px 20px;
     font-size: 14px
 }
 
-.axil-product-table tbody td.product-add-cart .btn-outline:hover {
+.lax-product-table tbody td.product-add-cart .btn-outline:hover {
     border-color: var(--color-primary)
 }
 
-.axil-product-table tbody td.product-add-cart:before {
+.lax-product-table tbody td.product-add-cart:before {
     display: none
 }
 
-.axil-product-table.axil-cart-table th:first-child,
-.axil-product-table.axil-cart-table td:first-child {
+.lax-product-table.lax-cart-table th:first-child,
+.lax-product-table.lax-cart-table td:first-child {
     padding-left: 0
 }
 
-.axil-product-table.axil-cart-table th:last-child,
-.axil-product-table.axil-cart-table td:last-child {
+.lax-product-table.lax-cart-table th:last-child,
+.lax-product-table.lax-cart-table td:last-child {
     padding-right: 50px
 }
 
 @media only screen and (max-width: 767px) {
 
-    .axil-product-table.axil-cart-table th:last-child,
-    .axil-product-table.axil-cart-table td:last-child {
+    .lax-product-table.lax-cart-table th:last-child,
+    .lax-product-table.lax-cart-table td:last-child {
         padding-right: 10px
     }
 }
 
-.axil-product-table.axil-cart-table .pro-qty {
+.lax-product-table.lax-cart-table .pro-qty {
     width: auto
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table.axil-cart-table .pro-qty {
+    .lax-product-table.lax-cart-table .pro-qty {
         display: inline-flex
     }
 }
 
-.axil-product-table.axil-cart-table .pro-qty input {
+.lax-product-table.lax-cart-table .pro-qty input {
     margin: 0 5px;
     min-width: 45px
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table.axil-cart-table .pro-qty input {
+    .lax-product-table.lax-cart-table .pro-qty input {
         min-width: 30px
     }
 }
 
-.axil-product-table.axil-cart-table .pro-qty .qtybtn {
+.lax-product-table.lax-cart-table .pro-qty .qtybtn {
     font-size: 20px;
     line-height: 27px;
     font-weight: 500
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-product-table.axil-cart-table .pro-qty .qtybtn {
+    .lax-product-table.lax-cart-table .pro-qty .qtybtn {
         font-size: 18px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table.axil-cart-table .pro-qty .qtybtn {
+    .lax-product-table.lax-cart-table .pro-qty .qtybtn {
         font-size: 16px
     }
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-product-table.axil-cart-table .pro-qty .quantity-input {
+    .lax-product-table.lax-cart-table .pro-qty .quantity-input {
         font-size: 18px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-table.axil-cart-table .pro-qty .quantity-input {
+    .lax-product-table.lax-cart-table .pro-qty .quantity-input {
         font-size: 16px
     }
 }
 
-.axil-product-cart-wrap .cart-update-btn-area {
+.lax-product-cart-wrap .cart-update-btn-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-cart-wrap .cart-update-btn-area {
+    .lax-product-cart-wrap .cart-update-btn-area {
         display: block
     }
 }
 
-.axil-product-cart-wrap .product-cupon {
+.lax-product-cart-wrap .product-cupon {
     flex-wrap: nowrap
 }
 
-.axil-product-cart-wrap .product-cupon input {
+.lax-product-cart-wrap .product-cupon input {
     width: 100%;
     padding: 0;
     border-bottom: 2px solid #efefef;
@@ -11896,73 +11896,73 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-cart-wrap .product-cupon input {
+    .lax-product-cart-wrap .product-cupon input {
         height: 46px
     }
 }
 
-.axil-product-cart-wrap .product-cupon .product-cupon-btn {
+.lax-product-cart-wrap .product-cupon .product-cupon-btn {
     margin-left: 20px !important
 }
 
-.axil-product-cart-wrap .product-cupon .axil-btn {
+.lax-product-cart-wrap .product-cupon .lax-btn {
     width: auto;
     border-width: 2px;
     border-color: #efefef;
     background-color: rgba(0, 0, 0, 0)
 }
 
-.axil-product-cart-wrap .product-cupon .axil-btn:hover {
+.lax-product-cart-wrap .product-cupon .lax-btn:hover {
     border-color: var(--color-primary)
 }
 
-.axil-product-cart-wrap .update-btn {
+.lax-product-cart-wrap .update-btn {
     text-align: right
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-product-cart-wrap .update-btn {
+    .lax-product-cart-wrap .update-btn {
         text-align: left;
         margin-top: 30px
     }
 }
 
-.axil-product-cart-wrap .update-btn .axil-btn {
+.lax-product-cart-wrap .update-btn .lax-btn {
     border-width: 2px;
     border-color: #efefef
 }
 
-.axil-product-cart-wrap .update-btn .axil-btn:hover {
+.lax-product-cart-wrap .update-btn .lax-btn:hover {
     border-color: var(--color-primary)
 }
 
-.axil-order-summery {
+.lax-order-summery {
     background-color: #f9f3f0;
     border-radius: 6px;
     padding: 40px
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-order-summery {
+    .lax-order-summery {
         padding: 30px 20px
     }
 }
 
-.axil-order-summery .title {
+.lax-order-summery .title {
     font-weight: var(--s-medium)
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-order-summery .title {
+    .lax-order-summery .title {
         font-size: 20px
     }
 }
 
-.axil-order-summery .summery-table tbody {
+.lax-order-summery .summery-table tbody {
     border-top: none !important
 }
 
-.axil-order-summery .summery-table tbody td {
+.lax-order-summery .summery-table tbody td {
     border-bottom: 1px solid;
     border-color: rgba(101, 105, 115, .2);
     font-size: var(--font-size-b1);
@@ -11973,41 +11973,41 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-order-summery .summery-table tbody td {
+    .lax-order-summery .summery-table tbody td {
         min-width: 90px
     }
 }
 
-.axil-order-summery .summery-table .order-shipping .input-group {
+.lax-order-summery .summery-table .order-shipping .input-group {
     margin-bottom: 10px
 }
 
-.axil-order-summery .summery-table .order-shipping .input-group:last-child {
+.lax-order-summery .summery-table .order-shipping .input-group:last-child {
     margin-bottom: 0
 }
 
-.axil-order-summery .summery-table .order-shipping .input-group label {
+.lax-order-summery .summery-table .order-shipping .input-group label {
     color: #292930;
     font-weight: 400
 }
 
-.axil-order-summery .summery-table .order-shipping .input-group label:before {
+.lax-order-summery .summery-table .order-shipping .input-group label:before {
     border-width: 2px;
     border-color: #d5d4d4
 }
 
-.axil-order-summery .summery-table .order-shipping .input-group label:after {
+.lax-order-summery .summery-table .order-shipping .input-group label:after {
     background-color: var(--color-primary);
     border: none
 }
 
-.axil-order-summery .summery-table .order-total-amount {
+.lax-order-summery .summery-table .order-total-amount {
     font-size: 20px;
     font-weight: var(--s-bold);
     color: var(--color-primary)
 }
 
-.axil-order-summery.order-checkout-summery .summery-table-wrap {
+.lax-order-summery.order-checkout-summery .summery-table-wrap {
     background-color: var(--color-white);
     border-radius: 6px;
     padding: 30px;
@@ -12015,105 +12015,105 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-order-summery.order-checkout-summery .summery-table-wrap {
+    .lax-order-summery.order-checkout-summery .summery-table-wrap {
         padding: 0;
         background-color: rgba(0, 0, 0, 0)
     }
 }
 
-.axil-order-summery.order-checkout-summery .summery-table th {
+.lax-order-summery.order-checkout-summery .summery-table th {
     font-size: 20px;
     color: var(--color-heading);
     text-transform: capitalize;
     padding: 15px 0
 }
 
-.axil-order-summery.order-checkout-summery .summery-table td {
+.lax-order-summery.order-checkout-summery .summery-table td {
     padding: 18px 0
 }
 
 @media only screen and (min-width: 992px)and (max-width: 1199px) {
-    .axil-order-summery.order-checkout-summery .summery-table td {
+    .lax-order-summery.order-checkout-summery .summery-table td {
         min-width: 155px
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-order-summery.order-checkout-summery .summery-table td {
+    .lax-order-summery.order-checkout-summery .summery-table td {
         min-width: 100px
     }
 }
 
-.axil-order-summery.order-checkout-summery .summery-table td.order-total-amount {
+.lax-order-summery.order-checkout-summery .summery-table td.order-total-amount {
     color: var(--color-black)
 }
 
-.axil-order-summery.order-checkout-summery .summery-table th:last-child,
-.axil-order-summery.order-checkout-summery .summery-table td:last-child {
+.lax-order-summery.order-checkout-summery .summery-table th:last-child,
+.lax-order-summery.order-checkout-summery .summery-table td:last-child {
     text-align: right
 }
 
-.axil-order-summery.order-checkout-summery .summery-table tr:last-child td {
+.lax-order-summery.order-checkout-summery .summery-table tr:last-child td {
     border-bottom: none;
     padding-bottom: 0
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-shipping .shipping-amount {
+.lax-order-summery.order-checkout-summery .summery-table .order-shipping .shipping-amount {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 12px
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-shipping .shipping-amount .title {
+.lax-order-summery.order-checkout-summery .summery-table .order-shipping .shipping-amount .title {
     display: inline-block
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-shipping td {
+.lax-order-summery.order-checkout-summery .summery-table .order-shipping td {
     text-align: left
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-shipping .input-group {
+.lax-order-summery.order-checkout-summery .summery-table .order-shipping .input-group {
     margin-bottom: 5px
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-shipping .input-group label {
+.lax-order-summery.order-checkout-summery .summery-table .order-shipping .input-group label {
     color: var(--color-body);
     padding-left: 26px
 }
 
-.axil-order-summery.order-checkout-summery .summery-table .order-total td {
+.lax-order-summery.order-checkout-summery .summery-table .order-total td {
     font-size: 20px;
     font-weight: 600;
     color: var(--color-black)
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment {
     border-bottom: 1px solid var(--color-light);
     margin-bottom: 20px;
     padding-bottom: 20px
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group {
     margin-bottom: 20px
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label {
     font-size: 20px;
     color: #292930
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label {
+    .lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label {
         font-size: 18px
     }
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label:before {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label:before {
     background-color: rgba(0, 0, 0, 0)
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label:after {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group label:after {
     content: "";
     font-family: var(--font-awesome);
     font-size: 8px;
@@ -12125,70 +12125,70 @@ body.open .closeMask {
     border: none
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group input[type=radio]:checked~label::before {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment .input-group input[type=radio]:checked~label::before {
     background-color: var(--color-primary)
 }
 
-.axil-order-summery.order-checkout-summery .order-payment-method .single-payment p {
+.lax-order-summery.order-checkout-summery .order-payment-method .single-payment p {
     padding-left: 28px
 }
 
-.axil-order-summery .checkout-btn {
+.lax-order-summery .checkout-btn {
     width: 100%;
     text-align: center
 }
 
-.axil-order-summery .checkout-btn:hover:before {
+.lax-order-summery .checkout-btn:hover:before {
     transform: scale(1.05)
 }
 
-.axil-checkout-billing .title {
+.lax-checkout-billing .title {
     font-weight: var(--s-medium)
 }
 
-.axil-checkout-billing .form-group label span {
+.lax-checkout-billing .form-group label span {
     color: var(--color-chart03)
 }
 
-.axil-checkout-billing .form-group input {
+.lax-checkout-billing .form-group input {
     height: 60px;
     border-color: var(--color-light);
     padding: 0 30px
 }
 
-.axil-checkout-billing .form-group textarea {
+.lax-checkout-billing .form-group textarea {
     border-color: var(--color-light);
     padding: 15px 30px;
     line-height: var(--line-height-b2)
 }
 
-.axil-checkout-billing .form-group select {
+.lax-checkout-billing .form-group select {
     border-color: var(--color-light)
 }
 
-.axil-checkout-billing .form-group.input-group {
+.lax-checkout-billing .form-group.input-group {
     margin-bottom: 40px
 }
 
-.axil-checkout-billing .form-group.input-group label {
+.lax-checkout-billing .form-group.input-group label {
     top: 0;
     left: 0;
     pointer-events: auto;
     color: #292930
 }
 
-.axil-checkout-billing .form-group.input-group label:after {
+.lax-checkout-billing .form-group.input-group label:after {
     border-width: 2px;
     top: 6px;
     height: 6px;
     width: 11px
 }
 
-.axil-checkout-billing .form-group.different-shippng {
+.lax-checkout-billing .form-group.different-shippng {
     margin-bottom: 40px
 }
 
-.axil-checkout-billing .form-group.different-shippng .toggle-bar label {
+.lax-checkout-billing .form-group.different-shippng .toggle-bar label {
     position: initial;
     font-size: 24px;
     padding-left: 0;
@@ -12198,89 +12198,89 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-checkout-billing .form-group.different-shippng .toggle-bar label {
+    .lax-checkout-billing .form-group.different-shippng .toggle-bar label {
         font-size: 20px
     }
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-checkout-billing .form-group.different-shippng .toggle-bar label {
+    .lax-checkout-billing .form-group.different-shippng .toggle-bar label {
         font-size: 17px
     }
 }
 
-.axil-checkout-billing .form-group.different-shippng .toggle-bar label:before {
+.lax-checkout-billing .form-group.different-shippng .toggle-bar label:before {
     left: auto;
     right: 0;
     top: 6px
 }
 
-.axil-checkout-billing .form-group.different-shippng .toggle-bar label:after {
+.lax-checkout-billing .form-group.different-shippng .toggle-bar label:after {
     left: auto;
     right: 3px;
     top: 10px
 }
 
-.axil-checkout-billing .form-group.different-shippng .toggle-bar input {
+.lax-checkout-billing .form-group.different-shippng .toggle-bar input {
     cursor: pointer
 }
 
-.axil-checkout-billing .form-group.different-shippng .toggle-open {
+.lax-checkout-billing .form-group.different-shippng .toggle-open {
     display: none;
     padding: 10px 0 0;
     margin-top: 20px
 }
 
-.axil-checkout-notice {
+.lax-checkout-notice {
     margin-bottom: 40px
 }
 
-.axil-checkout-notice .axil-toggle-box {
+.lax-checkout-notice .lax-toggle-box {
     margin-bottom: 20px
 }
 
-.axil-checkout-notice .toggle-bar {
+.lax-checkout-notice .toggle-bar {
     background-color: var(--color-lighter);
     border-radius: 6px;
     padding: 17px 30px
 }
 
-.axil-checkout-notice .toggle-bar i {
+.lax-checkout-notice .toggle-bar i {
     margin-right: 8px
 }
 
-.axil-checkout-notice .toggle-bar a {
+.lax-checkout-notice .toggle-bar a {
     font-weight: 500;
     transition: var(--transition)
 }
 
-.axil-checkout-notice .toggle-bar a i {
+.lax-checkout-notice .toggle-bar a i {
     color: var(--color-body);
     font-weight: 400;
     margin-left: 5px
 }
 
-.axil-checkout-notice .toggle-bar a:focus {
+.lax-checkout-notice .toggle-bar a:focus {
     color: var(--color-heading)
 }
 
-.axil-checkout-notice .toggle-open {
+.lax-checkout-notice .toggle-open {
     display: none;
     margin-top: 20px
 }
 
-.axil-checkout-notice .axil-checkout-coupon {
+.lax-checkout-notice .lax-checkout-coupon {
     border: 1px solid var(--color-light);
     border-radius: 16px;
     padding: 30px
 }
 
-.axil-checkout-notice .axil-checkout-coupon p {
+.lax-checkout-notice .lax-checkout-coupon p {
     font-size: var(--font-size-b2);
     margin-bottom: 20px
 }
 
-.axil-checkout-notice .axil-checkout-coupon input {
+.lax-checkout-notice .lax-checkout-coupon input {
     border: 1px solid var(--color-light);
     width: auto;
     height: 50px;
@@ -12289,36 +12289,36 @@ body.open .closeMask {
     border-radius: 6px !important
 }
 
-.axil-checkout-notice .axil-checkout-coupon .axil-btn {
+.lax-checkout-notice .lax-checkout-coupon .lax-btn {
     border-width: 1px;
     padding: 12px 40px;
     border-color: var(--color-light)
 }
 
-.axil-checkout-notice .axil-checkout-coupon .axil-btn:hover {
+.lax-checkout-notice .lax-checkout-coupon .lax-btn:hover {
     border-color: var(--color-primary)
 }
 
-.axil-checkout-notice .axil-checkout-login {
+.lax-checkout-notice .lax-checkout-login {
     border: 1px solid var(--color-light);
     border-radius: 16px;
     padding: 30px
 }
 
-.axil-checkout-notice .axil-checkout-login p {
+.lax-checkout-notice .lax-checkout-login p {
     margin-bottom: 30px
 }
 
-.axil-checkout-notice .axil-checkout-login input {
+.lax-checkout-notice .lax-checkout-login input {
     border-color: var(--color-light)
 }
 
-.axil-checkout-notice .axil-checkout-login .axil-btn {
+.lax-checkout-notice .lax-checkout-login .lax-btn {
     width: 100%;
     padding: 11px 40px;
 }
 
-.axil-signin-area {
+.lax-signin-area {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -12420,25 +12420,25 @@ body.open .closeMask {
     animation: prevNavSlide 400ms
 }
 
-.axil-signin-banner {
+.lax-signin-banner {
     min-height: 900px;
     height: 100vh;
     padding: 200px 50px 0 100px
 }
 
 @media only screen and (min-width: 992px)and (max-width: 1199px) {
-    .axil-signin-banner {
+    .lax-signin-banner {
         margin-right: 50px
     }
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-signin-banner {
+    .lax-signin-banner {
         display: none
     }
 }
 
-.axil-signin-form-wrap {
+.lax-signin-form-wrap {
     width: 100%;
     height: calc(100vh - 180px);
     overflow-y: auto;
@@ -12447,7 +12447,7 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-signin-form-wrap {
+    .lax-signin-form-wrap {
         justify-content: center;
         text-align: center;
         margin: 150px 0 0
@@ -12455,114 +12455,114 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-signin-form-wrap {
+    .lax-signin-form-wrap {
         margin: 200px 0 0;
         height: calc(100vh - 200px)
     }
 }
 
-.axil-signin-form {
+.lax-signin-form {
     max-width: 450px;
     width: 100%;
     padding: 30px
 }
 
-.axil-signin-form .singin-form {
+.lax-signin-form .singin-form {
     padding-bottom: 30px
 }
 
-.axil-signin-form .title {
+.lax-signin-form .title {
     margin-bottom: 16px
 }
 
-.axil-signin-form p {
+.lax-signin-form p {
     color: var(--color-gray)
 }
 
-.axil-signin-form .form-group {
+.lax-signin-form .form-group {
     margin-bottom: 35px
 }
 
-.axil-signin-form .form-group:last-child {
+.lax-signin-form .form-group:last-child {
     margin-bottom: 0
 }
 
-.axil-signin-form .form-control {
+.lax-signin-form .form-control {
     height: 60px;
     border-color: var(--color-light);
     padding: 0 30px;
     color: var(--color-body)
 }
 
-.axil-signin-form .submit-btn {
+.lax-signin-form .submit-btn {
     width: auto
 }
 
-.axil-signin-form .forgot-btn {
+.lax-signin-form .forgot-btn {
     font-size: 14px;
     color: var(--color-primary);
     transition: var(--transition)
 }
 
-.axil-signin-form .forgot-btn:hover {
+.lax-signin-form .forgot-btn:hover {
     color: var(--color-body)
 }
 
-.axil-dashboard-warp .axil-dashboard-author {
+.lax-dashboard-warp .lax-dashboard-author {
     margin-bottom: 50px
 }
 
-.axil-dashboard-warp .axil-dashboard-author .media {
+.lax-dashboard-warp .lax-dashboard-author .media {
     align-items: center
 }
 
-.axil-dashboard-warp .axil-dashboard-author .thumbnail {
+.lax-dashboard-warp .lax-dashboard-author .thumbnail {
     margin-bottom: 10px
 }
 
-.axil-dashboard-warp .axil-dashboard-author .thumbnail img {
+.lax-dashboard-warp .lax-dashboard-author .thumbnail img {
     border-radius: 50%
 }
 
-.axil-dashboard-warp .axil-dashboard-author .joining-date {
+.lax-dashboard-warp .lax-dashboard-author .joining-date {
     font-size: 14px;
     color: var(--color-body);
     font-weight: var(--s-medium)
 }
 
-.axil-dashboard-warp .tab-content {
+.lax-dashboard-warp .tab-content {
     padding-left: 45px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-dashboard-warp .tab-content {
+    .lax-dashboard-warp .tab-content {
         padding-left: 0
     }
 }
 
-.axil-dashboard-aside {
+.lax-dashboard-aside {
     border: 1px solid var(--color-light);
     padding: 40px 35px 30px;
     border-radius: 6px
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-dashboard-aside {
+    .lax-dashboard-aside {
         padding: 30px 15px 20px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-dashboard-aside {
+    .lax-dashboard-aside {
         margin-bottom: 40px
     }
 }
 
-.axil-dashboard-aside .nav-tabs {
+.lax-dashboard-aside .nav-tabs {
     border-bottom: none
 }
 
-.axil-dashboard-aside .nav-link {
+.lax-dashboard-aside .nav-link {
     font-weight: 500;
     color: var(--color-body);
     font-size: var(--font-size-b2);
@@ -12576,12 +12576,12 @@ body.open .closeMask {
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-dashboard-aside .nav-link {
+    .lax-dashboard-aside .nav-link {
         padding: 9px 10px 9px 40px
     }
 }
 
-.axil-dashboard-aside .nav-link i {
+.lax-dashboard-aside .nav-link i {
     position: absolute;
     top: 12px;
     left: 24px;
@@ -12589,49 +12589,49 @@ body.open .closeMask {
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-dashboard-aside .nav-link i {
+    .lax-dashboard-aside .nav-link i {
         left: 10px
     }
 }
 
-.axil-dashboard-aside .nav-link.active,
-.axil-dashboard-aside .nav-link:hover {
+.lax-dashboard-aside .nav-link.active,
+.lax-dashboard-aside .nav-link:hover {
     background-color: var(--color-lighter);
     color: var(--color-primary)
 }
 
-.axil-dashboard-overview .welcome-text {
+.lax-dashboard-overview .welcome-text {
     color: var(--color-black);
     font-size: 18px;
     margin-bottom: 25px
 }
 
-.axil-dashboard-overview .welcome-text span {
+.lax-dashboard-overview .welcome-text span {
     font-weight: var(--p-bold)
 }
 
-.axil-dashboard-overview .welcome-text a {
+.lax-dashboard-overview .welcome-text a {
     color: var(--color-chart03);
     transition: var(--transition)
 }
 
-.axil-dashboard-overview .welcome-text a:hover {
+.lax-dashboard-overview .welcome-text a:hover {
     color: var(--color-primary)
 }
 
-.axil-dashboard-overview p {
+.lax-dashboard-overview p {
     font-size: var(--font-size-b1)
 }
 
-.axil-dashboard-order .table {
+.lax-dashboard-order .table {
     font-family: var(--font-secondary)
 }
 
-.axil-dashboard-order .table thead {
+.lax-dashboard-order .table thead {
     background-color: var(--color-lighter)
 }
 
-.axil-dashboard-order .table thead th {
+.lax-dashboard-order .table thead th {
     border: none;
     padding: 18px 20px;
     vertical-align: middle;
@@ -12640,28 +12640,28 @@ body.open .closeMask {
     text-transform: capitalize
 }
 
-.axil-dashboard-order .table thead th:first-child {
+.lax-dashboard-order .table thead th:first-child {
     border-radius: 6px 0 0 6px
 }
 
-.axil-dashboard-order .table thead th:last-child {
+.lax-dashboard-order .table thead th:last-child {
     border-radius: 0 6px 6px 0;
     padding-right: 30px;
     text-align: right
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-dashboard-order .table thead th {
+    .lax-dashboard-order .table thead th {
         font-size: 18px
     }
 }
 
-.axil-dashboard-order .table tbody {
+.lax-dashboard-order .table tbody {
     border-top: none
 }
 
-.axil-dashboard-order .table tbody tr td,
-.axil-dashboard-order .table tbody tr th {
+.lax-dashboard-order .table tbody tr td,
+.lax-dashboard-order .table tbody tr th {
     padding: 20px 20px;
     vertical-align: middle;
     font-weight: var(--p-medium);
@@ -12671,102 +12671,102 @@ body.open .closeMask {
     border-bottom: 2px solid var(--color-lighter)
 }
 
-.axil-dashboard-order .table tbody tr td:last-child,
-.axil-dashboard-order .table tbody tr th:last-child {
+.lax-dashboard-order .table tbody tr td:last-child,
+.lax-dashboard-order .table tbody tr th:last-child {
     text-align: right
 }
 
-.axil-dashboard-order .table tbody tr th {
+.lax-dashboard-order .table tbody tr th {
     color: var(--color-chart03)
 }
 
-.axil-dashboard-order .table tbody tr td {
+.lax-dashboard-order .table tbody tr td {
     min-width: 150px
 }
 
-.axil-dashboard-order .table tbody tr:first-child td,
-.axil-dashboard-order .table tbody tr:first-child th {
+.lax-dashboard-order .table tbody tr:first-child td,
+.lax-dashboard-order .table tbody tr:first-child th {
     border-top: none
 }
 
-.axil-dashboard-order .table tbody .view-btn {
+.lax-dashboard-order .table tbody .view-btn {
     padding: 9px 20px;
     border: 1px solid var(--color-body);
     background-color: rgba(0, 0, 0, 0);
     color: var(--color-dark)
 }
 
-.axil-dashboard-order .table tbody .view-btn:before {
+.lax-dashboard-order .table tbody .view-btn:before {
     display: none
 }
 
-.axil-dashboard-order .table tbody .view-btn:after {
+.lax-dashboard-order .table tbody .view-btn:after {
     display: none
 }
 
-.axil-dashboard-order .table tbody .view-btn:hover {
+.lax-dashboard-order .table tbody .view-btn:hover {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-white)
 }
 
-.axil-dashboard-address .notice-text {
+.lax-dashboard-address .notice-text {
     font-size: var(--font-size-b2);
     color: #292930
 }
 
-.axil-dashboard-address .addrss-header {
+.lax-dashboard-address .addrss-header {
     border-bottom: 1px solid var(--color-light);
     padding-bottom: 20px;
     margin-bottom: 20px
 }
 
-.axil-dashboard-address .title {
+.lax-dashboard-address .title {
     font-weight: var(--p-medium);
     color: #292930
 }
 
 @media only screen and (min-width: 992px)and (max-width: 1199px) {
-    .axil-dashboard-address .title {
+    .lax-dashboard-address .title {
         font-size: 26px
     }
 }
 
-.axil-dashboard-address .address-edit {
+.lax-dashboard-address .address-edit {
     font-size: var(--font-size-b2);
     color: #292930;
     transition: var(--transition)
 }
 
-.axil-dashboard-address .address-edit:hover {
+.lax-dashboard-address .address-edit:hover {
     color: var(--color-primary)
 }
 
-.axil-dashboard-address ul li {
+.lax-dashboard-address ul li {
     font-size: var(--font-size-b2);
     line-height: var(--line-height-b2);
     color: #292930;
     font-family: var(--font-primary)
 }
 
-.axil-dashboard-account .form-group .form-control {
+.lax-dashboard-account .form-group .form-control {
     height: 60px;
     padding: 10px 30px;
     border-color: var(--color-light);
     color: var(--color-body)
 }
 
-.axil-dashboard-account .form-group select option:hover {
+.lax-dashboard-account .form-group select option:hover {
     background: red !important;
     color: red
 }
 
-.axil-post-wrapper .content-blog {
+.lax-post-wrapper .content-blog {
     border-top: 1px solid #f3f3f3;
     padding-top: 60px
 }
 
-.axil-post-wrapper .content-blog:first-child {
+.lax-post-wrapper .content-blog:first-child {
     margin-top: 0 !important;
     border-top: none;
     padding-top: 0
@@ -12795,7 +12795,7 @@ body.open .closeMask {
     margin-bottom: 30px
 }
 
-.content-blog .content .read-more-btn .axil-btn {
+.content-blog .content .read-more-btn .lax-btn {
     display: inline-flex
 }
 
@@ -12976,7 +12976,7 @@ body.open .closeMask {
     text-overflow: ellipsis
 }
 
-.content-blog.post-list-view .content .axil-post-meta {
+.content-blog.post-list-view .content .lax-post-meta {
     margin-bottom: 0
 }
 
@@ -12984,26 +12984,26 @@ body.open .closeMask {
     transform: scale(1.1)
 }
 
-.axil-post-meta {
+.lax-post-meta {
     display: flex;
     margin-bottom: 20px
 }
 
-.axil-post-meta .post-author-avatar {
+.lax-post-meta .post-author-avatar {
     min-width: 50px;
     max-height: 50px;
     margin-right: 20px;
     width: 50px
 }
 
-.axil-post-meta .post-author-avatar img {
+.lax-post-meta .post-author-avatar img {
     border-radius: 100%;
     width: 100%;
     height: 100%;
     object-fit: contain
 }
 
-.axil-post-meta .post-meta-content .author-title {
+.lax-post-meta .post-meta-content .author-title {
     margin-bottom: 5px;
     font-size: 16px
 }
@@ -13079,20 +13079,20 @@ body.open .closeMask {
     margin-bottom: 20px
 }
 
-.blog-grid .content .axil-btn {
+.blog-grid .content .lax-btn {
     padding: 0;
     align-items: center;
     color: var(--color-heading)
 }
 
-.blog-grid .content .axil-btn i {
+.blog-grid .content .lax-btn i {
     padding-left: 6px;
     top: 1px;
     color: var(--color-heading);
     transition: var(--transition)
 }
 
-.blog-grid .content .axil-btn:after {
+.blog-grid .content .lax-btn:after {
     content: "";
     height: 1px;
     width: 0;
@@ -13103,16 +13103,16 @@ body.open .closeMask {
     transition: var(--transition)
 }
 
-.blog-grid .content .axil-btn:hover {
+.blog-grid .content .lax-btn:hover {
     color: var(--color-primary)
 }
 
-.blog-grid .content .axil-btn:hover:after {
+.blog-grid .content .lax-btn:hover:after {
     width: 100%;
     left: 0
 }
 
-.blog-grid .content .axil-btn:hover i {
+.blog-grid .content .lax-btn:hover i {
     color: var(--color-primary)
 }
 
@@ -13120,21 +13120,21 @@ body.open .closeMask {
     transform: scale(1.1)
 }
 
-.axil-single-post .post-content {
+.lax-single-post .post-content {
     padding: 0 75px
 }
 
 @media only screen and (max-width: 1199px) {
-    .axil-single-post .post-content {
+    .lax-single-post .post-content {
         padding: 0
     }
 }
 
-.axil-single-post.post-formate .content-block .post-thumbnail img {
+.lax-single-post.post-formate .content-block .post-thumbnail img {
     border-radius: 0px
 }
 
-.axil-single-post.post-video .format-video .thumbnail {
+.lax-single-post.post-video .format-video .thumbnail {
     padding-top: 0;
     margin-bottom: 0
 }
@@ -13154,21 +13154,21 @@ body.open .closeMask {
     padding-top: 0
 }
 
-.axil-post-wrapper .audio-player {
+.lax-post-wrapper .audio-player {
     margin-bottom: 20px
 }
 
-.axil-post-wrapper .audio-player audio {
+.lax-post-wrapper .audio-player audio {
     width: 100%
 }
 
-.axil-post-wrapper .post-heading {
+.lax-post-wrapper .post-heading {
     border-bottom: 1px solid var(--color-border-light);
     margin-bottom: 45px;
     padding-bottom: 30px
 }
 
-.axil-single-widget:first-child,
+.lax-single-widget:first-child,
 .widget-sidebar:first-child {
     margin-top: 0 !important
 }
@@ -13251,7 +13251,7 @@ body.open .closeMask {
     top: 100px
 }
 
-.axil-total-comment-post {
+.lax-total-comment-post {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13259,13 +13259,13 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-total-comment-post {
+    .lax-total-comment-post {
         display: block
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .axil-total-comment-post .add-comment-button {
+    .lax-total-comment-post .add-comment-button {
         margin-top: 20px
     }
 }
@@ -13391,29 +13391,29 @@ body.open .closeMask {
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-sidebar-area {
+    .lax-sidebar-area {
         margin-top: 60px
     }
 }
 
-.axil-sidebar-area .axil-single-widget:first-child {
+.lax-sidebar-area .lax-single-widget:first-child {
     margin-top: 0 !important
 }
 
-.axil-single-widget {
+.lax-single-widget {
     border: 1px solid #f3f3f3;
     border-radius: 6px;
     padding: 30px
 }
 
-.axil-single-widget .widget-title {
+.lax-single-widget .widget-title {
     font-weight: 500;
     margin-bottom: 30px;
     color: var(--color-dark)
 }
 
 @media only screen and (max-width: 479px) {
-    .axil-single-widget {
+    .lax-single-widget {
         padding: 20px
     }
 }
@@ -13558,35 +13558,35 @@ body.open .closeMask {
     border-radius: 100px
 }
 
-.axil-footer-widget {
+.lax-footer-widget {
     margin-bottom: 40px
 }
 
-.axil-footer-widget .widget-title {
+.lax-footer-widget .widget-title {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: -0.025em;
     margin-bottom: 20px
 }
 
-.axil-footer-widget .inner ul {
+.lax-footer-widget .inner ul {
     padding-left: 0
 }
 
-.axil-footer-widget .inner ul>li:first-child {
+.lax-footer-widget .inner ul>li:first-child {
     margin-top: 0
 }
 
-.axil-footer-widget .inner ul {
+.lax-footer-widget .inner ul {
     list-style: none
 }
 
-.axil-footer-widget .inner ul li {
+.lax-footer-widget .inner ul li {
     margin-top: 12px;
     margin-bottom: 12px
 }
 
-.axil-footer-widget .inner ul li a {
+.lax-footer-widget .inner ul li a {
     color: var(--color-body);
     font-weight: 500;
     font-size: 16px;
@@ -13594,7 +13594,7 @@ body.open .closeMask {
     position: relative
 }
 
-.axil-footer-widget .inner ul li a:after {
+.lax-footer-widget .inner ul li a:after {
     content: "";
     height: 2px;
     width: 0;
@@ -13606,40 +13606,40 @@ body.open .closeMask {
     transition: .5s
 }
 
-.axil-footer-widget .inner ul li a:hover {
+.lax-footer-widget .inner ul li a:hover {
     color: var(--color-heading)
 }
 
-.axil-footer-widget .inner ul li a:hover:after {
+.lax-footer-widget .inner ul li a:hover:after {
     width: 100%;
     opacity: 1;
     left: 0
 }
 
-.axil-footer-widget .logo img {
+.lax-footer-widget .logo img {
     height: 35px;
     width: auto
 }
 
-.axil-footer-widget .support-list-item {
+.lax-footer-widget .support-list-item {
     margin-bottom: 0
 }
 
-.axil-footer-widget .support-list-item li {
+.lax-footer-widget .support-list-item li {
     padding-left: 26px;
     position: relative
 }
 
-.axil-footer-widget .support-list-item li a {
+.lax-footer-widget .support-list-item li a {
     position: initial !important;
     font-weight: 400 !important
 }
 
-.axil-footer-widget .support-list-item li a:after {
+.lax-footer-widget .support-list-item li a:after {
     display: none
 }
 
-.axil-footer-widget .support-list-item li i {
+.lax-footer-widget .support-list-item li i {
     padding-right: 5px;
     position: absolute;
     top: 5px;
@@ -13787,7 +13787,7 @@ body.open .closeMask {
     background-color: var(--color-heading)
 }
 
-.footer-dark .axil-footer-widget p {
+.footer-dark .lax-footer-widget p {
     color: #acacac
 }
 
@@ -13799,15 +13799,15 @@ body.open .closeMask {
     color: var(--color-white)
 }
 
-.footer-dark .axil-footer-widget .widget-title {
+.footer-dark .lax-footer-widget .widget-title {
     color: #c8c8c8
 }
 
-.footer-dark .axil-footer-widget .inner ul li a {
+.footer-dark .lax-footer-widget .inner ul li a {
     color: #acacac
 }
 
-.footer-dark .axil-footer-widget .inner ul li a:after {
+.footer-dark .lax-footer-widget .inner ul li a:after {
     background-color: #acacac
 }
 
@@ -13844,36 +13844,36 @@ body.open .closeMask {
     height: 2px
 }
 
-.footer-style-2 .axil-footer-widget .widget-title {
+.footer-style-2 .lax-footer-widget .widget-title {
     font-weight: 600
 }
 
-.footer-style-2 .axil-footer-widget .inner .download-btn-group {
+.footer-style-2 .lax-footer-widget .inner .download-btn-group {
     display: flex;
     align-items: center;
     margin-top: 15px
 }
 
-.footer-style-2 .axil-footer-widget .inner .download-btn-group .qr-code {
+.footer-style-2 .lax-footer-widget .inner .download-btn-group .qr-code {
     margin-right: 20px
 }
 
 @media only screen and (min-width: 992px)and (max-width: 1199px) {
-    .footer-style-2 .axil-footer-widget .inner .download-btn-group .qr-code img {
+    .footer-style-2 .lax-footer-widget .inner .download-btn-group .qr-code img {
         height: 80px
     }
 }
 
-.footer-style-2 .axil-footer-widget .inner .download-btn-group .app-link {
+.footer-style-2 .lax-footer-widget .inner .download-btn-group .app-link {
     flex: 1
 }
 
-.footer-style-2 .axil-footer-widget .inner .download-btn-group .app-link a {
+.footer-style-2 .lax-footer-widget .inner .download-btn-group .app-link a {
     margin-bottom: 15px;
     display: block
 }
 
-.footer-style-2 .axil-footer-widget .inner .download-btn-group .app-link a:last-child {
+.footer-style-2 .lax-footer-widget .inner .download-btn-group .app-link a:last-child {
     margin-bottom: 0
 }
 
@@ -14022,7 +14022,7 @@ body.open .closeMask {
     background-color: var(--color-lighter)
 }
 
-.offer-popup-modal .offer-popup-wrap .card-body .axil-btn i {
+.offer-popup-modal .offer-popup-wrap .card-body .lax-btn i {
     margin-right: 0;
     margin-left: 8px;
     position: relative;
@@ -14040,38 +14040,38 @@ body.open .closeMask {
     margin-bottom: 0
 }
 
-.axil-section-gap {
+.lax-section-gap {
     padding: 80px 0
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-section-gap {
+    .lax-section-gap {
         padding: 60px 0
     }
 }
 
-.axil-section-gapcommon {
+.lax-section-gapcommon {
     padding: 80px 0 50px
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-section-gapcommon {
+    .lax-section-gapcommon {
         padding: 60px 0 30px
     }
 }
 
-.axil-section-gapBottom {
+.lax-section-gapBottom {
     padding-bottom: 80px
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-section-gapBottom {
+    .lax-section-gapBottom {
         padding-bottom: 80px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-section-gapBottom {
+    .lax-section-gapBottom {
         padding-bottom: 60px
     }
 }
@@ -14092,36 +14092,36 @@ body.open .closeMask {
     }
 }
 
-.axil-section-gapTop {
+.lax-section-gapTop {
     padding-top: 80px
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axil-section-gapTop {
+    .lax-section-gapTop {
         padding-top: 80px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axil-section-gapTop {
+    .lax-section-gapTop {
         padding-top: 60px
     }
 }
 
-.axilil-service-area.axil-section-gap.layout-2 {
+.axilil-service-area.lax-section-gap.layout-2 {
     padding-bottom: 160px;
     padding-top: 120px
 }
 
 @media only screen and (min-width: 768px)and (max-width: 991px) {
-    .axilil-service-area.axil-section-gap.layout-2 {
+    .axilil-service-area.lax-section-gap.layout-2 {
         padding-top: 80px;
         padding-bottom: 80px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .axilil-service-area.axil-section-gap.layout-2 {
+    .axilil-service-area.lax-section-gap.layout-2 {
         padding-top: 60px;
         padding-bottom: 60px
     }

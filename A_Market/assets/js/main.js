@@ -39,11 +39,11 @@ $(window).scroll(function () {
             axilInit.countdownInit('.poster-countdown', '2022/10/01');
             axilInit.countdownInit('.sale-countdown', '2022/10/31');
             axilInit.sideOffcanvasToggle('.cart-dropdown-btn', '#cart-dropdown');
-            axilInit.stickyHeaderMenu('.axil-mainmenu');
+            axilInit.stickyHeaderMenu('.lax-mainmenu');
             axilInit.sideOffcanvasToggle('.mobile-nav-toggler', '.header-main-nav');
             axilInit.sideOffcanvasToggle('.department-side-menu', '.department-nav-menu');
-            axilInit.sideOffcanvasToggle('.filter-toggle', '.axil-shop-sidebar');
-            axilInit.sideOffcanvasToggle('.axil-search', '#header-search-modal');
+            axilInit.sideOffcanvasToggle('.filter-toggle', '.lax-shop-sidebar');
+            axilInit.sideOffcanvasToggle('.lax-search', '#header-search-modal');
             axilInit.sideOffcanvasToggle('.checkout-btnp', '#paiementpopup');
             axilInit.sideOffcanvasToggle('.popup-close, .closeMask', "#offer-popup-modal");
             axilInit.stickyHeaderMenu();
@@ -64,7 +64,7 @@ $(window).scroll(function () {
         },
 
         contactForm: function () {
-            $('.axil-contact-form').on('submit', function (e) {
+            $('.lax-contact-form').on('submit', function (e) {
                 e.preventDefault();
                 var _self = $(this);
                 var _selector = _self.closest('input,textarea');
@@ -81,11 +81,11 @@ $(window).scroll(function () {
                         _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
                         if (data.code == false) {
                             _self.closest('div').find('[name="' + data.field + '"]');
-                            _self.find('.axil-btn').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
+                            _self.find('.lax-btn').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
                         } else {
                             $('.error-msg').hide();
                             $('.form-group').removeClass('focused');
-                            _self.find('.axil-btn').after('<div class="success-msg"><p>' + data.success + '</p></div>');
+                            _self.find('.lax-btn').after('<div class="success-msg"><p>' + data.success + '</p></div>');
                             _self.closest('div').find('input,textarea').val('');
 
                             setTimeout(function () {
@@ -142,7 +142,7 @@ $(window).scroll(function () {
             $('.menu-item-has-children > a').on('click', function (e) {
 
                 var targetParent = $(this).parents('.header-main-nav');
-                var target = $(this).siblings('.axil-submenu');
+                var target = $(this).siblings('.lax-submenu');
 
                 if (targetParent.hasClass('open')) {
                     $(target).slideToggle(400);
@@ -876,17 +876,17 @@ $(window).scroll(function () {
             $(window).on('scroll', function () {
                 // Sticky Class Add
                 if ($('body').hasClass('sticky-header')) {
-                    var stickyPlaceHolder = $('#axil-sticky-placeholder'),
+                    var stickyPlaceHolder = $('#lax-sticky-placeholder'),
                         menu = $(menuid),
                         menuH = menu.outerHeight(),
-                        topHeaderH = $('.axil-header-topnone').outerHeight() || 0,
+                        topHeaderH = $('.lax-header-topnone').outerHeight() || 0,
                         headerCampaign = $('.header-top-campaign').outerHeight() || 0,
                         targrtScroll = topHeaderH + headerCampaign;
                     if ($(window).scrollTop() > targrtScroll) {
-                        menu.addClass('axil-sticky');
+                        menu.addClass('lax-sticky');
                         stickyPlaceHolder.height(menuH);
                     } else {
-                        menu.removeClass('axil-sticky');
+                        menu.removeClass('lax-sticky');
                         stickyPlaceHolder.height(0);
                     }
                 }
@@ -954,7 +954,7 @@ $(window).scroll(function () {
         },
 
         axilMasonary: function () {
-            $('.axil-isotope-wrapper').imagesLoaded(function () {
+            $('.lax-isotope-wrapper').imagesLoaded(function () {
                 // filter items on button click
                 $('.isotope-button').on('click', 'button', function () {
                     var filterValue = $(this).attr('data-filter');
