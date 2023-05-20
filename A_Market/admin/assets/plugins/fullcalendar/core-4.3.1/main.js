@@ -109,7 +109,7 @@ Docs & License: https://fullcalendar.io/
     var matchesMethod = Element.prototype.matches ||
         Element.prototype.matchesSelector ||
         Element.prototype.msMatchesSelector;
-    var closestMethod = Element.prototype.closest || function (selector) {
+    var closestMethod = Element.prototype.closest|| function (selector) {
         // polyfill
         var el = this;
         if (!document.documentElement.contains(el)) {
@@ -119,7 +119,7 @@ Docs & License: https://fullcalendar.io/
             if (elementMatches(el, selector)) {
                 return el;
             }
-            el = el.parentElement || el.parentNode;
+            el = el.parentElement|| el.parentNode;
         } while (el !== null && el.nodeType === 1);
         return null;
     };
@@ -606,7 +606,7 @@ Docs & License: https://fullcalendar.io/
             return normalizeObject(input);
         }
         else if (typeof input === 'number') {
-            return normalizeObject((_a = {}, _a[unit || 'milliseconds'] = input, _a));
+            return normalizeObject((_a = {}, _a[unit|| 'milliseconds'] = input, _a));
         }
         else {
             return null;
@@ -3786,7 +3786,7 @@ Docs & License: https://fullcalendar.io/
                 ) ? 'scroll' : 'hidden';
             }
             if (overflowY === 'auto') {
-                overflowY = (scrollbarWidths.left || scrollbarWidths.right || // horizontal scrollbars?
+                overflowY = (scrollbarWidths.left|| scrollbarWidths.right|| // horizontal scrollbars?
                     this.canScrollVertically() // OR scrolling pane with massless scrollbars?
                 ) ? 'scroll' : 'hidden';
             }
@@ -3967,7 +3967,7 @@ Docs & License: https://fullcalendar.io/
       
             // if it would be impossible to render a drag mirror OR this component likes to render
             // highlights, then render a highlight.
-            if (!isEvent || this.doesDragHighlight) {
+            if (!isEvent|| this.doesDragHighlight) {
               if (this.fillRenderer) {
                 this.fillRenderer.renderSegs('highlight', segs)
               }
@@ -5184,7 +5184,7 @@ Docs & License: https://fullcalendar.io/
         else {
             return !calendar.opt('lazyFetching') ||
                 !eventSource.fetchRange ||
-                fetchRange.start < eventSource.fetchRange.start ||
+                fetchRange.start < eventSource.fetchRange.start||
                 fetchRange.end > eventSource.fetchRange.end;
         }
     }
@@ -5959,7 +5959,7 @@ Docs & License: https://fullcalendar.io/
             }
         }
         var queryButtonText = function (options) {
-            var buttonTextMap = options.buttonText || {};
+            var buttonTextMap = options.buttonText|| {};
             var buttonTextKey = viewDef.defaults.buttonTextKey;
             if (buttonTextKey != null && buttonTextMap[buttonTextKey] != null) {
                 return buttonTextMap[buttonTextKey];
@@ -5983,7 +5983,7 @@ Docs & License: https://fullcalendar.io/
                 viewDef.overrides.buttonText,
             buttonTextDefault: queryButtonText(optionsManager.localeDefaults) ||
                 queryButtonText(optionsManager.dirDefaults) ||
-                viewDef.defaults.buttonText ||
+                viewDef.defaults.buttonText||
                 queryButtonText(globalDefaults) ||
                 viewDef.type // fall back to given view name
         };
@@ -6032,8 +6032,8 @@ Docs & License: https://fullcalendar.io/
             var viewSpecs = calendar.viewSpecs;
             var sectionEl = createElement('div', { className: 'fc-' + position });
             var calendarCustomButtons = optionsManager.computed.customButtons || {};
-            var calendarButtonTextOverrides = optionsManager.overrides.buttonText || {};
-            var calendarButtonText = optionsManager.computed.buttonText || {};
+            var calendarButtonTextOverrides = optionsManager.overrides.buttonText|| {};
+            var calendarButtonText = optionsManager.computed.buttonText|| {};
             if (buttonStr) {
                 buttonStr.split(' ').forEach(function (buttonGroupStr, i) {
                     var groupChildren = [];
@@ -6362,7 +6362,7 @@ Docs & License: https://fullcalendar.io/
         else { // for day units or smaller, use the actual day range
             range = dateProfile.activeRange;
         }
-        return this.dateEnv.formatRange(range.start, range.end, createFormatter(viewOptions.titleFormat || computeTitleFormat(dateProfile), viewOptions.titleRangeSeparator), { isEndExclusive: dateProfile.isRangeAllDay });
+        return this.dateEnv.formatRange(range.start, range.end, createFormatter(viewOptions.titleFormat|| computeTitleFormat(dateProfile), viewOptions.titleRangeSeparator), { isEndExclusive: dateProfile.isRangeAllDay });
     }
     // Generates the format string that should be used to generate the title for the current date range.
     // Attempts to compute the most appropriate format if not explicitly specified with `titleFormat`.
@@ -7791,7 +7791,7 @@ Docs & License: https://fullcalendar.io/
             var options = this.context.options;
             var displayEventTime;
             var displayEventEnd;
-            this.eventTimeFormat = createFormatter(options.eventTimeFormat || this.computeEventTimeFormat(), options.defaultRangeSeparator);
+            this.eventTimeFormat = createFormatter(options.eventTimeFormat|| this.computeEventTimeFormat(), options.defaultRangeSeparator);
             displayEventTime = options.displayEventTime;
             if (displayEventTime == null) {
                 displayEventTime = this.computeDisplayEventTime(); // might be based off of range

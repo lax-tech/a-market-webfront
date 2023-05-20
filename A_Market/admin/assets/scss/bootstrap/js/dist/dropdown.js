@@ -125,7 +125,7 @@
   };
 
   const isDisabled = element => {
-    if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+    if (!element|| element.nodeType !== Node.ELEMENT_NODE) {
       return true;
     }
 
@@ -570,7 +570,7 @@
       for (let i = 0, len = toggles.length; i < len; i++) {
         const context = Dropdown.getInstance(toggles[i]);
 
-        if (!context || context._config.autoClose === false) {
+        if (!context|| context._config.autoClose === false) {
           continue;
         }
 
@@ -586,7 +586,7 @@
           const composedPath = event.composedPath();
           const isMenuTarget = composedPath.includes(context._menu);
 
-          if (composedPath.includes(context._element) || context._config.autoClose === 'inside' && !isMenuTarget || context._config.autoClose === 'outside' && isMenuTarget) {
+          if (composedPath.includes(context._element) || context._config.autoClose === 'inside' && !isMenuTarget|| context._config.autoClose === 'outside' && isMenuTarget) {
             continue;
           } // Tab navigation through the dropdown menu or events from contained inputs shouldn't close the menu
 

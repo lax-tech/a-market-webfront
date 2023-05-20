@@ -222,7 +222,7 @@ var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-bs-`, as in `data-bs-backdrop=""`.
 
 {{< bs-table "table" >}}
-| Name | Type | Default | Description |
+| Name | Type | Default| Description |
 | --- | --- | --- | --- |
 | `backdrop` | boolean | `true` | Apply a backdrop on body while offcanvas is open |
 | `keyboard` | boolean | `true` | Closes the offcanvas when escape key is pressed |
@@ -250,7 +250,7 @@ var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas)
 | `toggle` | Toggles an offcanvas element to shown or hidden. **Returns to the caller before the offcanvas element has actually been shown or hidden** (i.e. before the `shown.bs.offcanvas` or `hidden.bs.offcanvas` event occurs). |
 | `show` | Shows an offcanvas element. **Returns to the caller before the offcanvas element has actually been shown** (i.e. before the `shown.bs.offcanvas` event occurs).|
 | `hide` | Hides an offcanvas element. **Returns to the caller before the offcanvas element has actually been hidden** (i.e. before the `hidden.bs.offcanvas` event occurs).|
-| `getInstance` | *Static* method which allows you to get the offcanvas instance associated with a DOM element |
+| `getInstance` | *Static* method which allows you to get the offcanvas instance associated with a DOM element|
 | `getOrCreateInstance` | *Static* method which allows you to get the offcanvas instance associated with a DOM element, or create a new one in case it wasn't initialized |
 {{< /bs-table >}}
 

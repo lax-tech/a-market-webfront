@@ -52,7 +52,7 @@
   };
 
   const isDisabled = element => {
-    if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+    if (!element|| element.nodeType !== Node.ELEMENT_NODE) {
       return true;
     }
 

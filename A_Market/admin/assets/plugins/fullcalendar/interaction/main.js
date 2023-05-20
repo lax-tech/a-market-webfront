@@ -983,7 +983,7 @@ Docs & License: https://fullcalendar.io/
                 _this.finalHit = null;
                 _this.prepareHits();
                 _this.processFirstCoord(ev);
-                if (_this.initialHit || !_this.requireInitial) {
+                if (_this.initialHit|| !_this.requireInitial) {
                     dragging.setIgnoreMove(false);
                     _this.emitter.trigger('pointerdown', ev); // TODO: fire this before computing processFirstCoord, so listeners can cancel. this gets fired by almost every handler :(
                 }
@@ -1089,7 +1089,7 @@ Docs & License: https://fullcalendar.io/
                             // make sure the hit is within activeRange, meaning it's not a deal cell
                             !component.props.dateProfile || // hack for DayTile
                                 core.rangeContainsRange(component.props.dateProfile.activeRange, hit.dateSpan.range)) &&
-                            (!bestHit || hit.layer > bestHit.layer)) {
+                            (!bestHit|| hit.layer > bestHit.layer)) {
                             // TODO: better way to re-orient rectangle
                             hit.rect.left += originLeft;
                             hit.rect.right += originLeft;
@@ -1375,7 +1375,7 @@ Docs & License: https://fullcalendar.io/
                     _this.dragging.setMirrorNeedsRevert(!mutation);
                     // render the mirror if no already-rendered mirror
                     // TODO: wish we could somehow wait for dispatch to guarantee render
-                    _this.dragging.setMirrorIsVisible(!hit || !document.querySelector('.fc-mirror'));
+                    _this.dragging.setMirrorIsVisible(!hit|| !document.querySelector('.fc-mirror'));
                     // assign states based on new hit
                     _this.receivingCalendar = receivingCalendar;
                     _this.validMutation = mutation;
@@ -1850,7 +1850,7 @@ Docs & License: https://fullcalendar.io/
                 _this.displayDrag(receivingCalendar, interaction);
                 // show mirror if no already-rendered mirror element OR if we are shutting down the mirror (?)
                 // TODO: wish we could somehow wait for dispatch to guarantee render
-                dragging.setMirrorIsVisible(isFinal || !droppableEvent || !document.querySelector('.fc-mirror'));
+                dragging.setMirrorIsVisible(isFinal || !droppableEvent|| !document.querySelector('.fc-mirror'));
                 if (!isInvalid) {
                     core.enableCursor();
                 }
@@ -2100,7 +2100,7 @@ Docs & License: https://fullcalendar.io/
             var containerEl = document;
             if (
             // wish we could just test instanceof EventTarget, but doesn't work in IE11
-            containerOrSettings === document ||
+            containerOrSettings === document||
                 containerOrSettings instanceof Element) {
                 containerEl = containerOrSettings;
                 settings = settings || {};

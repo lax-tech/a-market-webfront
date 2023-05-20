@@ -187,7 +187,7 @@ Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` opt
     </tr>
     <tr>
       <td><code>container</code></td>
-      <td>string | element | false</td>
+      <td>string | element| false</td>
       <td><code>false</code></td>
       <td>
         <p>Appends the tooltip to a specific element. Example: <code>container: 'body'</code>. This option is particularly useful in that it allows you to position the tooltip in the flow of the document near the triggering element - which will prevent the tooltip from floating away from the triggering element during a window resize.</p>
@@ -218,7 +218,7 @@ Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` opt
       <td>string | function</td>
       <td><code>'top'</code></td>
       <td>
-        <p>How to position the tooltip - auto | top | bottom | left | right.<br>When <code>auto</code> is specified, it will dynamically reorient the tooltip.</p>
+        <p>How to position the tooltip - auto | top | bottom | left| right.<br>When <code>auto</code> is specified, it will dynamically reorient the tooltip.</p>
         <p>When a function is used to determine the placement, it is called with the tooltip DOM node as its first argument and the triggering element DOM node as its second. The <code>this</code> context is set to the tooltip instance.</p>
       </td>
     </tr>
@@ -241,7 +241,7 @@ Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` opt
     </tr>
     <tr>
       <td><code>title</code></td>
-      <td>string | element | function</td>
+      <td>string | element| function</td>
       <td><code>''</code></td>
       <td>
         <p>Default title value if <code>title</code> attribute isn't present.</p>
@@ -310,7 +310,7 @@ Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` opt
     </tr>
     <tr>
       <td><code>popperConfig</code></td>
-      <td>null | object | function</td>
+      <td>null | object| function</td>
       <td><code>null</code></td>
       <td>
         <p>To change Bootstrap's default Popper config, see <a href="https://popper.js.org/docs/v2/constructors/#options">Popper's configuration</a>.</p>

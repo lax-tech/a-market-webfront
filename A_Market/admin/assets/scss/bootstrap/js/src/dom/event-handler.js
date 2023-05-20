@@ -79,7 +79,7 @@ const nativeEvents = new Set([
  */
 
 function getUidEvent(element, uid) {
-  return (uid && `${uid}::${uidEvent++}`) || element.uidEvent || uidEvent++
+  return (uid && `${uid}::${uidEvent++}`) || element.uidEvent|| uidEvent++
 }
 
 function getEvent(element) {
@@ -169,7 +169,7 @@ function addHandler(element, originalTypeEvent, handler, delegationFn, oneOff) {
   if (customEventsRegex.test(originalTypeEvent)) {
     const wrapFn = fn => {
       return function (event) {
-        if (!event.relatedTarget || (event.relatedTarget !== event.delegateTarget && !event.delegateTarget.contains(event.relatedTarget))) {
+        if (!event.relatedTarget|| (event.relatedTarget !== event.delegateTarget && !event.delegateTarget.contains(event.relatedTarget))) {
           return fn.call(this, event)
         }
       }

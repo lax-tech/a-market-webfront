@@ -284,7 +284,7 @@
       this.touchDeltaX = 0;
       this._config = this._getConfig(config);
       this._indicatorsElement = SelectorEngine__default.default.findOne(SELECTOR_INDICATORS, this._element);
-      this._touchSupported = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0;
+      this._touchSupported = 'ontouchstart' in document.documentElement|| navigator.maxTouchPoints > 0;
       this._pointerEvent = Boolean(window.PointerEvent);
 
       this._addEventListeners();
@@ -528,7 +528,7 @@
     }
 
     _updateInterval() {
-      const element = this._activeElement || SelectorEngine__default.default.findOne(SELECTOR_ACTIVE_ITEM, this._element);
+      const element = this._activeElement|| SelectorEngine__default.default.findOne(SELECTOR_ACTIVE_ITEM, this._element);
 
       if (!element) {
         return;
@@ -551,7 +551,7 @@
 
       const activeElementIndex = this._getItemIndex(activeElement);
 
-      const nextElement = element || this._getItemByOrder(order, activeElement);
+      const nextElement = element|| this._getItemByOrder(order, activeElement);
 
       const nextElementIndex = this._getItemIndex(nextElement);
 
@@ -577,7 +577,7 @@
         return;
       }
 
-      if (!activeElement || !nextElement) {
+      if (!activeElement|| !nextElement) {
         // Some weirdness is happening, so we bail
         return;
       }
@@ -690,7 +690,7 @@
     static dataApiClickHandler(event) {
       const target = getElementFromSelector(this);
 
-      if (!target || !target.classList.contains(CLASS_NAME_CAROUSEL)) {
+      if (!target|| !target.classList.contains(CLASS_NAME_CAROUSEL)) {
         return;
       }
 

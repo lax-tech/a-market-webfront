@@ -163,7 +163,7 @@ class ScrollSpy extends BaseComponent {
   }
 
   _getScrollHeight() {
-    return this._scrollElement.scrollHeight || Math.max(
+    return this._scrollElement.scrollHeight|| Math.max(
       document.body.scrollHeight,
       document.documentElement.scrollHeight
     )

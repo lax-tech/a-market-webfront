@@ -161,7 +161,7 @@ jQuery.fn = jQuery.prototype = {
 	},
 
 	end: function() {
-		return this.prevObject || this.constructor(null);
+		return this.prevObject|| this.constructor(null);
 	},
 
 	// For internal use only.
@@ -335,7 +335,7 @@ jQuery.extend({
 			// We use execScript on Internet Explorer
 			// We use an anonymous function so that context is window
 			// rather than jQuery in Firefox
-			( window.execScript || function( data ) {
+			( window.execScript|| function( data ) {
 				window[ "eval" ].call( window, data );
 			} )( data );
 		}
@@ -545,7 +545,7 @@ jQuery.extend({
 		// Simulated bind
 		args = slice.call( arguments, 2 );
 		proxy = function() {
-			return fn.apply( context || this, args.concat( slice.call( arguments ) ) );
+			return fn.apply( context|| this, args.concat( slice.call( arguments ) ) );
 		};
 
 		// Set the guid of unique handler to the same of original handler, so it can be removed
@@ -790,11 +790,11 @@ function Sizzle( selector, context, results, seed ) {
 		// QSA vars
 		i, groups, old, nid, newContext, newSelector;
 
-	if ( ( context ? context.ownerDocument || context : preferredDoc ) !== document ) {
+	if ( ( context ? context.ownerDocument|| context : preferredDoc ) !== document ) {
 		setDocument( context );
 	}
 
-	context = context || document;
+	context = context|| document;
 	results = results || [];
 	nodeType = context.nodeType;
 
@@ -1050,7 +1050,7 @@ support = Sizzle.support = {};
 isXML = Sizzle.isXML = function( elem ) {
 	// documentElement is verified for cases where it doesn't yet exist
 	// (such as loading iframes in IE - #4833)
-	var documentElement = elem && (elem.ownerDocument || elem).documentElement;
+	var documentElement = elem && (elem.ownerDocument|| elem).documentElement;
 	return documentElement ? documentElement.nodeName !== "HTML" : false;
 };
 
@@ -1061,10 +1061,10 @@ isXML = Sizzle.isXML = function( elem ) {
  */
 setDocument = Sizzle.setDocument = function( node ) {
 	var hasCompare, parent,
-		doc = node ? node.ownerDocument || node : preferredDoc;
+		doc = node ? node.ownerDocument|| node : preferredDoc;
 
 	// If no document and documentElement is available, return
-	if ( doc === document || doc.nodeType !== 9 || !doc.documentElement ) {
+	if ( doc === document|| doc.nodeType !== 9 || !doc.documentElement ) {
 		return document;
 	}
 
@@ -1347,7 +1347,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		}
 
 		// Calculate position if both inputs belong to the same document
-		compare = ( a.ownerDocument || a ) === ( b.ownerDocument || b ) ?
+		compare = ( a.ownerDocument|| a ) === ( b.ownerDocument|| b ) ?
 			a.compareDocumentPosition( b ) :
 
 			// Otherwise we know they are disconnected
@@ -1436,7 +1436,7 @@ Sizzle.matches = function( expr, elements ) {
 
 Sizzle.matchesSelector = function( elem, expr ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ownerDocument|| elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -1451,7 +1451,7 @@ Sizzle.matchesSelector = function( elem, expr ) {
 			var ret = matches.call( elem, expr );
 
 			// IE 9's matchesSelector returns false on disconnected nodes
-			if ( ret || support.disconnectedMatch ||
+			if ( ret|| support.disconnectedMatch ||
 					// As well, disconnected nodes are said to be in a document
 					// fragment in IE 9
 					elem.document && elem.document.nodeType !== 11 ) {
@@ -1465,7 +1465,7 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 Sizzle.contains = function( context, elem ) {
 	// Set document vars if needed
-	if ( ( context.ownerDocument || context ) !== document ) {
+	if ( ( context.ownerDocument|| context ) !== document ) {
 		setDocument( context );
 	}
 	return contains( context, elem );
@@ -1473,7 +1473,7 @@ Sizzle.contains = function( context, elem ) {
 
 Sizzle.attr = function( elem, name ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ownerDocument|| elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -1788,7 +1788,7 @@ Expr = Sizzle.selectors = {
 
 						// Incorporate the offset, then check against cycle size
 						diff -= last;
-						return diff === first || ( diff % first === 0 && diff / first >= 0 );
+						return diff === first|| ( diff % first === 0 && diff / first >= 0 );
 					}
 				};
 		},
@@ -1872,7 +1872,7 @@ Expr = Sizzle.selectors = {
 		"contains": markFunction(function( text ) {
 			text = text.replace( runescape, funescape );
 			return function( elem ) {
-				return ( elem.textContent || elem.innerText || getText( elem ) ).indexOf( text ) > -1;
+				return ( elem.textContent|| elem.innerText|| getText( elem ) ).indexOf( text ) > -1;
 			};
 		}),
 
@@ -2802,7 +2802,7 @@ var rootjQuery,
 					// Intentionally let the error be thrown if parseHTML is not present
 					jQuery.merge( this, jQuery.parseHTML(
 						match[1],
-						context && context.nodeType ? context.ownerDocument || context : document,
+						context && context.nodeType ? context.ownerDocument|| context : document,
 						true
 					) );
 
@@ -2846,8 +2846,8 @@ var rootjQuery,
 				}
 
 			// HANDLE: $(expr, $(...))
-			} else if ( !context || context.jquery ) {
-				return ( context || rootjQuery ).find( selector );
+			} else if ( !context|| context.jquery ) {
+				return ( context|| rootjQuery ).find( selector );
 
 			// HANDLE: $(expr, context)
 			// (which is just equivalent to: $(context).find(expr)
@@ -2942,7 +2942,7 @@ jQuery.fn.extend({
 			l = this.length,
 			matched = [],
 			pos = rneedsContext.test( selectors ) || typeof selectors !== "string" ?
-				jQuery( selectors, context || this.context ) :
+				jQuery( selectors, context|| this.context ) :
 				0;
 
 		for ( ; i < l; i++ ) {
@@ -3044,7 +3044,7 @@ jQuery.each({
 	},
 	contents: function( elem ) {
 		return jQuery.nodeName( elem, "iframe" ) ?
-			elem.contentDocument || elem.contentWindow.document :
+			elem.contentDocument|| elem.contentWindow.document :
 			jQuery.merge( [], elem.childNodes );
 	}
 }, function( name, fn ) {
@@ -3140,7 +3140,7 @@ jQuery.Callbacks = function( options ) {
 		fire = function( data ) {
 			memory = options.memory && data;
 			fired = true;
-			firingIndex = firingStart || 0;
+			firingIndex = firingStart|| 0;
 			firingStart = 0;
 			firingLength = list.length;
 			firing = true;
@@ -3341,11 +3341,11 @@ jQuery.extend({
 					// state = [ resolved | rejected ]
 					state = stateString;
 
-				// [ reject_list | resolve_list ].disable; progress_list.lock
+				// [ reject_list| resolve_list ].disable; progress_list.lock
 				}, tuples[ i ^ 1 ][ 2 ].disable, tuples[ 2 ][ 2 ].lock );
 			}
 
-			// deferred[ resolve | reject | notify ]
+			// deferred[ resolve | reject| notify ]
 			deferred[ tuple[0] ] = function() {
 				deferred[ tuple[0] + "With" ]( this === deferred ? promise : this, arguments );
 				return this;
@@ -4560,7 +4560,7 @@ jQuery.event = {
 			}
 
 			// Only add window if we got to document (e.g., not plain obj or detached DOM)
-			if ( tmp === (elem.ownerDocument || document) ) {
+			if ( tmp === (elem.ownerDocument|| document) ) {
 				eventPath.push( tmp.defaultView || tmp.parentWindow || window );
 			}
 		}
@@ -4593,7 +4593,7 @@ jQuery.event = {
 		// If nobody prevented the default action, do it now
 		if ( !onlyHandlers && !event.isDefaultPrevented() ) {
 
-			if ( (!special._default || special._default.apply( eventPath.pop(), data ) === false) &&
+			if ( (!special._default|| special._default.apply( eventPath.pop(), data ) === false) &&
 				jQuery.acceptData( elem ) ) {
 
 				// Call a native DOM method on the target with the same name name as the event.
@@ -4766,7 +4766,7 @@ jQuery.event = {
 		// Support: IE<9
 		// Fix target property (#1925)
 		if ( !event.target ) {
-			event.target = originalEvent.srcElement || document;
+			event.target = originalEvent.srcElement|| document;
 		}
 
 		// Support: Chrome 23+, Safari?
@@ -4809,11 +4809,11 @@ jQuery.event = {
 
 			// Calculate pageX/Y if missing and clientX/Y available
 			if ( event.pageX == null && original.clientX != null ) {
-				eventDoc = event.target.ownerDocument || document;
+				eventDoc = event.target.ownerDocument|| document;
 				doc = eventDoc.documentElement;
 				body = eventDoc.body;
 
-				event.pageX = original.clientX + ( doc && doc.scrollLeft || body && body.scrollLeft || 0 ) - ( doc && doc.clientLeft || body && body.clientLeft || 0 );
+				event.pageX = original.clientX + ( doc && doc.scrollLeft|| body && body.scrollLeft|| 0 ) - ( doc && doc.clientLeft|| body && body.clientLeft|| 0 );
 				event.pageY = original.clientY + ( doc && doc.scrollTop  || body && body.scrollTop  || 0 ) - ( doc && doc.clientTop  || body && body.clientTop  || 0 );
 			}
 
@@ -5171,7 +5171,7 @@ if ( !support.focusinBubbles ) {
 
 		jQuery.event.special[ fix ] = {
 			setup: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ownerDocument|| this,
 					attaches = jQuery._data( doc, fix );
 
 				if ( !attaches ) {
@@ -5180,7 +5180,7 @@ if ( !support.focusinBubbles ) {
 				jQuery._data( doc, fix, ( attaches || 0 ) + 1 );
 			},
 			teardown: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ownerDocument|| this,
 					attaches = jQuery._data( doc, fix ) - 1;
 
 				if ( !attaches ) {
@@ -5523,7 +5523,7 @@ jQuery.extend({
 			fragmentDiv.removeChild( clone = fragmentDiv.firstChild );
 		}
 
-		if ( (!support.noCloneEvent || !support.noCloneChecked) &&
+		if ( (!support.noCloneEvent|| !support.noCloneChecked) &&
 				(elem.nodeType === 1 || elem.nodeType === 11) && !jQuery.isXMLDoc(elem) ) {
 
 			// We eschew Sizzle here for performance reasons: http://jsperf.com/getall-vs-sizzle/2
@@ -5750,7 +5750,7 @@ jQuery.fn.extend({
 		return access( this, function( value ) {
 			return value === undefined ?
 				jQuery.text( this ) :
-				this.empty().append( ( this[0] && this[0].ownerDocument || document ).createTextNode( value ) );
+				this.empty().append( ( this[0] && this[0].ownerDocument|| document ).createTextNode( value ) );
 		}, null, value, arguments.length );
 	},
 
@@ -5982,7 +5982,7 @@ jQuery.fn.extend({
 									jQuery._evalUrl( node.src );
 								}
 							} else {
-								jQuery.globalEval( ( node.text || node.textContent || node.innerHTML || "" ).replace( rcleanScript, "" ) );
+								jQuery.globalEval( ( node.text|| node.textContent|| node.innerHTML || "" ).replace( rcleanScript, "" ) );
 							}
 						}
 					}
@@ -6545,7 +6545,7 @@ function setPositiveNumber( elem, value, subtract ) {
 	var matches = rnumsplit.exec( value );
 	return matches ?
 		// Guard against undefined "subtract", e.g., when used as in cssHooks
-		Math.max( 0, matches[ 1 ] - ( subtract || 0 ) ) + ( matches[ 2 ] || "px" ) :
+		Math.max( 0, matches[ 1 ] - ( subtract|| 0 ) ) + ( matches[ 2 ] || "px" ) :
 		value;
 }
 
@@ -6941,7 +6941,7 @@ Tween.prototype = {
 		this.options = options;
 		this.start = this.now = this.cur();
 		this.end = end;
-		this.unit = unit || ( jQuery.cssNumber[ prop ] ? "" : "px" );
+		this.unit = unit|| ( jQuery.cssNumber[ prop ] ? "" : "px" );
 	},
 	cur: function() {
 		var hooks = Tween.propHooks[ this.prop ];
@@ -6994,7 +6994,7 @@ Tween.propHooks = {
 			// complex values such as "rotate(1rad)" are returned as is.
 			result = jQuery.css( tween.elem, tween.prop, "" );
 			// Empty strings, null, undefined and "auto" are converted to 0.
-			return !result || result === "auto" ? 0 : result;
+			return !result|| result === "auto" ? 0 : result;
 		},
 		set: function( tween ) {
 			// use step hook for back compat - use cssHook if its there - use .style if its
@@ -7059,13 +7059,13 @@ var
 
 			if ( start && start[ 3 ] !== unit ) {
 				// Trust units reported by jQuery.css
-				unit = unit || start[ 3 ];
+				unit = unit|| start[ 3 ];
 
 				// Make sure we update the tween properties later on
 				parts = parts || [];
 
 				// Iteratively approximate from a nonzero starting point
-				start = +target || 1;
+				start = +target|| 1;
 
 				do {
 					// If previous iteration zeroed out, double until we get *something*
@@ -7083,7 +7083,7 @@ var
 
 			// Update tween properties
 			if ( parts ) {
-				start = tween.start = +start || +target || 0;
+				start = tween.start = +start|| +target|| 0;
 				tween.unit = unit;
 				// If a +=/-= token was provided, we're doing a relative animation
 				tween.end = parts[ 1 ] ?
@@ -7193,7 +7193,7 @@ function defaultPrefilter( elem, props, opts ) {
 
 			// inline-level elements accept inline-block;
 			// block-level elements need to be inline with layout
-			if ( !support.inlineBlockNeedsLayout || defaultDisplay( elem.nodeName ) === "inline" ) {
+			if ( !support.inlineBlockNeedsLayout|| defaultDisplay( elem.nodeName ) === "inline" ) {
 				style.display = "inline-block";
 			} else {
 				style.zoom = 1;
@@ -8086,7 +8086,7 @@ jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( i, name ) 
 });
 
 // fix oldIE attroperties
-if ( !getSetInput || !getSetAttribute ) {
+if ( !getSetInput|| !getSetAttribute ) {
 	jQuery.attrHooks.value = {
 		set: function( elem, value, name ) {
 			if ( jQuery.nodeName( elem, "input" ) ) {
@@ -8174,7 +8174,7 @@ if ( !support.style ) {
 			// Return undefined in the case of empty string
 			// Note: IE uppercases css property names, but if we were to .toLowerCase()
 			// .cssText, that would destroy case senstitivity in URL's, like in "background"
-			return elem.style.cssText || undefined;
+			return elem.style.cssText|| undefined;
 		},
 		set: function( elem, value ) {
 			return ( elem.style.cssText = value + "" );
@@ -8484,7 +8484,7 @@ jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblcl
 
 jQuery.fn.extend({
 	hover: function( fnOver, fnOut ) {
-		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+		return this.mouseenter( fnOver ).mouseleave( fnOut|| fnOver );
 	},
 
 	bind: function( types, data, fn ) {
@@ -8573,7 +8573,7 @@ jQuery.parseXML = function( data ) {
 	} catch( e ) {
 		xml = undefined;
 	}
-	if ( !xml || !xml.documentElement || xml.getElementsByTagName( "parsererror" ).length ) {
+	if ( !xml || !xml.documentElement|| xml.getElementsByTagName( "parsererror" ).length ) {
 		jQuery.error( "Invalid XML: " + data );
 	}
 	return xml;
@@ -8590,7 +8590,7 @@ var
 	rheaders = /^(.*?):[ \t]*([^\r\n]*)\r?$/mg, // IE leaves an \r character at EOL
 	// #7653, #8125, #8152: local protocol detection
 	rlocalProtocol = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
-	rnoContent = /^(?:GET|HEAD)$/,
+	rnoContent = /^(?:GEt|HEAD)$/,
 	rprotocol = /^\/\//,
 	rurl = /^([\w.+-]+:)(?:\/\/(?:[^\/?#]*@|)([^\/?#:]*)(?::(\d+)|)|)/,
 
@@ -8980,7 +8980,7 @@ jQuery.extend({
 			// Create the final options object
 			s = jQuery.ajaxSetup( {}, options ),
 			// Callbacks context
-			callbackContext = s.context || s,
+			callbackContext = s.context|| s,
 			// Context for global events is callbackContext if it is a DOM node or jQuery collection
 			globalEventContext = s.context && ( callbackContext.nodeType || callbackContext.jquery ) ?
 				jQuery( callbackContext ) :
@@ -9058,7 +9058,7 @@ jQuery.extend({
 
 				// Cancel the request
 				abort: function( statusText ) {
-					var finalText = statusText || strAbort;
+					var finalText = statusText|| strAbort;
 					if ( transport ) {
 						transport.abort( finalText );
 					}
@@ -9307,7 +9307,7 @@ jQuery.extend({
 
 			// Set data for the fake xhr object
 			jqXHR.status = status;
-			jqXHR.statusText = ( nativeStatusText || statusText ) + "";
+			jqXHR.statusText = ( nativeStatusText|| statusText ) + "";
 
 			// Success/Error
 			if ( isSuccess ) {
@@ -9668,7 +9668,7 @@ if ( xhrSupported ) {
 						var status, statusText, responses;
 
 						// Was never called and is aborted or complete
-						if ( callback && ( isAbort || xhr.readyState === 4 ) ) {
+						if ( callback && ( isAbort|| xhr.readyState === 4 ) ) {
 							// Clean up
 							delete xhrCallbacks[ id ];
 							callback = undefined;
@@ -9811,7 +9811,7 @@ jQuery.ajaxTransport( "script", function(s) {
 				// Attach handlers for all browsers
 				script.onload = script.onreadystatechange = function( _, isAbort ) {
 
-					if ( isAbort || !script.readyState || /loaded|complete/.test( script.readyState ) ) {
+					if ( isAbort|| !script.readyState || /loaded|complete/.test( script.readyState ) ) {
 
 						// Handle memory leak in IE
 						script.onload = script.onreadystatechange = null;
@@ -9943,7 +9943,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 		keepScripts = context;
 		context = false;
 	}
-	context = context || document;
+	context = context|| document;
 
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
@@ -10142,8 +10142,8 @@ jQuery.fn.extend({
 		}
 		win = getWindow( doc );
 		return {
-			top: box.top  + ( win.pageYOffset || docElem.scrollTop )  - ( docElem.clientTop  || 0 ),
-			left: box.left + ( win.pageXOffset || docElem.scrollLeft ) - ( docElem.clientLeft || 0 )
+			top: box.top  + ( win.pageYOffset|| docElem.scrollTop )  - ( docElem.clientTop  || 0 ),
+			left: box.left + ( win.pageXOffset|| docElem.scrollLeft ) - ( docElem.clientLeft|| 0 )
 		};
 	},
 
@@ -10186,12 +10186,12 @@ jQuery.fn.extend({
 
 	offsetParent: function() {
 		return this.map(function() {
-			var offsetParent = this.offsetParent || docElem;
+			var offsetParent = this.offsetParent|| docElem;
 
 			while ( offsetParent && ( !jQuery.nodeName( offsetParent, "html" ) && jQuery.css( offsetParent, "position" ) === "static" ) ) {
 				offsetParent = offsetParent.offsetParent;
 			}
-			return offsetParent || docElem;
+			return offsetParent|| docElem;
 		});
 	}
 });
@@ -10511,7 +10511,7 @@ jQuery.fn = jQuery.prototype = {
 	},
 
 	end: function() {
-		return this.prevObject || this.constructor(null);
+		return this.prevObject|| this.constructor(null);
 	},
 
 	// For internal use only.
@@ -10685,7 +10685,7 @@ jQuery.extend({
 			// We use execScript on Internet Explorer
 			// We use an anonymous function so that context is window
 			// rather than jQuery in Firefox
-			( window.execScript || function( data ) {
+			( window.execScript|| function( data ) {
 				window[ "eval" ].call( window, data );
 			} )( data );
 		}
@@ -10895,7 +10895,7 @@ jQuery.extend({
 		// Simulated bind
 		args = slice.call( arguments, 2 );
 		proxy = function() {
-			return fn.apply( context || this, args.concat( slice.call( arguments ) ) );
+			return fn.apply( context|| this, args.concat( slice.call( arguments ) ) );
 		};
 
 		// Set the guid of unique handler to the same of original handler, so it can be removed
@@ -11140,11 +11140,11 @@ function Sizzle( selector, context, results, seed ) {
 		// QSA vars
 		i, groups, old, nid, newContext, newSelector;
 
-	if ( ( context ? context.ownerDocument || context : preferredDoc ) !== document ) {
+	if ( ( context ? context.ownerDocument|| context : preferredDoc ) !== document ) {
 		setDocument( context );
 	}
 
-	context = context || document;
+	context = context|| document;
 	results = results || [];
 	nodeType = context.nodeType;
 
@@ -11400,7 +11400,7 @@ support = Sizzle.support = {};
 isXML = Sizzle.isXML = function( elem ) {
 	// documentElement is verified for cases where it doesn't yet exist
 	// (such as loading iframes in IE - #4833)
-	var documentElement = elem && (elem.ownerDocument || elem).documentElement;
+	var documentElement = elem && (elem.ownerDocument|| elem).documentElement;
 	return documentElement ? documentElement.nodeName !== "HTML" : false;
 };
 
@@ -11411,10 +11411,10 @@ isXML = Sizzle.isXML = function( elem ) {
  */
 setDocument = Sizzle.setDocument = function( node ) {
 	var hasCompare, parent,
-		doc = node ? node.ownerDocument || node : preferredDoc;
+		doc = node ? node.ownerDocument|| node : preferredDoc;
 
 	// If no document and documentElement is available, return
-	if ( doc === document || doc.nodeType !== 9 || !doc.documentElement ) {
+	if ( doc === document|| doc.nodeType !== 9 || !doc.documentElement ) {
 		return document;
 	}
 
@@ -11697,7 +11697,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		}
 
 		// Calculate position if both inputs belong to the same document
-		compare = ( a.ownerDocument || a ) === ( b.ownerDocument || b ) ?
+		compare = ( a.ownerDocument|| a ) === ( b.ownerDocument|| b ) ?
 			a.compareDocumentPosition( b ) :
 
 			// Otherwise we know they are disconnected
@@ -11786,7 +11786,7 @@ Sizzle.matches = function( expr, elements ) {
 
 Sizzle.matchesSelector = function( elem, expr ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ownerDocument|| elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -11801,7 +11801,7 @@ Sizzle.matchesSelector = function( elem, expr ) {
 			var ret = matches.call( elem, expr );
 
 			// IE 9's matchesSelector returns false on disconnected nodes
-			if ( ret || support.disconnectedMatch ||
+			if ( ret|| support.disconnectedMatch ||
 					// As well, disconnected nodes are said to be in a document
 					// fragment in IE 9
 					elem.document && elem.document.nodeType !== 11 ) {
@@ -11815,7 +11815,7 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 Sizzle.contains = function( context, elem ) {
 	// Set document vars if needed
-	if ( ( context.ownerDocument || context ) !== document ) {
+	if ( ( context.ownerDocument|| context ) !== document ) {
 		setDocument( context );
 	}
 	return contains( context, elem );
@@ -11823,7 +11823,7 @@ Sizzle.contains = function( context, elem ) {
 
 Sizzle.attr = function( elem, name ) {
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	if ( ( elem.ownerDocument|| elem ) !== document ) {
 		setDocument( elem );
 	}
 
@@ -12138,7 +12138,7 @@ Expr = Sizzle.selectors = {
 
 						// Incorporate the offset, then check against cycle size
 						diff -= last;
-						return diff === first || ( diff % first === 0 && diff / first >= 0 );
+						return diff === first|| ( diff % first === 0 && diff / first >= 0 );
 					}
 				};
 		},
@@ -12222,7 +12222,7 @@ Expr = Sizzle.selectors = {
 		"contains": markFunction(function( text ) {
 			text = text.replace( runescape, funescape );
 			return function( elem ) {
-				return ( elem.textContent || elem.innerText || getText( elem ) ).indexOf( text ) > -1;
+				return ( elem.textContent|| elem.innerText|| getText( elem ) ).indexOf( text ) > -1;
 			};
 		}),
 
@@ -13152,7 +13152,7 @@ var rootjQuery,
 					// Intentionally let the error be thrown if parseHTML is not present
 					jQuery.merge( this, jQuery.parseHTML(
 						match[1],
-						context && context.nodeType ? context.ownerDocument || context : document,
+						context && context.nodeType ? context.ownerDocument|| context : document,
 						true
 					) );
 
@@ -13196,8 +13196,8 @@ var rootjQuery,
 				}
 
 			// HANDLE: $(expr, $(...))
-			} else if ( !context || context.jquery ) {
-				return ( context || rootjQuery ).find( selector );
+			} else if ( !context|| context.jquery ) {
+				return ( context|| rootjQuery ).find( selector );
 
 			// HANDLE: $(expr, context)
 			// (which is just equivalent to: $(context).find(expr)
@@ -13292,7 +13292,7 @@ jQuery.fn.extend({
 			l = this.length,
 			matched = [],
 			pos = rneedsContext.test( selectors ) || typeof selectors !== "string" ?
-				jQuery( selectors, context || this.context ) :
+				jQuery( selectors, context|| this.context ) :
 				0;
 
 		for ( ; i < l; i++ ) {
@@ -13394,7 +13394,7 @@ jQuery.each({
 	},
 	contents: function( elem ) {
 		return jQuery.nodeName( elem, "iframe" ) ?
-			elem.contentDocument || elem.contentWindow.document :
+			elem.contentDocument|| elem.contentWindow.document :
 			jQuery.merge( [], elem.childNodes );
 	}
 }, function( name, fn ) {
@@ -13490,7 +13490,7 @@ jQuery.Callbacks = function( options ) {
 		fire = function( data ) {
 			memory = options.memory && data;
 			fired = true;
-			firingIndex = firingStart || 0;
+			firingIndex = firingStart|| 0;
 			firingStart = 0;
 			firingLength = list.length;
 			firing = true;
@@ -13691,11 +13691,11 @@ jQuery.extend({
 					// state = [ resolved | rejected ]
 					state = stateString;
 
-				// [ reject_list | resolve_list ].disable; progress_list.lock
+				// [ reject_list| resolve_list ].disable; progress_list.lock
 				}, tuples[ i ^ 1 ][ 2 ].disable, tuples[ 2 ][ 2 ].lock );
 			}
 
-			// deferred[ resolve | reject | notify ]
+			// deferred[ resolve | reject| notify ]
 			deferred[ tuple[0] ] = function() {
 				deferred[ tuple[0] + "With" ]( this === deferred ? promise : this, arguments );
 				return this;
@@ -14910,7 +14910,7 @@ jQuery.event = {
 			}
 
 			// Only add window if we got to document (e.g., not plain obj or detached DOM)
-			if ( tmp === (elem.ownerDocument || document) ) {
+			if ( tmp === (elem.ownerDocument|| document) ) {
 				eventPath.push( tmp.defaultView || tmp.parentWindow || window );
 			}
 		}
@@ -14943,7 +14943,7 @@ jQuery.event = {
 		// If nobody prevented the default action, do it now
 		if ( !onlyHandlers && !event.isDefaultPrevented() ) {
 
-			if ( (!special._default || special._default.apply( eventPath.pop(), data ) === false) &&
+			if ( (!special._default|| special._default.apply( eventPath.pop(), data ) === false) &&
 				jQuery.acceptData( elem ) ) {
 
 				// Call a native DOM method on the target with the same name name as the event.
@@ -15116,7 +15116,7 @@ jQuery.event = {
 		// Support: IE<9
 		// Fix target property (#1925)
 		if ( !event.target ) {
-			event.target = originalEvent.srcElement || document;
+			event.target = originalEvent.srcElement|| document;
 		}
 
 		// Support: Chrome 23+, Safari?
@@ -15159,11 +15159,11 @@ jQuery.event = {
 
 			// Calculate pageX/Y if missing and clientX/Y available
 			if ( event.pageX == null && original.clientX != null ) {
-				eventDoc = event.target.ownerDocument || document;
+				eventDoc = event.target.ownerDocument|| document;
 				doc = eventDoc.documentElement;
 				body = eventDoc.body;
 
-				event.pageX = original.clientX + ( doc && doc.scrollLeft || body && body.scrollLeft || 0 ) - ( doc && doc.clientLeft || body && body.clientLeft || 0 );
+				event.pageX = original.clientX + ( doc && doc.scrollLeft|| body && body.scrollLeft|| 0 ) - ( doc && doc.clientLeft|| body && body.clientLeft|| 0 );
 				event.pageY = original.clientY + ( doc && doc.scrollTop  || body && body.scrollTop  || 0 ) - ( doc && doc.clientTop  || body && body.clientTop  || 0 );
 			}
 
@@ -15521,7 +15521,7 @@ if ( !support.focusinBubbles ) {
 
 		jQuery.event.special[ fix ] = {
 			setup: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ownerDocument|| this,
 					attaches = jQuery._data( doc, fix );
 
 				if ( !attaches ) {
@@ -15530,7 +15530,7 @@ if ( !support.focusinBubbles ) {
 				jQuery._data( doc, fix, ( attaches || 0 ) + 1 );
 			},
 			teardown: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ownerDocument|| this,
 					attaches = jQuery._data( doc, fix ) - 1;
 
 				if ( !attaches ) {
@@ -15873,7 +15873,7 @@ jQuery.extend({
 			fragmentDiv.removeChild( clone = fragmentDiv.firstChild );
 		}
 
-		if ( (!support.noCloneEvent || !support.noCloneChecked) &&
+		if ( (!support.noCloneEvent|| !support.noCloneChecked) &&
 				(elem.nodeType === 1 || elem.nodeType === 11) && !jQuery.isXMLDoc(elem) ) {
 
 			// We eschew Sizzle here for performance reasons: http://jsperf.com/getall-vs-sizzle/2
@@ -16100,7 +16100,7 @@ jQuery.fn.extend({
 		return access( this, function( value ) {
 			return value === undefined ?
 				jQuery.text( this ) :
-				this.empty().append( ( this[0] && this[0].ownerDocument || document ).createTextNode( value ) );
+				this.empty().append( ( this[0] && this[0].ownerDocument|| document ).createTextNode( value ) );
 		}, null, value, arguments.length );
 	},
 
@@ -16332,7 +16332,7 @@ jQuery.fn.extend({
 									jQuery._evalUrl( node.src );
 								}
 							} else {
-								jQuery.globalEval( ( node.text || node.textContent || node.innerHTML || "" ).replace( rcleanScript, "" ) );
+								jQuery.globalEval( ( node.text|| node.textContent|| node.innerHTML || "" ).replace( rcleanScript, "" ) );
 							}
 						}
 					}
@@ -16895,7 +16895,7 @@ function setPositiveNumber( elem, value, subtract ) {
 	var matches = rnumsplit.exec( value );
 	return matches ?
 		// Guard against undefined "subtract", e.g., when used as in cssHooks
-		Math.max( 0, matches[ 1 ] - ( subtract || 0 ) ) + ( matches[ 2 ] || "px" ) :
+		Math.max( 0, matches[ 1 ] - ( subtract|| 0 ) ) + ( matches[ 2 ] || "px" ) :
 		value;
 }
 
@@ -17291,7 +17291,7 @@ Tween.prototype = {
 		this.options = options;
 		this.start = this.now = this.cur();
 		this.end = end;
-		this.unit = unit || ( jQuery.cssNumber[ prop ] ? "" : "px" );
+		this.unit = unit|| ( jQuery.cssNumber[ prop ] ? "" : "px" );
 	},
 	cur: function() {
 		var hooks = Tween.propHooks[ this.prop ];
@@ -17344,7 +17344,7 @@ Tween.propHooks = {
 			// complex values such as "rotate(1rad)" are returned as is.
 			result = jQuery.css( tween.elem, tween.prop, "" );
 			// Empty strings, null, undefined and "auto" are converted to 0.
-			return !result || result === "auto" ? 0 : result;
+			return !result|| result === "auto" ? 0 : result;
 		},
 		set: function( tween ) {
 			// use step hook for back compat - use cssHook if its there - use .style if its
@@ -17409,13 +17409,13 @@ var
 
 			if ( start && start[ 3 ] !== unit ) {
 				// Trust units reported by jQuery.css
-				unit = unit || start[ 3 ];
+				unit = unit|| start[ 3 ];
 
 				// Make sure we update the tween properties later on
 				parts = parts || [];
 
 				// Iteratively approximate from a nonzero starting point
-				start = +target || 1;
+				start = +target|| 1;
 
 				do {
 					// If previous iteration zeroed out, double until we get *something*
@@ -17433,7 +17433,7 @@ var
 
 			// Update tween properties
 			if ( parts ) {
-				start = tween.start = +start || +target || 0;
+				start = tween.start = +start|| +target|| 0;
 				tween.unit = unit;
 				// If a +=/-= token was provided, we're doing a relative animation
 				tween.end = parts[ 1 ] ?
@@ -17543,7 +17543,7 @@ function defaultPrefilter( elem, props, opts ) {
 
 			// inline-level elements accept inline-block;
 			// block-level elements need to be inline with layout
-			if ( !support.inlineBlockNeedsLayout || defaultDisplay( elem.nodeName ) === "inline" ) {
+			if ( !support.inlineBlockNeedsLayout|| defaultDisplay( elem.nodeName ) === "inline" ) {
 				style.display = "inline-block";
 			} else {
 				style.zoom = 1;
@@ -18436,7 +18436,7 @@ jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( i, name ) 
 });
 
 // fix oldIE attroperties
-if ( !getSetInput || !getSetAttribute ) {
+if ( !getSetInput|| !getSetAttribute ) {
 	jQuery.attrHooks.value = {
 		set: function( elem, value, name ) {
 			if ( jQuery.nodeName( elem, "input" ) ) {
@@ -18524,7 +18524,7 @@ if ( !support.style ) {
 			// Return undefined in the case of empty string
 			// Note: IE uppercases css property names, but if we were to .toLowerCase()
 			// .cssText, that would destroy case senstitivity in URL's, like in "background"
-			return elem.style.cssText || undefined;
+			return elem.style.cssText|| undefined;
 		},
 		set: function( elem, value ) {
 			return ( elem.style.cssText = value + "" );
@@ -18834,7 +18834,7 @@ jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblcl
 
 jQuery.fn.extend({
 	hover: function( fnOver, fnOut ) {
-		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+		return this.mouseenter( fnOver ).mouseleave( fnOut|| fnOver );
 	},
 
 	bind: function( types, data, fn ) {
@@ -18923,7 +18923,7 @@ jQuery.parseXML = function( data ) {
 	} catch( e ) {
 		xml = undefined;
 	}
-	if ( !xml || !xml.documentElement || xml.getElementsByTagName( "parsererror" ).length ) {
+	if ( !xml || !xml.documentElement|| xml.getElementsByTagName( "parsererror" ).length ) {
 		jQuery.error( "Invalid XML: " + data );
 	}
 	return xml;
@@ -18940,7 +18940,7 @@ var
 	rheaders = /^(.*?):[ \t]*([^\r\n]*)\r?$/mg, // IE leaves an \r character at EOL
 	// #7653, #8125, #8152: local protocol detection
 	rlocalProtocol = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
-	rnoContent = /^(?:GET|HEAD)$/,
+	rnoContent = /^(?:GEt|HEAD)$/,
 	rprotocol = /^\/\//,
 	rurl = /^([\w.+-]+:)(?:\/\/(?:[^\/?#]*@|)([^\/?#:]*)(?::(\d+)|)|)/,
 
@@ -19330,7 +19330,7 @@ jQuery.extend({
 			// Create the final options object
 			s = jQuery.ajaxSetup( {}, options ),
 			// Callbacks context
-			callbackContext = s.context || s,
+			callbackContext = s.context|| s,
 			// Context for global events is callbackContext if it is a DOM node or jQuery collection
 			globalEventContext = s.context && ( callbackContext.nodeType || callbackContext.jquery ) ?
 				jQuery( callbackContext ) :
@@ -19408,7 +19408,7 @@ jQuery.extend({
 
 				// Cancel the request
 				abort: function( statusText ) {
-					var finalText = statusText || strAbort;
+					var finalText = statusText|| strAbort;
 					if ( transport ) {
 						transport.abort( finalText );
 					}
@@ -19657,7 +19657,7 @@ jQuery.extend({
 
 			// Set data for the fake xhr object
 			jqXHR.status = status;
-			jqXHR.statusText = ( nativeStatusText || statusText ) + "";
+			jqXHR.statusText = ( nativeStatusText|| statusText ) + "";
 
 			// Success/Error
 			if ( isSuccess ) {
@@ -20018,7 +20018,7 @@ if ( xhrSupported ) {
 						var status, statusText, responses;
 
 						// Was never called and is aborted or complete
-						if ( callback && ( isAbort || xhr.readyState === 4 ) ) {
+						if ( callback && ( isAbort|| xhr.readyState === 4 ) ) {
 							// Clean up
 							delete xhrCallbacks[ id ];
 							callback = undefined;
@@ -20161,7 +20161,7 @@ jQuery.ajaxTransport( "script", function(s) {
 				// Attach handlers for all browsers
 				script.onload = script.onreadystatechange = function( _, isAbort ) {
 
-					if ( isAbort || !script.readyState || /loaded|complete/.test( script.readyState ) ) {
+					if ( isAbort|| !script.readyState || /loaded|complete/.test( script.readyState ) ) {
 
 						// Handle memory leak in IE
 						script.onload = script.onreadystatechange = null;
@@ -20293,7 +20293,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 		keepScripts = context;
 		context = false;
 	}
-	context = context || document;
+	context = context|| document;
 
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
@@ -20492,8 +20492,8 @@ jQuery.fn.extend({
 		}
 		win = getWindow( doc );
 		return {
-			top: box.top  + ( win.pageYOffset || docElem.scrollTop )  - ( docElem.clientTop  || 0 ),
-			left: box.left + ( win.pageXOffset || docElem.scrollLeft ) - ( docElem.clientLeft || 0 )
+			top: box.top  + ( win.pageYOffset|| docElem.scrollTop )  - ( docElem.clientTop  || 0 ),
+			left: box.left + ( win.pageXOffset|| docElem.scrollLeft ) - ( docElem.clientLeft|| 0 )
 		};
 	},
 
@@ -20536,12 +20536,12 @@ jQuery.fn.extend({
 
 	offsetParent: function() {
 		return this.map(function() {
-			var offsetParent = this.offsetParent || docElem;
+			var offsetParent = this.offsetParent|| docElem;
 
 			while ( offsetParent && ( !jQuery.nodeName( offsetParent, "html" ) && jQuery.css( offsetParent, "position" ) === "static" ) ) {
 				offsetParent = offsetParent.offsetParent;
 			}
-			return offsetParent || docElem;
+			return offsetParent|| docElem;
 		});
 	}
 });

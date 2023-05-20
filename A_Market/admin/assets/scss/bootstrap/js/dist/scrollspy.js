@@ -271,7 +271,7 @@
     }
 
     _getScrollHeight() {
-      return this._scrollElement.scrollHeight || Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+      return this._scrollElement.scrollHeight|| Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
     }
 
     _getOffsetHeight() {

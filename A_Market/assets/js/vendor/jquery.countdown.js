@@ -186,7 +186,7 @@
             newTotalSecsLeft = this.finalDate.getTime() - now.getTime();
             newTotalSecsLeft = Math.ceil(newTotalSecsLeft / 1e3);
             newTotalSecsLeft = !this.options.elapse && newTotalSecsLeft < 0 ? 0 : Math.abs(newTotalSecsLeft);
-            if (this.totalSecsLeft === newTotalSecsLeft || !hasEventsAttached) {
+            if (this.totalSecsLeft === newTotalSecsLeft|| !hasEventsAttached) {
                 return;
             } else {
                 this.totalSecsLeft = newTotalSecsLeft;

@@ -155,7 +155,7 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
   <tbody>
     <tr>
       <td><code>parent</code></td>
-      <td>selector | jQuery object | DOM element </td>
+      <td>selector | jQuery object| DOM element </td>
       <td><code>false</code></td>
       <td>If parent is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior - this is dependent on the <code>card</code> class). The attribute has to be set on the target collapsible area.</td>
     </tr>

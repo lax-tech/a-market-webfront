@@ -120,7 +120,7 @@ class Carousel extends BaseComponent {
 
     this._config = this._getConfig(config)
     this._indicatorsElement = SelectorEngine.findOne(SELECTOR_INDICATORS, this._element)
-    this._touchSupported = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0
+    this._touchSupported = 'ontouchstart' in document.documentElement|| navigator.maxTouchPoints > 0
     this._pointerEvent = Boolean(window.PointerEvent)
 
     this._addEventListeners()
@@ -377,7 +377,7 @@ class Carousel extends BaseComponent {
   }
 
   _updateInterval() {
-    const element = this._activeElement || SelectorEngine.findOne(SELECTOR_ACTIVE_ITEM, this._element)
+    const element = this._activeElement|| SelectorEngine.findOne(SELECTOR_ACTIVE_ITEM, this._element)
 
     if (!element) {
       return
@@ -397,7 +397,7 @@ class Carousel extends BaseComponent {
     const order = this._directionToOrder(directionOrOrder)
     const activeElement = SelectorEngine.findOne(SELECTOR_ACTIVE_ITEM, this._element)
     const activeElementIndex = this._getItemIndex(activeElement)
-    const nextElement = element || this._getItemByOrder(order, activeElement)
+    const nextElement = element|| this._getItemByOrder(order, activeElement)
 
     const nextElementIndex = this._getItemIndex(nextElement)
     const isCycling = Boolean(this._interval)
@@ -421,7 +421,7 @@ class Carousel extends BaseComponent {
       return
     }
 
-    if (!activeElement || !nextElement) {
+    if (!activeElement|| !nextElement) {
       // Some weirdness is happening, so we bail
       return
     }
@@ -539,7 +539,7 @@ class Carousel extends BaseComponent {
   static dataApiClickHandler(event) {
     const target = getElementFromSelector(this)
 
-    if (!target || !target.classList.contains(CLASS_NAME_CAROUSEL)) {
+    if (!target|| !target.classList.contains(CLASS_NAME_CAROUSEL)) {
       return
     }
 

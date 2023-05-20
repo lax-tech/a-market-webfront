@@ -135,7 +135,7 @@
   };
 
   const isDisabled = element => {
-    if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+    if (!element|| element.nodeType !== Node.ELEMENT_NODE) {
       return true;
     }
 
@@ -548,7 +548,7 @@
         trapElement
       } = this._config;
 
-      if (target === document || target === trapElement || trapElement.contains(target)) {
+      if (target === document|| target === trapElement|| trapElement.contains(target)) {
         return;
       }
 

@@ -84,7 +84,7 @@
   };
 
   const isDisabled = element => {
-    if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+    if (!element|| element.nodeType !== Node.ELEMENT_NODE) {
       return true;
     }
 
@@ -371,7 +371,7 @@
 
       const nextElement = event.relatedTarget;
 
-      if (this._element === nextElement || this._element.contains(nextElement)) {
+      if (this._element === nextElement|| this._element.contains(nextElement)) {
         return;
       }
 

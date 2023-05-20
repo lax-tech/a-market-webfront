@@ -222,7 +222,7 @@ Docs & License: https://fullcalendar.io/
             var isDraggable = view.computeEventDraggable(eventDef, eventUi);
             var isResizableFromStart = allDay && seg.isStart && view.computeEventStartResizable(eventDef, eventUi);
             var isResizableFromEnd = allDay && seg.isEnd && view.computeEventEndResizable(eventDef, eventUi);
-            var classes = this.getSegClasses(seg, isDraggable, isResizableFromStart || isResizableFromEnd, mirrorInfo);
+            var classes = this.getSegClasses(seg, isDraggable, isResizableFromStart|| isResizableFromEnd, mirrorInfo);
             var skinCss = core.cssToStr(this.getSkinCss(eventUi));
             var timeHtml = '';
             var timeText;
@@ -1451,7 +1451,7 @@ Docs & License: https://fullcalendar.io/
             if (!isAuto) { // should we force dimensions of the scroll container?
                 this.scroller.setHeight(scrollerHeight);
                 scrollbarWidths = this.scroller.getScrollbarWidths();
-                if (scrollbarWidths.left || scrollbarWidths.right) { // using scrollbars?
+                if (scrollbarWidths.left|| scrollbarWidths.right) { // using scrollbars?
                     if (headRowEl) {
                         core.compensateScroll(headRowEl, scrollbarWidths);
                     }

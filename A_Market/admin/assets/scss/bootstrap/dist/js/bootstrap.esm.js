@@ -149,7 +149,7 @@ const isVisible = element => {
 };
 
 const isDisabled = element => {
-  if (!element || element.nodeType !== Node.ELEMENT_NODE) {
+  if (!element|| element.nodeType !== Node.ELEMENT_NODE) {
     return true;
   }
 
@@ -347,7 +347,7 @@ const nativeEvents = new Set(['click', 'dblclick', 'mouseup', 'mousedown', 'cont
  */
 
 function getUidEvent(element, uid) {
-  return uid && `${uid}::${uidEvent++}` || element.uidEvent || uidEvent++;
+  return uid && `${uid}::${uidEvent++}` || element.uidEvent|| uidEvent++;
 }
 
 function getEvent(element) {
@@ -436,7 +436,7 @@ function addHandler(element, originalTypeEvent, handler, delegationFn, oneOff) {
   if (customEventsRegex.test(originalTypeEvent)) {
     const wrapFn = fn => {
       return function (event) {
-        if (!event.relatedTarget || event.relatedTarget !== event.delegateTarget && !event.delegateTarget.contains(event.relatedTarget)) {
+        if (!event.relatedTarget|| event.relatedTarget !== event.delegateTarget && !event.delegateTarget.contains(event.relatedTarget)) {
           return fn.call(this, event);
         }
       };
@@ -1150,7 +1150,7 @@ class Carousel extends BaseComponent {
     this.touchDeltaX = 0;
     this._config = this._getConfig(config);
     this._indicatorsElement = SelectorEngine.findOne(SELECTOR_INDICATORS, this._element);
-    this._touchSupported = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0;
+    this._touchSupported = 'ontouchstart' in document.documentElement|| navigator.maxTouchPoints > 0;
     this._pointerEvent = Boolean(window.PointerEvent);
 
     this._addEventListeners();
@@ -1394,7 +1394,7 @@ class Carousel extends BaseComponent {
   }
 
   _updateInterval() {
-    const element = this._activeElement || SelectorEngine.findOne(SELECTOR_ACTIVE_ITEM, this._element);
+    const element = this._activeElement|| SelectorEngine.findOne(SELECTOR_ACTIVE_ITEM, this._element);
 
     if (!element) {
       return;
@@ -1417,7 +1417,7 @@ class Carousel extends BaseComponent {
 
     const activeElementIndex = this._getItemIndex(activeElement);
 
-    const nextElement = element || this._getItemByOrder(order, activeElement);
+    const nextElement = element|| this._getItemByOrder(order, activeElement);
 
     const nextElementIndex = this._getItemIndex(nextElement);
 
@@ -1443,7 +1443,7 @@ class Carousel extends BaseComponent {
       return;
     }
 
-    if (!activeElement || !nextElement) {
+    if (!activeElement|| !nextElement) {
       // Some weirdness is happening, so we bail
       return;
     }
@@ -1556,7 +1556,7 @@ class Carousel extends BaseComponent {
   static dataApiClickHandler(event) {
     const target = getElementFromSelector(this);
 
-    if (!target || !target.classList.contains(CLASS_NAME_CAROUSEL)) {
+    if (!target|| !target.classList.contains(CLASS_NAME_CAROUSEL)) {
       return;
     }
 
@@ -2273,7 +2273,7 @@ class Dropdown extends BaseComponent {
     for (let i = 0, len = toggles.length; i < len; i++) {
       const context = Dropdown.getInstance(toggles[i]);
 
-      if (!context || context._config.autoClose === false) {
+      if (!context|| context._config.autoClose === false) {
         continue;
       }
 
@@ -2289,7 +2289,7 @@ class Dropdown extends BaseComponent {
         const composedPath = event.composedPath();
         const isMenuTarget = composedPath.includes(context._menu);
 
-        if (composedPath.includes(context._element) || context._config.autoClose === 'inside' && !isMenuTarget || context._config.autoClose === 'outside' && isMenuTarget) {
+        if (composedPath.includes(context._element) || context._config.autoClose === 'inside' && !isMenuTarget|| context._config.autoClose === 'outside' && isMenuTarget) {
           continue;
         } // Tab navigation through the dropdown menu or events from contained inputs shouldn't close the menu
 
@@ -2682,7 +2682,7 @@ class FocusTrap {
       trapElement
     } = this._config;
 
-    if (target === document || target === trapElement || trapElement.contains(target)) {
+    if (target === document|| target === trapElement|| trapElement.contains(target)) {
       return;
     }
 
@@ -3924,7 +3924,7 @@ class Tooltip extends BaseComponent {
 
 
   _initializeOnDelegatedTarget(event, context) {
-    return context || this.constructor.getOrCreateInstance(event.delegateTarget, this._getDelegateConfig());
+    return context|| this.constructor.getOrCreateInstance(event.delegateTarget, this._getDelegateConfig());
   }
 
   _getOffset() {
@@ -4453,7 +4453,7 @@ class ScrollSpy extends BaseComponent {
   }
 
   _getScrollHeight() {
-    return this._scrollElement.scrollHeight || Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    return this._scrollElement.scrollHeight|| Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
   }
 
   _getOffsetHeight() {
@@ -4949,7 +4949,7 @@ class Toast extends BaseComponent {
 
     const nextElement = event.relatedTarget;
 
-    if (this._element === nextElement || this._element.contains(nextElement)) {
+    if (this._element === nextElement|| this._element.contains(nextElement)) {
       return;
     }
 

@@ -126,7 +126,7 @@ Docs & License: https://fullcalendar.io/
             var isDraggable = view.computeEventDraggable(eventDef, eventUi);
             var isResizableFromStart = seg.isStart && view.computeEventStartResizable(eventDef, eventUi);
             var isResizableFromEnd = seg.isEnd && view.computeEventEndResizable(eventDef, eventUi);
-            var classes = this.getSegClasses(seg, isDraggable, isResizableFromStart || isResizableFromEnd, mirrorInfo);
+            var classes = this.getSegClasses(seg, isDraggable, isResizableFromStart|| isResizableFromEnd, mirrorInfo);
             var skinCss = core.cssToStr(this.getSkinCss(eventUi));
             var timeText;
             var fullTimeText; // more verbose time text. for the print stylesheet
@@ -137,7 +137,7 @@ Docs & License: https://fullcalendar.io/
                 // Don't display time text on segments that run entirely through a day.
                 // That would appear as midnight-midnight and would look dumb.
                 // Otherwise, display the time text for the *segment's* times (like 6pm-midnight or midnight-10am)
-                if (seg.isStart || seg.isEnd) {
+                if (seg.isStart|| seg.isEnd) {
                     var unzonedStart = seg.start;
                     var unzonedEnd = seg.end;
                     timeText = this._getTimeText(unzonedStart, unzonedEnd, allDay); // TODO: give the timezones
@@ -506,7 +506,7 @@ Docs & License: https://fullcalendar.io/
             if (Array.isArray(input)) {
                 input = input[input.length - 1];
             }
-            this.labelFormat = core.createFormatter(input || {
+            this.labelFormat = core.createFormatter(input|| {
                 hour: 'numeric',
                 minute: '2-digit',
                 omitZeroMinute: true,
@@ -1134,7 +1134,7 @@ Docs & License: https://fullcalendar.io/
                 scrollerHeight = this.computeScrollerHeight(viewHeight);
                 this.scroller.setHeight(scrollerHeight);
                 scrollbarWidths = this.scroller.getScrollbarWidths();
-                if (scrollbarWidths.left || scrollbarWidths.right) { // using scrollbars?
+                if (scrollbarWidths.left|| scrollbarWidths.right) { // using scrollbars?
                     // make the all-day and header rows lines up
                     noScrollRowEls.forEach(function (rowEl) {
                         core.compensateScroll(rowEl, scrollbarWidths);
