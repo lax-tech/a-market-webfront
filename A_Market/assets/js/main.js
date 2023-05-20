@@ -55,6 +55,8 @@ $(window).scroll(function () {
             axilInit.axilMasonary();
             axilInit.counterUpActivation();
             axilInit.scrollSmoth();
+            axilInit.Chargeur();
+
 
 
         },
@@ -96,12 +98,27 @@ $(window).scroll(function () {
                 });
             });
         },
-
-
+        Chargeur: function () {
+            var btnPaiement = document.getElementById('btn-payment');
+            var chargement = document.getElementById('chargement');
+            if (chargement) {
+                function afficherChargement() {
+                    document.querySelector('.paiementcourtvd').style.display = 'none';
+                    chargement.style.display = 'grid';
+                    setTimeout(() => {
+                        chargement.style.display = 'none';
+                        document.querySelector('.paiementcourtvd').style.display = 'flex';
+                    }, 2000);
+                };
+                btnPaiement.addEventListener('click', afficherChargement);
+            }
+            
+           
+        },
 
         counterUpActivation: function () {
             var _counter = $('.count');
-            if (_counter.length) {
+            if (_counter.length) {s
                 _counter.counterUp({
                     delay: 10,
                     time: 1000,
