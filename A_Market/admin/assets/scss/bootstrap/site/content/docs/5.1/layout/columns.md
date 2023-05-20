@@ -157,7 +157,7 @@ Breaking columns to a new line in flexbox requires a small hack: add an element 
     <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
     <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
 
-    <!-- Force next columns to break to new line -->
+    
     <div class="w-100"></div>
 
     <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
@@ -174,7 +174,7 @@ You may also apply this break at specific breakpoints with our [responsive displ
     <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
     <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
 
-    <!-- Force next columns to break to new line at md breakpoint and up -->
+    
     <div class="w-100 d-none d-md-block"></div>
 
     <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>

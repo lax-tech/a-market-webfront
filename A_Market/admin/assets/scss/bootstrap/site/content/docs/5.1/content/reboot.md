@@ -78,7 +78,7 @@ Which allows you to make real-time customizations however you like:
 
 ```html
 <body style="--bs-body-color: #333;">
-  <!-- ... -->
+  
 </body>
 ```
 

@@ -10,7 +10,7 @@ toc: true
 
 Once downloaded, unzip the compressed folder and you'll see something like this:
 
-<!-- NOTE: This info is intentionally duplicated in the README. Copy any changes made here over to the README too, but be sure to keep in mind to add the `dist` folder. -->
+
 
 ```text
 bootstrap/

@@ -235,13 +235,13 @@ For systems that generate more notifications, consider using a wrapping element 
 
 {{< example class="bg-dark bd-example-toasts p-0" >}}
 <div aria-live="polite" aria-atomic="true" class="position-relative">
-  <!-- Position it: -->
-  <!-- - `.toast-container` for spacing between toasts -->
-  <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
-  <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+  
+  
+  
+  
   <div class="toast-container position-absolute top-0 end-0 p-3">
 
-    <!-- Then put toasts within -->
+    
     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
         {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}
@@ -272,10 +272,10 @@ For systems that generate more notifications, consider using a wrapping element 
 You can also get fancy with flexbox utilities to align toasts horizontally and/or vertically.
 
 {{< example class="bg-dark bd-example-toasts d-flex" >}}
-<!-- Flexbox container for aligning the toasts -->
+
 <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
 
-  <!-- Then put toasts within -->
+  
   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       {{< placeholder width="20" height="20" background="#007aff" class="rounded me-2" text="false" title="false" >}}

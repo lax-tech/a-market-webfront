@@ -3594,19 +3594,19 @@ button.axil-btn.wishlist-btn:hover:before {
     background-color: var(--color-lighter)
 }
 
-.aMarket-newsletter-wrapper {
+.LaxMarket-newsletter-wrapper {
     padding: 100px 107px 85px;
     border-radius: 6px
 }
 
 @media only screen and (max-width: 1199px) {
-    .aMarket-newsletter-wrapper {
+    .LaxMarket-newsletter-wrapper {
         padding: 80px 30px 65px
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .aMarket-newsletter-wrapper {
+    .LaxMarket-newsletter-wrapper {
         padding: 60px 20px 45px
     }
 }

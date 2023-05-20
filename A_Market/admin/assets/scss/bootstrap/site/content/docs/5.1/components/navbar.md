@@ -85,14 +85,14 @@ The `.navbar-brand` can be applied to most elements, but an anchor works best, a
 Add your text within an element with the `.navbar-brand` class.
 
 {{< example >}}
-<!-- As a link -->
+
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
   </div>
 </nav>
 
-<!-- As a heading -->
+
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">Navbar</span>
@@ -412,15 +412,15 @@ Theming the navbar has never been easier thanks to the combination of theming cl
 
 ```html
 <nav class="navbar navbar-dark bg-dark">
-  <!-- Navbar content -->
+  
 </nav>
 
 <nav class="navbar navbar-dark bg-primary">
-  <!-- Navbar content -->
+  
 </nav>
 
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-  <!-- Navbar content -->
+  
 </nav>
 ```
 

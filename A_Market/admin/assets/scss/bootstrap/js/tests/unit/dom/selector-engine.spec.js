@@ -106,7 +106,7 @@ describe('SelectorEngine', () => {
       fixtureEl.innerHTML = [
         '<div class="test"></div>',
         '<div class="test"></div>',
-        '<!-- Comment-->',
+        '',
         'Text',
         '<button class="btn"></button>'
       ].join('')
@@ -144,7 +144,7 @@ describe('SelectorEngine', () => {
     it('should return next element with comments or text nodes between', () => {
       fixtureEl.innerHTML = [
         '<div class="test"></div>',
-        '<!-- Comment-->',
+        '',
         'Text',
         '<button class="btn"></button>',
         '<button class="btn"></button>'

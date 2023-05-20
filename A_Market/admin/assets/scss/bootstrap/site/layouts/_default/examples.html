@@ -34,7 +34,7 @@
     </style>
 
     {{ range .Page.Params.extra_css }}
-    {{ "<!-- Custom styles for this template -->" | safeHTML }}
+    {{ "" | safeHTML }}
     <link href="{{ . }}" rel="stylesheet">
     {{- end }}
   </head>

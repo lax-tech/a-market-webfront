@@ -76,11 +76,11 @@ Be sure to have your pages set up with the latest design and development standar
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+    
     <link href="{{< param "cdn.css" >}}" rel="stylesheet" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
 
     <title>Hello, world!</title>
@@ -88,12 +88,12 @@ Be sure to have your pages set up with the latest design and development standar
   <body>
     <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
     <script src="{{< param "cdn.js_bundle" >}}" integrity="{{< param "cdn.js_bundle_hash" >}}" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
     <!--
     <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
     <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>

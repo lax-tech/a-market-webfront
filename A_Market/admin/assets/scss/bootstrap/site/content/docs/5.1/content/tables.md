@@ -47,19 +47,19 @@ Use contextual classes to color tables, table rows or individual cells.
 </div>
 
 {{< highlight html >}}
-<!-- On tables -->{{< table.inline >}}
+{{< table.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
 <table class="table-{{ .name }}">...</table>
 {{- end -}}
 {{< /table.inline >}}
 
-<!-- On rows -->{{< table.inline >}}
+{{< table.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
 <tr class="table-{{ .name }}">...</tr>
 {{- end -}}
 {{< /table.inline >}}
 
-<!-- On cells (`td` or `th`) -->
+
 <tr>{{< table.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
   <td class="table-{{ .name }}">...</td>

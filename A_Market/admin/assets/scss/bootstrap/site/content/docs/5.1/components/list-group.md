@@ -374,7 +374,7 @@ You can activate a list group navigation without writing any JavaScript by simpl
 
 ```html
 <div role="tabpanel">
-  <!-- List group -->
+  
   <div class="list-group" id="myList" role="tablist">
     <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home" role="tab">Home</a>
     <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#profile" role="tab">Profile</a>
@@ -382,7 +382,7 @@ You can activate a list group navigation without writing any JavaScript by simpl
     <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#settings" role="tab">Settings</a>
   </div>
 
-  <!-- Tab panes -->
+  
   <div class="tab-content">
     <div class="tab-pane active" id="home" role="tabpanel">...</div>
     <div class="tab-pane" id="profile" role="tabpanel">...</div>

@@ -107,12 +107,12 @@ Toggle a working modal demo by clicking the button below. It will slide down and
 </div>
 
 ```html
-<!-- Button trigger modal -->
+
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -161,12 +161,12 @@ When backdrop is set to static, the modal will not close when clicking outside i
 </div>
 
 ```html
-<!-- Button trigger modal -->
+
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Launch static backdrop modal
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -243,7 +243,7 @@ You can also create a scrollable modal that allows scroll the modal body by addi
 </div>
 
 ```html
-<!-- Scrollable modal -->
+
 <div class="modal-dialog modal-dialog-scrollable">
   ...
 </div>
@@ -301,12 +301,12 @@ Add `.modal-dialog-centered` to `.modal-dialog` to vertically center the modal.
 </div>
 
 ```html
-<!-- Vertically centered modal -->
+
 <div class="modal-dialog modal-dialog-centered">
   ...
 </div>
 
-<!-- Vertically centered scrollable modal -->
+
 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
   ...
 </div>
@@ -705,7 +705,7 @@ Another override is the option to pop up a modal that covers the user viewport, 
 </div>
 
 ```html
-<!-- Full screen modal -->
+
 <div class="modal-dialog modal-fullscreen-sm-down">
   ...
 </div>

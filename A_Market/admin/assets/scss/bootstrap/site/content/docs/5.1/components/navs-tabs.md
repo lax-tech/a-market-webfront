@@ -495,7 +495,7 @@ And with vertical pills.
 You can activate a tab or pill navigation without writing any JavaScript by simply specifying `data-bs-toggle="tab"` or `data-bs-toggle="pill"` on an element. Use these data attributes on `.nav-tabs` or `.nav-pills`.
 
 ```html
-<!-- Nav tabs -->
+
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
@@ -511,7 +511,7 @@ You can activate a tab or pill navigation without writing any JavaScript by simp
   </li>
 </ul>
 
-<!-- Tab panes -->
+
 <div class="tab-content">
   <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
   <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>

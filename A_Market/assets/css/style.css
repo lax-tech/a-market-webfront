@@ -37,7 +37,7 @@
     max-width: 1450px !important;
 }
 @media only screen and (min-width: 768px) {
-    .ct .container .aMarket-newsletter-wrapper {
+    .ct .container .LaxMarket-newsletter-wrapper {
 
         padding: 150px 107px 150px;
     }
@@ -46,7 +46,7 @@
     }
 }
 
-.ct .container .aMarket-newsletter-wrapper {
+.ct .container .LaxMarket-newsletter-wrapper {
 
     border-radius: 0px !important;
 }
@@ -89,7 +89,7 @@
     }
 
     .ct .container .poster-countdown-wrap,
-    .aMarket-newsletter-wrapper.bg_image.bg_image--5 {
+    .LaxMarket-newsletter-wrapper.bg_image.bg_image--5 {
         padding: 60px 35px;
     }
 
